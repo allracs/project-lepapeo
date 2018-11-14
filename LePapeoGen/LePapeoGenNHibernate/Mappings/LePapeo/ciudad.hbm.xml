@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="LePapeoGenNHibernate"
+		                   namespace="LePapeoGenNHibernate.EN.LePapeo">
+		    
+		    
+			
+				<class name="CiudadEN" table="Ciudad"> 
+						<id name="Nombre" column="nombre"/> 
+			
+					
+					<property name="Provincia" type="string"> 
+						<column name="provincia"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<bag name="Direccion" >
+							<key>
+							
+								
+								<column name="FK_nombre_idCiudad"/>
+					      	</key>
+							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.DireccionEN"/>
+					    </bag>
+					
+			
+			
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="CiudadENReadAllHQL">from CiudadEN</query>
+		</hibernate-mapping>
+	

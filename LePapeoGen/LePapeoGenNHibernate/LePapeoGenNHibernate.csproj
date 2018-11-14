@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		  <PropertyGroup>
+		    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		    <ProductVersion>8.0.30703</ProductVersion>
+		    <SchemaVersion>2.0</SchemaVersion>
+		    <ProjectGuid>{66C66636-FD6A-4A3F-A7C5-FE88BBA117AF}</ProjectGuid>
+		    <OutputType>Library</OutputType>
+		    <AppDesignerFolder>Properties</AppDesignerFolder>
+		    <RootNamespace>LePapeoGenNHibernate</RootNamespace>
+		    <AssemblyName>LePapeoGenNHibernate</AssemblyName>
+		    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+		    <FileAlignment>512</FileAlignment>
+		    <PublishUrl>publish\</PublishUrl>
+		    <Install>true</Install>
+		    <InstallFrom>Disk</InstallFrom>
+		    <UpdateEnabled>false</UpdateEnabled>
+		    <UpdateMode>Foreground</UpdateMode>
+		    <UpdateInterval>7</UpdateInterval>
+		    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+		    <UpdatePeriodically>false</UpdatePeriodically>
+		    <UpdateRequired>false</UpdateRequired>
+		    <MapFileExtensions>true</MapFileExtensions>
+		    <ApplicationRevision>0</ApplicationRevision>
+		    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+		    <IsWebBootstrapper>false</IsWebBootstrapper>
+		    <UseApplicationTrust>false</UseApplicationTrust>
+		    <BootstrapperEnabled>true</BootstrapperEnabled>
+		  </PropertyGroup>
+		  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		    <DebugSymbols>true</DebugSymbols>
+		    <DebugType>full</DebugType>
+		    <Optimize>false</Optimize>
+		    <OutputPath>bin\Debug\</OutputPath>
+		    <DefineConstants>DEBUG;TRACE</DefineConstants>
+		    <ErrorReport>prompt</ErrorReport>
+		    <WarningLevel>4</WarningLevel>
+		  </PropertyGroup>
+		  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		    <DebugType>pdbonly</DebugType>
+		    <Optimize>true</Optimize>
+		    <OutputPath>bin\Release\</OutputPath>
+		    <DefineConstants>TRACE</DefineConstants>
+		    <ErrorReport>prompt</ErrorReport>
+		    <WarningLevel>4</WarningLevel>
+		  </PropertyGroup>
+		<ItemGroup>
+		    <Reference Include="Castle.DynamicProxy2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\LePapeoGenNHibernate\AppLib\Castle.DynamicProxy2.dll</HintPath>
+		    </Reference>
+		    <Reference Include="LinFu.DynamicProxy, Version=1.0.3.14911, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\LePapeoGenNHibernate\AppLib\LinFu.DynamicProxy.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\LePapeoGenNHibernate\AppLib\NHibernate.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate.ByteCode.Castle, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\LePapeoGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate.ByteCode.LinFu, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\LePapeoGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll</HintPath>
+		    </Reference>
+		    <Reference Include="Newtonsoft.Json, Version=4.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\LePapeoGenNHibernate\AppLib\Newtonsoft.Json.dll</HintPath>
+		    </Reference>
+		     <Reference Include="jose-jwt, Version=4.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\LePapeoGenNHibernate\AppLib\jose-jwt.dll</HintPath>
+		    </Reference>
+		    <Reference Include="System" />
+		    <Reference Include="System.Core">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    
+		    <Reference Include="System.Transactions" />
+		    <Reference Include="System.Xml.Linq">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    <Reference Include="System.Data.DataSetExtensions">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    <Reference Include="System.Data" />
+		    <Reference Include="System.Xml" />
+		</ItemGroup>
+		
+		<ItemGroup>
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\Antlr3.Runtime.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\Castle.DynamicProxy2.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\Iesi.Collections.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\LinFu.DynamicProxy.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\log4net.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\NHibernate.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\nunit.core.dll" />
+		    <Content Include="..\LePapeoGenNHibernate\AppLib\nunit.framework.dll" />
+  		    <Content Include="..\LePapeoGenNHibernate\AppLib\jose-jwt.dll" />
+  		</ItemGroup>
+  		
+		<ItemGroup>
+			<Compile Include="NHibernateHelper.cs" />
+		    <Compile Include="Utils\Util.cs" />
+		    <Compile Include="Exceptions\ModelException.cs"/>
+		    <Compile Include="Exceptions\DataLayerException.cs"/>
+		    
+	<Compile Include="CAD\BasicCAD.cs"/>
+	<Compile Include="CP\BasicCP.cs"/>
+	<Compile Include="EN\LePapeo\UsuarioEN.cs" />
+	<Compile Include="CEN\LePapeo\UsuarioCEN.cs" />
+	<Compile Include="CAD\LePapeo\IUsuarioCAD.cs" />
+	<Compile Include="CAD\LePapeo\UsuarioCAD.cs" />
+	<Compile Include="CP\LePapeo\UsuarioCP.cs" />
+			
+			
+			
+			
+			
+			<Compile Include="CEN\LePapeo\UsuarioCEN_Login.cs" />
+			
+			
+	<Compile Include="EN\LePapeo\RegistradoEN.cs" />
+	<Compile Include="CEN\LePapeo\RegistradoCEN.cs" />
+	<Compile Include="CAD\LePapeo\IRegistradoCAD.cs" />
+	<Compile Include="CAD\LePapeo\RegistradoCAD.cs" />
+	<Compile Include="CP\LePapeo\RegistradoCP.cs" />
+			
+			
+			
+			
+			
+			
+			
+			
+			<Compile Include="CP\LePapeo\RegistradoCP_ModificarDireccion.cs" />
+			
+	<Compile Include="EN\LePapeo\AdminEN.cs" />
+	<Compile Include="CEN\LePapeo\AdminCEN.cs" />
+	<Compile Include="CAD\LePapeo\IAdminCAD.cs" />
+	<Compile Include="CAD\LePapeo\AdminCAD.cs" />
+	<Compile Include="CP\LePapeo\AdminCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\LePapeo\RestauranteEN.cs" />
+	<Compile Include="CEN\LePapeo\RestauranteCEN.cs" />
+	<Compile Include="CAD\LePapeo\IRestauranteCAD.cs" />
+	<Compile Include="CAD\LePapeo\RestauranteCAD.cs" />
+	<Compile Include="CP\LePapeo\RestauranteCP.cs" />
+			
+			<Compile Include="CEN\LePapeo\RestauranteCEN_Modify.cs" />
+			
+			
+			
+			
+			
+			
+			<Compile Include="CP\LePapeo\RestauranteCP_BuscarRestaurante.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\LePapeo\ReservaEN.cs" />
+	<Compile Include="CEN\LePapeo\ReservaCEN.cs" />
+	<Compile Include="CAD\LePapeo\IReservaCAD.cs" />
+	<Compile Include="CAD\LePapeo\ReservaCAD.cs" />
+	<Compile Include="CP\LePapeo\ReservaCP.cs" />
+			
+			
+			
+			<Compile Include="CEN\LePapeo\ReservaCEN_CambiarEstado.cs" />
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<Compile Include="CEN\LePapeo\ReservaCEN_CambiarFinalizacion.cs" />
+			
+			<Compile Include="CP\LePapeo\ReservaCP_Checkout.cs" />
+			
+			<Compile Include="CP\LePapeo\ReservaCP_CrearReserva.cs" />
+			
+	<Compile Include="EN\LePapeo\OpinionEN.cs" />
+	<Compile Include="CEN\LePapeo\OpinionCEN.cs" />
+	<Compile Include="CAD\LePapeo\IOpinionCAD.cs" />
+	<Compile Include="CAD\LePapeo\OpinionCAD.cs" />
+	<Compile Include="CP\LePapeo\OpinionCP.cs" />
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	<Compile Include="EN\LePapeo\NotificacionEN.cs" />
+	<Compile Include="CEN\LePapeo\NotificacionCEN.cs" />
+	<Compile Include="CAD\LePapeo\INotificacionCAD.cs" />
+	<Compile Include="CAD\LePapeo\NotificacionCAD.cs" />
+	<Compile Include="CP\LePapeo\NotificacionCP.cs" />
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	<Compile Include="EN\LePapeo\NotificacionGenericaEN.cs" />
+	<Compile Include="CEN\LePapeo\NotificacionGenericaCEN.cs" />
+	<Compile Include="CAD\LePapeo\INotificacionGenericaCAD.cs" />
+	<Compile Include="CAD\LePapeo\NotificacionGenericaCAD.cs" />
+	<Compile Include="CP\LePapeo\NotificacionGenericaCP.cs" />
+			
+			
+			
+	<Compile Include="EN\LePapeo\HorarioSemanaEN.cs" />
+	<Compile Include="CEN\LePapeo\HorarioSemanaCEN.cs" />
+	<Compile Include="CAD\LePapeo\IHorarioSemanaCAD.cs" />
+	<Compile Include="CAD\LePapeo\HorarioSemanaCAD.cs" />
+	<Compile Include="CP\LePapeo\HorarioSemanaCP.cs" />
+			
+			
+			
+			
+	<Compile Include="EN\LePapeo\HorarioDiaEN.cs" />
+	<Compile Include="CEN\LePapeo\HorarioDiaCEN.cs" />
+	<Compile Include="CAD\LePapeo\IHorarioDiaCAD.cs" />
+	<Compile Include="CAD\LePapeo\HorarioDiaCAD.cs" />
+	<Compile Include="CP\LePapeo\HorarioDiaCP.cs" />
+			
+			
+			
+			
+	<Compile Include="EN\LePapeo\DireccionEN.cs" />
+	<Compile Include="CEN\LePapeo\DireccionCEN.cs" />
+	<Compile Include="CAD\LePapeo\IDireccionCAD.cs" />
+	<Compile Include="CAD\LePapeo\DireccionCAD.cs" />
+	<Compile Include="CP\LePapeo\DireccionCP.cs" />
+			
+			
+			
+	<Compile Include="EN\LePapeo\CiudadEN.cs" />
+	<Compile Include="CEN\LePapeo\CiudadCEN.cs" />
+	<Compile Include="CAD\LePapeo\ICiudadCAD.cs" />
+	<Compile Include="CAD\LePapeo\CiudadCAD.cs" />
+	<Compile Include="CP\LePapeo\CiudadCP.cs" />
+			
+			
+			
+	<Compile Include="EN\LePapeo\TipoCocinaEN.cs" />
+	<Compile Include="CEN\LePapeo\TipoCocinaCEN.cs" />
+	<Compile Include="CAD\LePapeo\ITipoCocinaCAD.cs" />
+	<Compile Include="CAD\LePapeo\TipoCocinaCAD.cs" />
+	<Compile Include="CP\LePapeo\TipoCocinaCP.cs" />
+			
+			
+			
+	<Compile Include="Enumerated\LePapeo\EstadoReservaEnum.cs" />
+	<Compile Include="Enumerated\LePapeo\ValoracionEnum.cs" />
+	<Compile Include="Enumerated\LePapeo\TipoNotificacionEnum.cs" />
+	<Compile Include="Enumerated\LePapeo\DiaSemanaEnum.cs" />
+	
+	
+
+		    
+	
+
+		    <Compile Include="Properties\AssemblyInfo.cs" />
+		    <Compile Include="Properties\Settings.Designer.cs">
+		      <AutoGen>True</AutoGen>
+		      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+		      <DependentUpon>Settings.settings</DependentUpon>
+		    </Compile>
+		  </ItemGroup>
+		  <ItemGroup>
+		  
+	<EmbeddedResource Include="Mappings\LePapeo\usuario.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\registrado.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\admin.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\restaurante.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\reserva.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\opinion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\notificacion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\notificaciongenerica.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\horariosemana.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\horariodia.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\direccion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\ciudad.hbm.xml" />
+	<EmbeddedResource Include="Mappings\LePapeo\tipococina.hbm.xml" />
+	
+	
+
+		  </ItemGroup>
+		  <ItemGroup>
+		    <Content Include="hibernate.cfg.xml">
+		      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		    </Content>
+		  </ItemGroup>
+		  <ItemGroup>
+		    <None Include="app.config" />
+		    <None Include="Properties\Settings.settings">
+		      <Generator>SettingsSingleFileGenerator</Generator>
+		      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+		    </None>
+		        <None Include="Resources\xsd\nhibernate-configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\xsd\nhibernate-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+		  </ItemGroup>
+	 	
+		
+	
+		<ItemGroup>
+		    <ProjectReference Include="..\APIExterna\APIExterna.csproj">
+		      <Project>{4ade35c8-a0c3-49da-9e1a-11a53ca19214}</Project>
+		      <Name>APIExterna</Name>
+		    </ProjectReference>
+	    </ItemGroup>
+	    
+		  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+		  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+		       Other similar extension points exist, see Microsoft.Common.targets.
+		  <Target Name="BeforeBuild">
+		  </Target>
+		  <Target Name="AfterBuild">
+		  </Target>
+		  -->
+		</Project>

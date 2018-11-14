@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow>
+  <property name="dataSourcePassword" value=""/>
+  <property name="es.ua.dlsi.ooh.conceptual.model" value=""/>
+  <property name="dataSourceHost" value=""/>
+  <property name="dataSourceUser" value=""/>
+  <property name="wcfurl" value="'v12.0'"/>
+  <property name="src-gen" value="../LePapeoGen"/>
+  <property name="dataSourcePort" value=""/>
+  <property name="projectName" value="'LePapeoGen'"/>
+  <cartridge file="workflow::nhibernate::generator.mwe" inheritAll="true"/>
+</workflow>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="LePapeoGenNHibernate"
+		                   namespace="LePapeoGenNHibernate.EN.LePapeo">
+		    
+		    
+			
+				
+<joined-subclass name="RegistradoEN" extends="LePapeoGenNHibernate.EN.LePapeo.UsuarioEN" table="Registrado"> 
+	<key>
+    	
+				<column name="idUsuario"/>
+		
+    	
+   	</key>
+
+			
+					
+					<property name="Nombre" type="string"> 
+						<column name="nombre"  not-null="true"/>
+					</property>
+					<property name="Apellidos" type="string"> 
+						<column name="apellidos"  not-null="true"/>
+					</property>
+					<property name="Fecha_nac" type="date"> 
+						<column name="fecha_nac"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<bag name="Reserva" >
+							<key>
+							
+								
+								<column name="FK_idUsuario_idRegistrado"/>
+					      	</key>
+							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.ReservaEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Opinion" >
+							<key>
+							
+								
+								<column name="FK_idUsuario_idRegistrado"/>
+					      	</key>
+							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.OpinionEN"/>
+					    </bag>
+					
+			
+		  			
+						<many-to-one name="Direccion_0" class="LePapeoGenNHibernate.EN.LePapeo.DireccionEN" >	
+								<column name="FK_idDireccion_idDireccion_0"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="RegistradoENReadAllHQL">from RegistradoEN</query>
+		  <query name="RegistradoENgetDireccionHQL"><![CDATA[select res.Direccion_0 FROM RegistradoEN as res where res.id = :p_registrado]]></query>
+		</hibernate-mapping>
+	

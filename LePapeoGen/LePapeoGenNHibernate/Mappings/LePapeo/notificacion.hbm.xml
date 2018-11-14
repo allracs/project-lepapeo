@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="LePapeoGenNHibernate"
+		                   namespace="LePapeoGenNHibernate.EN.LePapeo">
+		    
+		    
+			
+				<class name="NotificacionEN" table="Notificacion"> 
+				  	
+						<id name="Id" column="idNotificacion" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Contenido" type="string"> 
+						<column name="contenido"  not-null="true"/>
+					</property>
+					<property name="Fecha" type="timestamp"> 
+						<column name="fecha"  not-null="true"/>
+					</property>
+					<property name="Enviada" type="boolean"> 
+						<column name="enviada"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+						<many-to-one name="NotificacionGenerica" class="LePapeoGenNHibernate.EN.LePapeo.NotificacionGenericaEN" >	
+								<column name="FK_idNotificacionGenerica_idNotificacionGenerica"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+		  			
+						<many-to-one name="Usuario" class="LePapeoGenNHibernate.EN.LePapeo.UsuarioEN" >	
+								<column name="FK_idUsuario_idUsuario"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Opinion" class="LePapeoGenNHibernate.EN.LePapeo.OpinionEN" >	
+								<column name="FK_idOpinion_idOpinion"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Reserva" class="LePapeoGenNHibernate.EN.LePapeo.ReservaEN" >	
+								<column name="FK_idReserva_idReserva"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="NotificacionENReadAllHQL">from NotificacionEN</query>
+		  <query name="NotificacionENgetUsuarioHQL"><![CDATA[select noti.Usuario FROM NotificacionEN as noti where noti.id = :p_notificacion]]></query>
+		  <query name="NotificacionENgetReservaHQL"><![CDATA[select noti.Reserva FROM NotificacionEN as noti where noti.id = :p_notificacion]]></query>
+		  <query name="NotificacionENgetOpinionHQL"><![CDATA[select noti.Opinion FROM NotificacionEN as noti where noti.id = :p_notificacion]]></query>
+		</hibernate-mapping>
+	

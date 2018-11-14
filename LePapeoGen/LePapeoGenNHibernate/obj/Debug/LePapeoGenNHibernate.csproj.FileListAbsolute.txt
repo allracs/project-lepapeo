@@ -1,0 +1,56 @@
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+C:\OOH4RIA\workspace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+D:\Carrera\3 Curso\DSM\Prácticas\UltimateWorkSpace\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="LePapeoGenNHibernate"
+		                   namespace="LePapeoGenNHibernate.EN.LePapeo">
+		    
+		    
+			
+				<class name="ReservaEN" table="Reserva"> 
+				  	
+						<id name="Id" column="idReserva" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Comensales" type="integer"> 
+						<column name="comensales"  not-null="true"/>
+					</property>
+					<property name="Estado" > 
+						<column name="estado"  not-null="true"/>
+					</property>
+					<property name="Finalizada" type="boolean"> 
+						<column name="finalizada"  not-null="true"/>
+					</property>
+					<property name="Fecha_hora" type="timestamp"> 
+						<column name="fecha_hora"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<many-to-one name="Registrado" class="LePapeoGenNHibernate.EN.LePapeo.RegistradoEN" >	
+								<column name="FK_idUsuario_idRegistrado"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Restaurante" class="LePapeoGenNHibernate.EN.LePapeo.RestauranteEN" >	
+								<column name="FK_idUsuario_idRestaurante"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+			
+			
+			
+		  			
+						<bag name="Notificacion" >
+							<key>
+							
+								
+								<column name="FK_idReserva_idReserva"/>
+					      	</key>
+							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.NotificacionEN"/>
+					    </bag>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ReservaENReadAllHQL">from ReservaEN</query>
+		  <query name="ReservaENgetReservasFromRegistradoHQL"><![CDATA[FROM ReservaEN as res where res.Registrado= :p_registrado]]></query>
+		  <query name="ReservaENgetReservasFromRestauranteHQL"><![CDATA[FROM ReservaEN as res where res.Restaurante.Id = :p_restaurante]]></query>
+		  <query name="ReservaENgetReservasFromRestauranteYRegistradoHQL"><![CDATA[FROM ReservaEN as res where res.Registrado.Id = :p_registrado and res.Restaurante.Id  = :p_restaurante]]></query>
+		  <query name="ReservaENgetReservasFromRegistradoFinalHQL"><![CDATA[select res FROM ReservaEN as res where res.Finalizada = :p_finalizada and res.Registrado = :p_registrado]]></query>
+		  <query name="ReservaENgetReservasFromRestauranteFinalHQL"><![CDATA[FROM ReservaEN as res where res.Finalizada = :p_finalizada and res.Restaurante = :p_restaurante]]></query>
+		  <query name="ReservaENgetReservasFromRegistradoByFechaHoraHQL"><![CDATA[FROM ReservaEN as res where res.Fecha_hora = :p_fecha_hora and res.Registrado = :p_registrado]]></query>
+		  <query name="ReservaENgetReservasFromRestauranteByFechaHoraHQL"><![CDATA[FROM ReservaEN as res where res.Fecha_hora = :p_fecha_hora and res.Restaurante = :p_restaurante]]></query>
+		</hibernate-mapping>
+	
