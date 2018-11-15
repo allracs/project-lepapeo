@@ -97,6 +97,9 @@ public void ModifyDefault (UsuarioEN usuario)
                 usuarioEN.Pass = usuario.Pass;
 
 
+
+                usuarioEN.Fecha_inscripcion = usuario.Fecha_inscripcion;
+
                 session.Update (usuarioEN);
                 SessionCommit ();
         }
@@ -153,6 +156,9 @@ public void Modify (UsuarioEN usuario)
 
 
                 usuarioEN.Pass = usuario.Pass;
+
+
+                usuarioEN.Fecha_inscripcion = usuario.Fecha_inscripcion;
 
                 session.Update (usuarioEN);
                 SessionCommit ();

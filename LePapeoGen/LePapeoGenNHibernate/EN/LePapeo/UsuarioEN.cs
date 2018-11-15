@@ -33,6 +33,13 @@ private System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.Notific
 
 
 
+/**
+ *	Atributo fecha_inscripcion
+ */
+private Nullable<DateTime> fecha_inscripcion;
+
+
+
 
 
 
@@ -60,6 +67,12 @@ public virtual System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.
 
 
 
+public virtual Nullable<DateTime> Fecha_inscripcion {
+        get { return fecha_inscripcion; } set { fecha_inscripcion = value;  }
+}
+
+
+
 
 
 public UsuarioEN()
@@ -69,20 +82,20 @@ public UsuarioEN()
 
 
 
-public UsuarioEN(int id, string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion
+public UsuarioEN(int id, string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion
                  )
 {
-        this.init (Id, email, pass, notificacion);
+        this.init (Id, email, pass, notificacion, fecha_inscripcion);
 }
 
 
 public UsuarioEN(UsuarioEN usuario)
 {
-        this.init (Id, usuario.Email, usuario.Pass, usuario.Notificacion);
+        this.init (Id, usuario.Email, usuario.Pass, usuario.Notificacion, usuario.Fecha_inscripcion);
 }
 
 private void init (int id
-                   , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion)
+                   , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion)
 {
         this.Id = id;
 
@@ -92,6 +105,8 @@ private void init (int id
         this.Pass = pass;
 
         this.Notificacion = notificacion;
+
+        this.Fecha_inscripcion = fecha_inscripcion;
 }
 
 public override bool Equals (object obj)

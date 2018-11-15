@@ -107,6 +107,15 @@ public void ModifyDefault (RestauranteEN restaurante)
 
                 restauranteEN.Current_comen = restaurante.Current_comen;
 
+
+                restauranteEN.Precio_medio = restaurante.Precio_medio;
+
+
+                restauranteEN.Descripcion = restaurante.Descripcion;
+
+
+                restauranteEN.Menu = restaurante.Menu;
+
                 session.Update (restauranteEN);
                 SessionCommit ();
         }
@@ -172,6 +181,9 @@ public void Modify (RestauranteEN restaurante)
                 restauranteEN.Pass = restaurante.Pass;
 
 
+                restauranteEN.Fecha_inscripcion = restaurante.Fecha_inscripcion;
+
+
                 restauranteEN.Nombre = restaurante.Nombre;
 
 
@@ -182,6 +194,15 @@ public void Modify (RestauranteEN restaurante)
 
 
                 restauranteEN.Current_comen = restaurante.Current_comen;
+
+
+                restauranteEN.Precio_medio = restaurante.Precio_medio;
+
+
+                restauranteEN.Descripcion = restaurante.Descripcion;
+
+
+                restauranteEN.Menu = restaurante.Menu;
 
                 session.Update (restauranteEN);
                 SessionCommit ();

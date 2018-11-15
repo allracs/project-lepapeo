@@ -147,6 +147,9 @@ public void Modify (AdminEN admin)
 
                 adminEN.Pass = admin.Pass;
 
+
+                adminEN.Fecha_inscripcion = admin.Fecha_inscripcion;
+
                 session.Update (adminEN);
                 SessionCommit ();
         }

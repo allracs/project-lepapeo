@@ -27,7 +27,7 @@ public void Checkout (int p_oid)
 
         IReservaCAD reservaCAD = null;
         ReservaCEN reservaCEN = null;
-            ReservaEN reservaEN = null;
+        ReservaEN reservaEN = null;
 
 
         try
@@ -35,11 +35,11 @@ public void Checkout (int p_oid)
                 SessionInitializeTransaction ();
                 reservaCAD = new ReservaCAD (session);
                 reservaCEN = new  ReservaCEN (reservaCAD);
-                reservaEN = reservaCAD.ReadOIDDefault(p_oid);
+                reservaEN = reservaCAD.ReadOIDDefault (p_oid);
 
 
-                RestauranteCAD restauranteCAD = new RestauranteCAD(session);
-                RestauranteEN restauranteEN = restauranteCAD.ReadOIDDefault(reservaEN.Restaurante.Id);
+                RestauranteCAD restauranteCAD = new RestauranteCAD (session);
+                RestauranteEN restauranteEN = restauranteCAD.ReadOIDDefault (reservaEN.Restaurante.Id);
 
                 restauranteEN.Current_comen -= reservaEN.Comensales;
 
@@ -47,10 +47,10 @@ public void Checkout (int p_oid)
                 reservaEN.Finalizada = true;
 
 
-                restauranteCAD.Modify(restauranteEN);
-                reservaCAD.Modify(reservaEN);
+                restauranteCAD.Modify (restauranteEN);
+                reservaCAD.Modify (reservaEN);
 
-                SessionCommit();
+                SessionCommit ();
         }
         catch (Exception ex)
         {

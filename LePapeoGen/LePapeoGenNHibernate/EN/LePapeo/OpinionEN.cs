@@ -54,6 +54,13 @@ private System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.Notific
 
 
 
+/**
+ *	Atributo fecha
+ */
+private Nullable<DateTime> fecha;
+
+
+
 
 
 
@@ -99,6 +106,12 @@ public virtual System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.
 
 
 
+public virtual Nullable<DateTime> Fecha {
+        get { return fecha; } set { fecha = value;  }
+}
+
+
+
 
 
 public OpinionEN()
@@ -108,20 +121,20 @@ public OpinionEN()
 
 
 
-public OpinionEN(int id, LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum valoracion, string titulo, string comentario, LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion
+public OpinionEN(int id, LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum valoracion, string titulo, string comentario, LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha
                  )
 {
-        this.init (Id, valoracion, titulo, comentario, registrado, restaurante, notificacion);
+        this.init (Id, valoracion, titulo, comentario, registrado, restaurante, notificacion, fecha);
 }
 
 
 public OpinionEN(OpinionEN opinion)
 {
-        this.init (Id, opinion.Valoracion, opinion.Titulo, opinion.Comentario, opinion.Registrado, opinion.Restaurante, opinion.Notificacion);
+        this.init (Id, opinion.Valoracion, opinion.Titulo, opinion.Comentario, opinion.Registrado, opinion.Restaurante, opinion.Notificacion, opinion.Fecha);
 }
 
 private void init (int id
-                   , LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum valoracion, string titulo, string comentario, LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion)
+                   , LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum valoracion, string titulo, string comentario, LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha)
 {
         this.Id = id;
 
@@ -137,6 +150,8 @@ private void init (int id
         this.Restaurante = restaurante;
 
         this.Notificacion = notificacion;
+
+        this.Fecha = fecha;
 }
 
 public override bool Equals (object obj)

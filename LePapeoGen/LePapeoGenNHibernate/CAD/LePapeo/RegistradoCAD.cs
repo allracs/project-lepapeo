@@ -160,6 +160,9 @@ public void Modify (RegistradoEN registrado)
                 registradoEN.Pass = registrado.Pass;
 
 
+                registradoEN.Fecha_inscripcion = registrado.Fecha_inscripcion;
+
+
                 registradoEN.Nombre = registrado.Nombre;
 
 

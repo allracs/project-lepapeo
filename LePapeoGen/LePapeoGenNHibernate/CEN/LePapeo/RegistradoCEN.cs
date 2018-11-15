@@ -39,7 +39,7 @@ public IRegistradoCAD get_IRegistradoCAD ()
         return this._IRegistradoCAD;
 }
 
-public int New_ (string p_email, String p_pass, string p_nombre, string p_apellidos, Nullable<DateTime> p_fecha_nac)
+public int New_ (string p_email, String p_pass, Nullable<DateTime> p_fecha_inscripcion, string p_nombre, string p_apellidos, Nullable<DateTime> p_fecha_nac)
 {
         RegistradoEN registradoEN = null;
         int oid;
@@ -49,6 +49,8 @@ public int New_ (string p_email, String p_pass, string p_nombre, string p_apelli
         registradoEN.Email = p_email;
 
         registradoEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+
+        registradoEN.Fecha_inscripcion = p_fecha_inscripcion;
 
         registradoEN.Nombre = p_nombre;
 
@@ -62,7 +64,7 @@ public int New_ (string p_email, String p_pass, string p_nombre, string p_apelli
         return oid;
 }
 
-public void Modify (int p_Registrado_OID, string p_email, String p_pass, string p_nombre, string p_apellidos, Nullable<DateTime> p_fecha_nac)
+public void Modify (int p_Registrado_OID, string p_email, String p_pass, Nullable<DateTime> p_fecha_inscripcion, string p_nombre, string p_apellidos, Nullable<DateTime> p_fecha_nac)
 {
         RegistradoEN registradoEN = null;
 
@@ -71,6 +73,7 @@ public void Modify (int p_Registrado_OID, string p_email, String p_pass, string 
         registradoEN.Id = p_Registrado_OID;
         registradoEN.Email = p_email;
         registradoEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        registradoEN.Fecha_inscripcion = p_fecha_inscripcion;
         registradoEN.Nombre = p_nombre;
         registradoEN.Apellidos = p_apellidos;
         registradoEN.Fecha_nac = p_fecha_nac;

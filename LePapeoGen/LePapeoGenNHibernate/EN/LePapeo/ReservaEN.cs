@@ -61,6 +61,13 @@ private System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.Notific
 
 
 
+/**
+ *	Atributo fecha_solicitud
+ */
+private Nullable<DateTime> fecha_solicitud;
+
+
+
 
 
 
@@ -112,6 +119,12 @@ public virtual System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.
 
 
 
+public virtual Nullable<DateTime> Fecha_solicitud {
+        get { return fecha_solicitud; } set { fecha_solicitud = value;  }
+}
+
+
+
 
 
 public ReservaEN()
@@ -121,20 +134,20 @@ public ReservaEN()
 
 
 
-public ReservaEN(int id, LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, int comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum estado, bool finalizada, Nullable<DateTime> fecha_hora, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion
+public ReservaEN(int id, LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, int comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum estado, bool finalizada, Nullable<DateTime> fecha_hora, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_solicitud
                  )
 {
-        this.init (Id, registrado, restaurante, comensales, estado, finalizada, fecha_hora, notificacion);
+        this.init (Id, registrado, restaurante, comensales, estado, finalizada, fecha_hora, notificacion, fecha_solicitud);
 }
 
 
 public ReservaEN(ReservaEN reserva)
 {
-        this.init (Id, reserva.Registrado, reserva.Restaurante, reserva.Comensales, reserva.Estado, reserva.Finalizada, reserva.Fecha_hora, reserva.Notificacion);
+        this.init (Id, reserva.Registrado, reserva.Restaurante, reserva.Comensales, reserva.Estado, reserva.Finalizada, reserva.Fecha_hora, reserva.Notificacion, reserva.Fecha_solicitud);
 }
 
 private void init (int id
-                   , LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, int comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum estado, bool finalizada, Nullable<DateTime> fecha_hora, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion)
+                   , LePapeoGenNHibernate.EN.LePapeo.RegistradoEN registrado, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, int comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum estado, bool finalizada, Nullable<DateTime> fecha_hora, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_solicitud)
 {
         this.Id = id;
 
@@ -152,6 +165,8 @@ private void init (int id
         this.Fecha_hora = fecha_hora;
 
         this.Notificacion = notificacion;
+
+        this.Fecha_solicitud = fecha_solicitud;
 }
 
 public override bool Equals (object obj)

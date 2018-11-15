@@ -99,20 +99,20 @@ public RegistradoEN() : base ()
 
 
 public RegistradoEN(int id, string nombre, string apellidos, Nullable<DateTime> fecha_nac, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.ReservaEN> reserva, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.OpinionEN> opinion, LePapeoGenNHibernate.EN.LePapeo.DireccionEN direccion_0
-                    , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion
+                    , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion
                     )
 {
-        this.init (Id, nombre, apellidos, fecha_nac, reserva, opinion, direccion_0, email, pass, notificacion);
+        this.init (Id, nombre, apellidos, fecha_nac, reserva, opinion, direccion_0, email, pass, notificacion, fecha_inscripcion);
 }
 
 
 public RegistradoEN(RegistradoEN registrado)
 {
-        this.init (Id, registrado.Nombre, registrado.Apellidos, registrado.Fecha_nac, registrado.Reserva, registrado.Opinion, registrado.Direccion_0, registrado.Email, registrado.Pass, registrado.Notificacion);
+        this.init (Id, registrado.Nombre, registrado.Apellidos, registrado.Fecha_nac, registrado.Reserva, registrado.Opinion, registrado.Direccion_0, registrado.Email, registrado.Pass, registrado.Notificacion, registrado.Fecha_inscripcion);
 }
 
 private void init (int id
-                   , string nombre, string apellidos, Nullable<DateTime> fecha_nac, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.ReservaEN> reserva, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.OpinionEN> opinion, LePapeoGenNHibernate.EN.LePapeo.DireccionEN direccion_0, string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion)
+                   , string nombre, string apellidos, Nullable<DateTime> fecha_nac, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.ReservaEN> reserva, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.OpinionEN> opinion, LePapeoGenNHibernate.EN.LePapeo.DireccionEN direccion_0, string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion)
 {
         this.Id = id;
 
@@ -134,6 +134,8 @@ private void init (int id
         this.Pass = pass;
 
         this.Notificacion = notificacion;
+
+        this.Fecha_inscripcion = fecha_inscripcion;
 }
 
 public override bool Equals (object obj)

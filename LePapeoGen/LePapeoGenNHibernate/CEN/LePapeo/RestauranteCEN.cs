@@ -39,7 +39,7 @@ public IRestauranteCAD get_IRestauranteCAD ()
         return this._IRestauranteCAD;
 }
 
-public int New_ (string p_email, String p_pass, string p_nombre, Nullable<DateTime> p_fecha_apertura, string p_tipoCocina, int p_max_comen, int p_current_comen)
+public int New_ (string p_email, String p_pass, Nullable<DateTime> p_fecha_inscripcion, string p_nombre, Nullable<DateTime> p_fecha_apertura, string p_tipoCocina, int p_max_comen, int p_current_comen, float p_precio_medio, string p_descripcion, string p_menu)
 {
         RestauranteEN restauranteEN = null;
         int oid;
@@ -49,6 +49,8 @@ public int New_ (string p_email, String p_pass, string p_nombre, Nullable<DateTi
         restauranteEN.Email = p_email;
 
         restauranteEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+
+        restauranteEN.Fecha_inscripcion = p_fecha_inscripcion;
 
         restauranteEN.Nombre = p_nombre;
 
@@ -65,6 +67,12 @@ public int New_ (string p_email, String p_pass, string p_nombre, Nullable<DateTi
         restauranteEN.Max_comen = p_max_comen;
 
         restauranteEN.Current_comen = p_current_comen;
+
+        restauranteEN.Precio_medio = p_precio_medio;
+
+        restauranteEN.Descripcion = p_descripcion;
+
+        restauranteEN.Menu = p_menu;
 
         //Call to RestauranteCAD
 

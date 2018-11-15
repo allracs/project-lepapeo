@@ -18,6 +18,9 @@
 					<property name="Pass" type="string"> 
 						<column name="pass"  not-null="true"/>
 					</property>
+					<property name="Fecha_inscripcion" type="date"> 
+						<column name="fecha_inscripcion"  not-null="true"/>
+					</property>
 			
 			
 			
@@ -32,6 +35,8 @@
 					      	</key>
 							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.NotificacionEN"/>
 					    </bag>
+					
+			
 					
 					
 					

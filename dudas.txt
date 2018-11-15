@@ -1,0 +1,6 @@
+DUDAS PROXIMA CLASE
+-Comprobar el login.
+-Hacer logout.
+-Añadir fotos a restaurante y usuario y ver tipo de formato.
+-Menu.
+-getRegistrados y getAdmins

@@ -28,6 +28,9 @@ public string Login (int p_Usuario_OID, string p_pass)
         if (en.Pass.Equals (Utils.Util.GetEncondeMD5 (p_pass)))
                 result = this.GetType ().ToString ();
 
+
+        //FALTA CREAR SESION
+
         return result;
         /*PROTECTED REGION END*/
 }

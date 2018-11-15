@@ -70,6 +70,27 @@ private int current_comen;
 
 
 
+/**
+ *	Atributo precio_medio
+ */
+private float precio_medio;
+
+
+
+/**
+ *	Atributo descripcion
+ */
+private string descripcion;
+
+
+
+/**
+ *	Atributo menu
+ */
+private string menu;
+
+
+
 
 
 
@@ -127,6 +148,24 @@ public virtual int Current_comen {
 
 
 
+public virtual float Precio_medio {
+        get { return precio_medio; } set { precio_medio = value;  }
+}
+
+
+
+public virtual string Descripcion {
+        get { return descripcion; } set { descripcion = value;  }
+}
+
+
+
+public virtual string Menu {
+        get { return menu; } set { menu = value;  }
+}
+
+
+
 
 
 public RestauranteEN() : base ()
@@ -137,21 +176,21 @@ public RestauranteEN() : base ()
 
 
 
-public RestauranteEN(int id, string nombre, Nullable<DateTime> fecha_apertura, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.ReservaEN> reserva_0, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.OpinionEN> opinion_0, LePapeoGenNHibernate.EN.LePapeo.HorarioSemanaEN horarioSemana, LePapeoGenNHibernate.EN.LePapeo.DireccionEN direccion, LePapeoGenNHibernate.EN.LePapeo.TipoCocinaEN tipoCocina, int max_comen, int current_comen
-                     , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion
+public RestauranteEN(int id, string nombre, Nullable<DateTime> fecha_apertura, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.ReservaEN> reserva_0, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.OpinionEN> opinion_0, LePapeoGenNHibernate.EN.LePapeo.HorarioSemanaEN horarioSemana, LePapeoGenNHibernate.EN.LePapeo.DireccionEN direccion, LePapeoGenNHibernate.EN.LePapeo.TipoCocinaEN tipoCocina, int max_comen, int current_comen, float precio_medio, string descripcion, string menu
+                     , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion
                      )
 {
-        this.init (Id, nombre, fecha_apertura, reserva_0, opinion_0, horarioSemana, direccion, tipoCocina, max_comen, current_comen, email, pass, notificacion);
+        this.init (Id, nombre, fecha_apertura, reserva_0, opinion_0, horarioSemana, direccion, tipoCocina, max_comen, current_comen, precio_medio, descripcion, menu, email, pass, notificacion, fecha_inscripcion);
 }
 
 
 public RestauranteEN(RestauranteEN restaurante)
 {
-        this.init (Id, restaurante.Nombre, restaurante.Fecha_apertura, restaurante.Reserva_0, restaurante.Opinion_0, restaurante.HorarioSemana, restaurante.Direccion, restaurante.TipoCocina, restaurante.Max_comen, restaurante.Current_comen, restaurante.Email, restaurante.Pass, restaurante.Notificacion);
+        this.init (Id, restaurante.Nombre, restaurante.Fecha_apertura, restaurante.Reserva_0, restaurante.Opinion_0, restaurante.HorarioSemana, restaurante.Direccion, restaurante.TipoCocina, restaurante.Max_comen, restaurante.Current_comen, restaurante.Precio_medio, restaurante.Descripcion, restaurante.Menu, restaurante.Email, restaurante.Pass, restaurante.Notificacion, restaurante.Fecha_inscripcion);
 }
 
 private void init (int id
-                   , string nombre, Nullable<DateTime> fecha_apertura, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.ReservaEN> reserva_0, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.OpinionEN> opinion_0, LePapeoGenNHibernate.EN.LePapeo.HorarioSemanaEN horarioSemana, LePapeoGenNHibernate.EN.LePapeo.DireccionEN direccion, LePapeoGenNHibernate.EN.LePapeo.TipoCocinaEN tipoCocina, int max_comen, int current_comen, string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion)
+                   , string nombre, Nullable<DateTime> fecha_apertura, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.ReservaEN> reserva_0, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.OpinionEN> opinion_0, LePapeoGenNHibernate.EN.LePapeo.HorarioSemanaEN horarioSemana, LePapeoGenNHibernate.EN.LePapeo.DireccionEN direccion, LePapeoGenNHibernate.EN.LePapeo.TipoCocinaEN tipoCocina, int max_comen, int current_comen, float precio_medio, string descripcion, string menu, string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion)
 {
         this.Id = id;
 
@@ -174,11 +213,19 @@ private void init (int id
 
         this.Current_comen = current_comen;
 
+        this.Precio_medio = precio_medio;
+
+        this.Descripcion = descripcion;
+
+        this.Menu = menu;
+
         this.Email = email;
 
         this.Pass = pass;
 
         this.Notificacion = notificacion;
+
+        this.Fecha_inscripcion = fecha_inscripcion;
 }
 
 public override bool Equals (object obj)

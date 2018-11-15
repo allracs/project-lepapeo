@@ -28,6 +28,15 @@
 					<property name="Current_comen" type="integer"> 
 						<column name="current_comen"  not-null="true"/>
 					</property>
+					<property name="Precio_medio" type="float"> 
+						<column name="precio_medio"  not-null="true"/>
+					</property>
+					<property name="Descripcion" type="string"> 
+						<column name="descripcion"  not-null="true"/>
+					</property>
+					<property name="Menu" type="string"> 
+						<column name="menu"  not-null="true"/>
+					</property>
 			
 			
 			
@@ -75,6 +84,12 @@
 											 					
 			
 			
+			
+			
+			
+					
+					
+					
 					
 					
 					

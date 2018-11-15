@@ -14,20 +14,20 @@ public AdminEN() : base ()
 
 
 public AdminEN(int id,
-               string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion
+               string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion
                )
 {
-        this.init (Id, email, pass, notificacion);
+        this.init (Id, email, pass, notificacion, fecha_inscripcion);
 }
 
 
 public AdminEN(AdminEN admin)
 {
-        this.init (Id, admin.Email, admin.Pass, admin.Notificacion);
+        this.init (Id, admin.Email, admin.Pass, admin.Notificacion, admin.Fecha_inscripcion);
 }
 
 private void init (int id
-                   , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion)
+                   , string email, String pass, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> notificacion, Nullable<DateTime> fecha_inscripcion)
 {
         this.Id = id;
 
@@ -37,6 +37,8 @@ private void init (int id
         this.Pass = pass;
 
         this.Notificacion = notificacion;
+
+        this.Fecha_inscripcion = fecha_inscripcion;
 }
 
 public override bool Equals (object obj)

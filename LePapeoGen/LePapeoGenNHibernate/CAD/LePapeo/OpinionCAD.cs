@@ -102,6 +102,9 @@ public void ModifyDefault (OpinionEN opinion)
 
 
 
+
+                opinionEN.Fecha = opinion.Fecha;
+
                 session.Update (opinionEN);
                 SessionCommit ();
         }
@@ -175,6 +178,9 @@ public void Modify (OpinionEN opinion)
 
 
                 opinionEN.Comentario = opinion.Comentario;
+
+
+                opinionEN.Fecha = opinion.Fecha;
 
                 session.Update (opinionEN);
                 SessionCommit ();

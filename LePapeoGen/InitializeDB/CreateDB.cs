@@ -89,7 +89,7 @@ public static void InitializeData ()
 
                 //Creamos Registrado
                 RegistradoCEN registrado_diegoCEN = new RegistradoCEN ();
-                int diegoID = registrado_diegoCEN.New_ ("diego@mail.com", "diego_pass", "Diego", "Carcamo", new DateTime (1900, 6, 1));
+                int diegoID = registrado_diegoCEN.New_ ("diego@mail.com", "diego_pass", new DateTime (2001, 1, 1, 9, 0, 0), "Diego", "Carcamo", new DateTime (1900, 6, 1));
 
                 RegistradoCAD x = new RegistradoCAD ();
                 RegistradoEN xx = x.ReadOIDDefault (diegoID);
@@ -98,7 +98,7 @@ public static void InitializeData ()
 
                 //Creamos Admin
                 AdminCEN admin_davidCEN = new AdminCEN ();
-                int davidID = admin_davidCEN.New_ ("david@mail.com", "david_pass");
+                int davidID = admin_davidCEN.New_ ("david@mail.com", "david_pass", new DateTime (2001, 1, 1, 9, 0, 0));
 
                 //Creamos Ciudad
                 CiudadCEN ciudadCEN = new CiudadCEN ();
@@ -114,7 +114,7 @@ public static void InitializeData ()
 
                 //Creamos Restaurante
                 RestauranteCEN restauranteCEN = new RestauranteCEN ();
-                int forkID = restauranteCEN.New_ ("fork@mail.com", "fork_pass", "Fork", new DateTime (1999, 4, 17), tipo, 40, 0);
+                int forkID = restauranteCEN.New_ ("fork@mail.com", "fork_pass", new DateTime (1999, 4, 17), "Fork", new DateTime (1999, 4, 17), tipo, 40, 0, 15.50f, "Descripcio", "Menu");
 
                 //Creamos HorarioSemana
                 HorarioSemanaCEN horarioSemanaCEN = new HorarioSemanaCEN ();
@@ -128,14 +128,14 @@ public static void InitializeData ()
 
                 //Creamos Reserva
                 ReservaCEN reservaCEN = new ReservaCEN ();
-                int reservaID = reservaCEN.New_ (diegoID, forkID, 4, EstadoReservaEnum.pendiente, false, new DateTime (2001, 1, 1, 15, 0, 0));
+                int reservaID = reservaCEN.New_ (diegoID, forkID, 4, EstadoReservaEnum.pendiente, false, new DateTime (2001, 1, 1, 15, 0, 0), new DateTime (2001, 1, 1, 9, 0, 0));
                 ReservaCEN reserva1CEN = new ReservaCEN ();
-                int reserva1ID = reserva1CEN.New_ (diegoID, forkID, 3, EstadoReservaEnum.pendiente, false, new DateTime (2001, 2, 1, 15, 0, 0));
+                int reserva1ID = reserva1CEN.New_ (diegoID, forkID, 3, EstadoReservaEnum.pendiente, false, new DateTime (2001, 2, 1, 15, 0, 0), new DateTime (2001, 1, 1, 9, 0, 0));
 
                 //Creamos Opinion
                 OpinionCEN opinionCEN = new OpinionCEN ();
-                int opinionID = opinionCEN.New_ (ValoracionEnum.media, "Titulo de la opinion", "contenido de la opinion", diegoID, forkID);
-                int Opinion2ID = opinionCEN.New_ (ValoracionEnum.media, "Titulo de la opinion2", "contenido de la opinion2", diegoID, forkID);
+                int opinionID = opinionCEN.New_ (ValoracionEnum.media, "Titulo de la opinion", "contenido de la opinion", diegoID, forkID, new DateTime (2001, 1, 1, 9, 0, 0));
+                int Opinion2ID = opinionCEN.New_ (ValoracionEnum.media, "Titulo de la opinion2", "contenido de la opinion2", diegoID, forkID, new DateTime (2001, 1, 1, 9, 0, 0));
 
                 //Creamos NotificacionGenerica
                 NotificacionGenericaCEN notificacionGenericaCEN = new NotificacionGenericaCEN ();
@@ -147,7 +147,7 @@ public static void InitializeData ()
 
                 //Creamos Usuario
                 UsuarioCEN usuarioCEN = new UsuarioCEN ();
-                int usuarioID = usuarioCEN.New_ ("gaspar@gmail.com", "gaspar_pass");
+                int usuarioID = usuarioCEN.New_ ("gaspar@gmail.com", "gaspar_pass", new DateTime (2001, 1, 1, 9, 0, 0));
 
 
 

@@ -39,7 +39,7 @@ public IOpinionCAD get_IOpinionCAD ()
         return this._IOpinionCAD;
 }
 
-public int New_ (LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum p_valoracion, string p_titulo, string p_comentario, int p_registrado, int p_restaurante)
+public int New_ (LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum p_valoracion, string p_titulo, string p_comentario, int p_registrado, int p_restaurante, Nullable<DateTime> p_fecha)
 {
         OpinionEN opinionEN = null;
         int oid;
@@ -68,13 +68,15 @@ public int New_ (LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum p_valora
                 opinionEN.Restaurante.Id = p_restaurante;
         }
 
+        opinionEN.Fecha = p_fecha;
+
         //Call to OpinionCAD
 
         oid = _IOpinionCAD.New_ (opinionEN);
         return oid;
 }
 
-public void Modify (int p_Opinion_OID, LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum p_valoracion, string p_titulo, string p_comentario)
+public void Modify (int p_Opinion_OID, LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum p_valoracion, string p_titulo, string p_comentario, Nullable<DateTime> p_fecha)
 {
         OpinionEN opinionEN = null;
 
@@ -84,6 +86,7 @@ public void Modify (int p_Opinion_OID, LePapeoGenNHibernate.Enumerated.LePapeo.V
         opinionEN.Valoracion = p_valoracion;
         opinionEN.Titulo = p_titulo;
         opinionEN.Comentario = p_comentario;
+        opinionEN.Fecha = p_fecha;
         //Call to OpinionCAD
 
         _IOpinionCAD.Modify (opinionEN);

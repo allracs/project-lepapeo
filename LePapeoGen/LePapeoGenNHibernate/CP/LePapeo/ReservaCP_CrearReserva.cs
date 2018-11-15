@@ -21,7 +21,7 @@ namespace LePapeoGenNHibernate.CP.LePapeo
 {
 public partial class ReservaCP : BasicCP
 {
-public int CrearReserva (int p_comensale, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum p_estado, int p_registrado, int p_restaurante, bool p_finalizada, Nullable<DateTime> p_fecha_hora)
+public int CrearReserva (int p_comensale, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum p_estado, int p_registrado, int p_restaurante, bool p_finalizada, Nullable<DateTime> p_fecha_hora, Nullable<DateTime> p_fecha_solicitud)
 {
         /*PROTECTED REGION ID(LePapeoGenNHibernate.CP.LePapeo_Reserva_crearReserva) ENABLED START*/
 
@@ -42,7 +42,7 @@ public int CrearReserva (int p_comensale, LePapeoGenNHibernate.Enumerated.LePape
                 RestauranteEN restauranteEN = restauranteCAD.ReadOIDDefault (p_restaurante);
 
                 if ((restauranteEN.Max_comen - restauranteEN.Current_comen) >= p_comensale) {
-                        result = reservaCEN.New_ (p_registrado, p_restaurante, p_comensale, p_estado, p_finalizada, p_fecha_hora);
+                        result = reservaCEN.New_ (p_registrado, p_restaurante, p_comensale, p_estado, p_finalizada, p_fecha_hora, p_fecha_solicitud);
                         restauranteEN.Current_comen += p_comensale;
 
                         restauranteCAD.Modify (restauranteEN);

@@ -70,3 +70,27 @@ E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\InitializeDB
 E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.pdb
 E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.dll.config
 E:\Oscar\UNI TODO\ASIGNATURAS\4o curso 18-19\DSM\lepapeo\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csproj.CopyComplete
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\InitializeDB.exe
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\InitializeDB.pdb
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\log4net.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\NHibernate.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\nunit.core.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\nunit.framework.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\jose-jwt.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\Newtonsoft.Json.dll
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.pdb
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.dll.config
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojAssemblyReference.cache
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csproj.CoreCompileInputs.cache
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csproj.CopyComplete
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb

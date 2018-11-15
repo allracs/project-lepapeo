@@ -105,6 +105,9 @@ public void ModifyDefault (ReservaEN reserva)
                 reservaEN.Fecha_hora = reserva.Fecha_hora;
 
 
+
+                reservaEN.Fecha_solicitud = reserva.Fecha_solicitud;
+
                 session.Update (reservaEN);
                 SessionCommit ();
         }
@@ -181,6 +184,9 @@ public void Modify (ReservaEN reserva)
 
 
                 reservaEN.Fecha_hora = reserva.Fecha_hora;
+
+
+                reservaEN.Fecha_solicitud = reserva.Fecha_solicitud;
 
                 session.Update (reservaEN);
                 SessionCommit ();

@@ -39,7 +39,7 @@ public IReservaCAD get_IReservaCAD ()
         return this._IReservaCAD;
 }
 
-public int New_ (int p_registrado, int p_restaurante, int p_comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum p_estado, bool p_finalizada, Nullable<DateTime> p_fecha_hora)
+public int New_ (int p_registrado, int p_restaurante, int p_comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum p_estado, bool p_finalizada, Nullable<DateTime> p_fecha_hora, Nullable<DateTime> p_fecha_solicitud)
 {
         ReservaEN reservaEN = null;
         int oid;
@@ -70,13 +70,15 @@ public int New_ (int p_registrado, int p_restaurante, int p_comensales, LePapeoG
 
         reservaEN.Fecha_hora = p_fecha_hora;
 
+        reservaEN.Fecha_solicitud = p_fecha_solicitud;
+
         //Call to ReservaCAD
 
         oid = _IReservaCAD.New_ (reservaEN);
         return oid;
 }
 
-public void Modify (int p_Reserva_OID, int p_comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum p_estado, bool p_finalizada, Nullable<DateTime> p_fecha_hora)
+public void Modify (int p_Reserva_OID, int p_comensales, LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum p_estado, bool p_finalizada, Nullable<DateTime> p_fecha_hora, Nullable<DateTime> p_fecha_solicitud)
 {
         ReservaEN reservaEN = null;
 
@@ -87,6 +89,7 @@ public void Modify (int p_Reserva_OID, int p_comensales, LePapeoGenNHibernate.En
         reservaEN.Estado = p_estado;
         reservaEN.Finalizada = p_finalizada;
         reservaEN.Fecha_hora = p_fecha_hora;
+        reservaEN.Fecha_solicitud = p_fecha_solicitud;
         //Call to ReservaCAD
 
         _IReservaCAD.Modify (reservaEN);

@@ -24,6 +24,9 @@
 					<property name="Fecha_hora" type="timestamp"> 
 						<column name="fecha_hora"  not-null="true"/>
 					</property>
+					<property name="Fecha_solicitud" type="timestamp"> 
+						<column name="fecha_solicitud"  not-null="true"/>
+					</property>
 			
 			
 		  			
@@ -52,6 +55,8 @@
 					      	</key>
 							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.NotificacionEN"/>
 					    </bag>
+					
+			
 					
 					
 					
