@@ -73,3 +73,21 @@ D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\LePapeoGenNHibernate\obj\Deb
 D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb

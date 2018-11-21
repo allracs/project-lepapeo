@@ -94,3 +94,27 @@ D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\I
 D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csproj.CopyComplete
 D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
 D:\Carrera\3 Curso\DSM\Practicas Oficial\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\InitializeDB.exe
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\InitializeDB.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\log4net.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\NHibernate.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\nunit.core.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\nunit.framework.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\jose-jwt.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\bin\Debug\LePapeoGenNHibernate.dll.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojAssemblyReference.cache
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csproj.CoreCompileInputs.cache
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.csproj.CopyComplete
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
