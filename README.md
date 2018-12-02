@@ -11,4 +11,4 @@
 * Visual Studio 2018
 * ASP.NET (Visual Studio)
 * GIT
-* [Bitbucket](https://bitbucket.org/)
+* [GitHub](https://github.com/)
