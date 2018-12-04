@@ -1,4 +1,5 @@
-﻿using LePapeoGenNHibernate.CAD.LePapeo;
+﻿using LePapeo.Models;
+using LePapeoGenNHibernate.CAD.LePapeo;
 using LePapeoGenNHibernate.CEN.LePapeo;
 using LePapeoGenNHibernate.EN.LePapeo;
 using System;
@@ -15,8 +16,9 @@ namespace WEBLEPAPEO.Controllers
         public ActionResult Index()
         {
             UsuarioCEN usu = new UsuarioCEN();
-            IEnumerable<UsuarioEN> listusuEN = usu.ReadAll(0, -1).ToList();
-            return View(listusuEN);
+            IList<UsuarioEN> listusuEN = usu.ReadAll(0, -1);
+            IEnumerable<UsuarioViewModel> listusu = new AssemblerUsuario().ConvertListENToModel(listusuEN);
+            return View(listusu);
         }
 
         // GET: Usuario/Details/5
@@ -28,22 +30,24 @@ namespace WEBLEPAPEO.Controllers
         // GET: Usuario/Create
         public ActionResult Create()
         {
-            UsuarioEN usuEN = new UsuarioEN();
+           UsuarioViewModel usu = new UsuarioViewModel();
 
-            return View(usuEN);
+            return View(usu);
         }
 
         // POST: Usuario/Create
         [HttpPost]
-        public ActionResult Create(UsuarioEN usuEN)
+        public ActionResult Create(UsuarioViewModel usu)
         {
             try
             {
                 // TODO: Add insert logic here
-                SessionInitialize();
-                UsuarioCAD usuCAD = new UsuarioCAD(/*session*/);
-                usuCAD.New_(usuEN);
-                SessionClose();
+                //  SessionInitialize();
+                // UsuarioCAD usuCAD = new UsuarioCAD(/*session*/);
+                //  usuCAD.New_(usuEN);
+                //  SessionClose(); 
+                UsuarioCEN cen = new UsuarioCEN();
+                cen.New_(usu.Email, usu.Password, usu.FechaInscripcion);
 
                 return RedirectToAction("Index");
             }
@@ -56,16 +60,24 @@ namespace WEBLEPAPEO.Controllers
         // GET: Usuario/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            UsuarioViewModel usu = null;
+            SessionInitialize();
+            UsuarioEN usuEN = new UsuarioCAD(session).ReadOIDDefault(id);
+            usu = new AssemblerUsuario().ConvertENToModelUI(usuEN);
+            SessionClose();
+
+            return View(usu);
         }
 
         // POST: Usuario/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(UsuarioViewModel usu)
         {
             try
             {
                 // TODO: Add update logic here
+                UsuarioCEN cen = new UsuarioCEN();
+                cen.Modify(usu.id, usu.Email, usu.Password, usu.FechaInscripcion);
 
                 return RedirectToAction("Index");
             }
@@ -78,6 +90,16 @@ namespace WEBLEPAPEO.Controllers
         // GET: Usuario/Delete/5
         public ActionResult Delete(int id)
         {
+
+            SessionInitialize();
+            UsuarioCAD usuCAD = new UsuarioCAD(session);
+            UsuarioCEN cen = new UsuarioCEN(usuCAD);
+            UsuarioEN artEN = cen.ReadOID(id);
+            UsuarioViewModel art = new AssemblerUsuario().ConvertENToModelUI(artEN);
+          
+            SessionClose();
+
+            new UsuarioCEN().Destroy(id);
             return View();
         }
 
