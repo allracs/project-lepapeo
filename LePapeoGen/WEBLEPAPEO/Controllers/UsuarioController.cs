@@ -90,26 +90,31 @@ namespace WEBLEPAPEO.Controllers
         // GET: Usuario/Delete/5
         public ActionResult Delete(int id)
         {
+            try
+            {
+                SessionInitialize();
+                UsuarioCAD usuCAD = new UsuarioCAD(session);
+                UsuarioCEN cen = new UsuarioCEN(usuCAD);
+                UsuarioEN usuEN = cen.ReadOID(id);
+                UsuarioViewModel usu = new AssemblerUsuario().ConvertENToModelUI(usuEN);
 
-            SessionInitialize();
-            UsuarioCAD usuCAD = new UsuarioCAD(session);
-            UsuarioCEN cen = new UsuarioCEN(usuCAD);
-            UsuarioEN artEN = cen.ReadOID(id);
-            UsuarioViewModel art = new AssemblerUsuario().ConvertENToModelUI(artEN);
-          
-            SessionClose();
+                SessionClose();
 
-            new UsuarioCEN().Destroy(id);
-            return View();
+                return View(usu);
+            }
+            catch{
+                return View();
+            }
         }
 
         // POST: Usuario/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(UsuarioViewModel usu)
         {
             try
             {
                 // TODO: Add delete logic here
+                new UsuarioCEN().Destroy(usu.id);
 
                 return RedirectToAction("Index");
             }
