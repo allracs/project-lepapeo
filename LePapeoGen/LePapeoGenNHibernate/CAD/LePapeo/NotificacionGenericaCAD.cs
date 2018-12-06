@@ -201,5 +201,65 @@ public void Destroy (int id
                 SessionClose ();
         }
 }
+
+//Sin e: ReadOID
+//Con e: NotificacionGenericaEN
+public NotificacionGenericaEN ReadOID (int id
+                                       )
+{
+        NotificacionGenericaEN notificacionGenericaEN = null;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                notificacionGenericaEN = (NotificacionGenericaEN)session.Get (typeof(NotificacionGenericaEN), id);
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in NotificacionGenericaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return notificacionGenericaEN;
+}
+
+public System.Collections.Generic.IList<NotificacionGenericaEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<NotificacionGenericaEN> result = null;
+        try
+        {
+                SessionInitializeTransaction ();
+                if (size > 0)
+                        result = session.CreateCriteria (typeof(NotificacionGenericaEN)).
+                                 SetFirstResult (first).SetMaxResults (size).List<NotificacionGenericaEN>();
+                else
+                        result = session.CreateCriteria (typeof(NotificacionGenericaEN)).List<NotificacionGenericaEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in NotificacionGenericaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
 }
 }

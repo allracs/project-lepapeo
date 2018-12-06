@@ -22,5 +22,12 @@ void Modify (NotificacionGenericaEN notificacionGenerica);
 
 void Destroy (int id
               );
+
+
+NotificacionGenericaEN ReadOID (int id
+                                );
+
+
+System.Collections.Generic.IList<NotificacionGenericaEN> ReadAll (int first, int size);
 }
 }
