@@ -339,10 +339,10 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_aeSsU-NGEeiFh9FWfcM9rQ" name="p_enviada" type="Boolean"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_8mBcANLyEeiY9rh3wEvPsQ" name="modify" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_aeSsVONGEeiFh9FWfcM9rQ" name="p_Notificacion_OID" type="OID" typeObject="_2e5FsNLyEeiY9rh3wEvPsQ"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_aeSsVeNGEeiFh9FWfcM9rQ" name="p_contenido"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_aeSsVuNGEeiFh9FWfcM9rQ" name="p_fecha" type="Time"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_aeSsV-NGEeiFh9FWfcM9rQ" name="p_enviada" type="Boolean"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_TaGjIPmHEeiGCf0tziBU6A" name="p_Notificacion_OID" type="OID" typeObject="_2e5FsNLyEeiY9rh3wEvPsQ"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_TaGjIfmHEeiGCf0tziBU6A" name="p_contenido"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_TaQUIPmHEeiGCf0tziBU6A" name="p_fecha" type="Time"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_TaQUIfmHEeiGCf0tziBU6A" name="p_enviada" type="Boolean"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_8mBcAtLyEeiY9rh3wEvPsQ" name="destroy" operationType="Destroy" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_aeSsWONGEeiFh9FWfcM9rQ" name="p_Notificacion_OID" type="OID" typeObject="_2e5FsNLyEeiY9rh3wEvPsQ"/>
@@ -408,10 +408,10 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_bJEkct0AEeimCYijSpS5xA" name="p_nombre"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_Ueydwt0AEeimCYijSpS5xA" name="modify" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_bJEkc90AEeimCYijSpS5xA" name="p_NotificacionGenerica_OID" type="OID" typeObject="_7iVAMNz_EeimCYijSpS5xA"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_bJEkdN0AEeimCYijSpS5xA" name="p_tipo" type="Enum" typeEnum="_gY2RcNz_EeimCYijSpS5xA"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_bJEkdd0AEeimCYijSpS5xA" name="p_texto"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_bJEkdt0AEeimCYijSpS5xA" name="p_nombre"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_HnOK8PmHEeiGCf0tziBU6A" name="p_NotificacionGenerica_OID" type="OID" typeObject="_7iVAMNz_EeimCYijSpS5xA"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_HnOK8fmHEeiGCf0tziBU6A" name="p_tipo" type="Enum" typeEnum="_gY2RcNz_EeimCYijSpS5xA"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_HnX78PmHEeiGCf0tziBU6A" name="p_texto"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_HnX78fmHEeiGCf0tziBU6A" name="p_nombre"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_UeydxN0AEeimCYijSpS5xA" name="destroy" operationType="Destroy" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_bJEkd90AEeimCYijSpS5xA" name="p_NotificacionGenerica_OID" type="OID" typeObject="_7iVAMNz_EeimCYijSpS5xA"/>

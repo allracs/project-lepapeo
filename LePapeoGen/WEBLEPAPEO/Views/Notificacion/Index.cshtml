@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LePapeo.Models.NotificacionViewModel>
+@model IEnumerable<LePapeo.Models.NotificacionViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -12,15 +12,39 @@
 </p>
 <table class="table">
     <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.contenido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.enviada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.notificacionGenerica)
+        </th>
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+            @Html.DisplayFor(modelItem => item.contenido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.enviada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.notificacionGenerica.Id)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id })
         </td>
     </tr>
 }

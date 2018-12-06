@@ -19,7 +19,7 @@ namespace WEBLEPAPEO.Controllers
             IList<NotificacionGenericaEN> listNotigeEN = NotificacionGenericaCEN.ReadAll(0, -1);
             IEnumerable<NotificacionGenericaViewModel> listreg = new AssemblerNotificacionGenerica().ConvertListENToModel(listNotigeEN);
 
-            return View(listNotigeEN);
+            return View(listreg);
         }
 
         // GET: Registrado/Details/5

@@ -1,4 +1,4 @@
-@model IEnumerable<LePapeoGenNHibernate.EN.LePapeo.NotificacionGenericaEN>
+@model IEnumerable<LePapeo.Models.NotificacionGenericaViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -13,13 +13,13 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Texto)
+            @Html.DisplayNameFor(model => model.texto)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Nombre)
+            @Html.DisplayNameFor(model => model.nombre)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Tipo)
+            @Html.DisplayNameFor(model => model.tipo)
         </th>
         <th></th>
     </tr>
@@ -27,18 +27,18 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Texto)
+            @Html.DisplayFor(modelItem => item.texto)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Nombre)
+            @Html.DisplayFor(modelItem => item.nombre)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Tipo)
+            @Html.DisplayFor(modelItem => item.tipo)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id })
         </td>
     </tr>
 }
