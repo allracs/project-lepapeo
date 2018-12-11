@@ -186,6 +186,8 @@
     <Compile Include="Assembler\AssemblerNotificacionGenerica.cs" />
     <Compile Include="Assembler\AssemblerRegistrado.cs" />
     <Compile Include="Assembler\AssemblerOpinion.cs" />
+    <Compile Include="Assembler\AssemblerRestaurante.cs" />
+    <Compile Include="Assembler\AssemblerTipoCocina.cs" />
     <Compile Include="Assembler\AssemblerUsuario.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\BasicController.cs" />
@@ -194,6 +196,8 @@
     <Compile Include="Controllers\NotificacionGenericaController.cs" />
     <Compile Include="Controllers\OpinionController.cs" />
     <Compile Include="Controllers\RegistradoController.cs" />
+    <Compile Include="Controllers\RestauranteController.cs" />
+    <Compile Include="Controllers\TipoCocinaController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -203,6 +207,8 @@
     <Compile Include="Models\NotificacionGenericaViewModel.cs" />
     <Compile Include="Models\RegistradoViewModel.cs" />
     <Compile Include="Models\OpinionViewModel.cs" />
+    <Compile Include="Models\Restaurante.cs" />
+    <Compile Include="Models\TipoCocina.cs" />
     <Compile Include="Models\UsuarioViewModel - Copia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -271,6 +277,16 @@
     <Content Include="Views\Admin\Create.cshtml" />
     <Content Include="Views\Admin\Edit.cshtml" />
     <Content Include="Views\Admin\Delete.cshtml" />
+    <Content Include="Views\Restaurante\Create.cshtml" />
+    <Content Include="Views\Restaurante\Delete.cshtml" />
+    <Content Include="Views\Restaurante\Details.cshtml" />
+    <Content Include="Views\Restaurante\Edit.cshtml" />
+    <Content Include="Views\Restaurante\Index.cshtml" />
+    <Content Include="Views\TipoCocina\Create.cshtml" />
+    <Content Include="Views\TipoCocina\Delete.cshtml" />
+    <Content Include="Views\TipoCocina\Details.cshtml" />
+    <Content Include="Views\TipoCocina\Edit.cshtml" />
+    <Content Include="Views\TipoCocina\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
