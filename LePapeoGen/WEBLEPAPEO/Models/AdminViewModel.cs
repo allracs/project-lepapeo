@@ -11,14 +11,19 @@ namespace LePapeo.Models
         [ScaffoldColumn(false)]
         public int id { get; set; }
 
-        [ScaffoldColumn(false)]
-        public string email { get; set; }
+        [Display(Prompt = "Email del usuario", Description = "Email del usuario", Name = "Email ")]
+        [Required(ErrorMessage = "Debe indicar un email para el usuario")]
+        [EmailAddress]
+        public string Email { get; set; }
 
-        [ScaffoldColumn(false)]
-        public string p_pass { get; set; }
+        [Required(ErrorMessage = "Debe proporcionar una contraseña")]
+        [DataType(DataType.Password)]
+        [Display(Prompt = "Contraseña del usuario", Description = "Contraseña del usuario", Name = "Contraseña ")]
+        public string Password { get; set; }
 
-        [ScaffoldColumn(false)]
-        public DateTime? p_fecha_inscripcion { get; set; }
+        [Display(Prompt = "Fecha de inscripción del usuario", Description = "Fecha de inscripcióndel usuario", Name = "Fecha de inscripción ")]
+        [DataType(DataType.Date, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
+        public DateTime? FechaInscripcion { get; set; }
 
 
         /*
