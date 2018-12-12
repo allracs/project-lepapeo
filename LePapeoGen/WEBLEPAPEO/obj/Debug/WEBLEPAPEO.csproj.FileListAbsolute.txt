@@ -503,3 +503,7 @@ H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csp
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
