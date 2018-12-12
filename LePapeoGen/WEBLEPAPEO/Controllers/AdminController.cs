@@ -16,10 +16,17 @@ namespace WEBLEPAPEO.Controllers
         // GET: Admin
         public ActionResult Index()
         {
-            AdminCEN adminCEN = new AdminCEN();
+            /*AdminCEN adminCEN = new AdminCEN();
             IEnumerable<AdminEN> listaAdminEN = adminCEN.ReadAll(0, -1).ToList(); //0 posicion inicial y -1 todos los elementos/infinito
             return View(listaAdminEN);
+            */
+
             //return View();
+
+            AdminCEN adminCEN = new AdminCEN();
+            IList<AdminEN> listadminEN = adminCEN.ReadAll(0, -1);
+            IEnumerable<AdminViewModel> listadmin = new AssemblerAdmin().ConvertListENToModel(listadminEN);
+            return View(listadmin);
         }
 
         // GET: Admin/Details/5
@@ -37,22 +44,31 @@ namespace WEBLEPAPEO.Controllers
         // GET: Admin/Create
         public ActionResult Create()
         {
-            AdminEN adminEN = new AdminEN();
+            //AdminEN adminEN = new AdminEN();
 
-            return View(adminEN);
+            //return View(adminEN);
+
+            AdminViewModel admin = new AdminViewModel();
+
+            return View(admin);
+
         }
 
         // POST: Admin/Create
         [HttpPost]
-        public ActionResult Create(AdminEN adminEN)//FormCollection collection
+        public ActionResult Create(AdminViewModel admin)//FormCollection collection || AdminEN adminEN
         {
             try
             {
                 // TODO: Add insert logic here
-                SessionInitialize();
+                /*SessionInitialize();
                 AdminCAD adminCAD = new AdminCAD();
                 adminCAD.New_(adminEN);
-                SessionClose();
+                SessionClose();*/
+
+                AdminCEN cen = new AdminCEN();
+                cen.New_(admin.Email, admin.Password, admin.FechaInscripcion);
+
                 return RedirectToAction("Index");
             }
             catch
@@ -70,22 +86,31 @@ namespace WEBLEPAPEO.Controllers
             admin = new AssemblerAdmin().ConvertENToModelUI(adminEN);
 
             SessionClose();
-            return View(adminEN); //supuestamente deberia de ser return View(admin);
+            return View(admin); //supuestamente deberia de ser return View(admin);
             //return View();
         }
 
         // POST: Admin/Edit/5
         [HttpPost]
-        public ActionResult Edit(AdminEN adminEN)//int id, FormCollection collection || AdminViewModel admin
+        public ActionResult Edit(AdminViewModel admin)//int id, FormCollection collection || AdminViewModel admin || AdminEN adminEN
         {
             try
             {
-
+                /*
                 AdminViewModel admin = new AssemblerAdmin().ConvertENToModelUI(adminEN);
                 AdminCEN adminCEN = new AdminCEN();
-                adminCEN.Modify(admin.id, admin.email, admin.p_pass, admin.p_fecha_inscripcion); //Utils.Util.GetEncondeMD5 (p_pass); || LePapeoGenNHibernate.Utils.Util.GetEncondeMD5(admin.p_pass)
+                adminCEN.Modify(admin.id, admin.Email, admin.Password, admin.FechaInscripcion); //Utils.Util.GetEncondeMD5 (p_pass); || LePapeoGenNHibernate.Utils.Util.GetEncondeMD5(admin.p_pass)
                 //return View();
                 return RedirectToAction("Index");
+                */
+
+
+                // TODO: Add update logic here
+                AdminCEN cen = new AdminCEN();
+                cen.Modify(admin.id, admin.Email, admin.Password, admin.FechaInscripcion);
+
+                return RedirectToAction("Index");
+
 
 
                 /*
@@ -137,11 +162,12 @@ namespace WEBLEPAPEO.Controllers
 
         // POST: Admin/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(AdminViewModel admin)
         {
             try
             {
                 // TODO: Add delete logic here
+                new AdminCEN().Destroy(admin.id);
 
                 return RedirectToAction("Index");
             }

@@ -15,9 +15,9 @@ namespace LePapeo.Models
         {
             AdminViewModel admin = new AdminViewModel();
             admin.id = adminEN.Id;
-            admin.email = adminEN.Email;
-            admin.p_pass = adminEN.Pass; //LePapeoGenNHibernate.Utils.Util.GetEncondeMD5(adminEN.Pass)
-            admin.p_fecha_inscripcion = adminEN.Fecha_inscripcion;
+            admin.Email = adminEN.Email;
+            admin.Password = adminEN.Pass; //LePapeoGenNHibernate.Utils.Util.GetEncondeMD5(adminEN.Pass)
+            admin.FechaInscripcion = (System.DateTime?)adminEN.Fecha_inscripcion;
 
             return admin;
 

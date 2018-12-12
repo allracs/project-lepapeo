@@ -92,5 +92,13 @@ public void Destroy (int id
 {
         _IDireccionCAD.Destroy (id);
 }
+
+public System.Collections.Generic.IList<DireccionEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<DireccionEN> list = null;
+
+        list = _IDireccionCAD.ReadAll (first, size);
+        return list;
+}
 }
 }
