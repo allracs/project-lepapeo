@@ -505,6 +505,7 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_9IaY_OH8Eei9c5aCoJXx1g" name="destroy" operationType="Destroy" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3Y9QONGEeiFh9FWfcM9rQ" name="p_Direccion_OID" type="OID" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
       </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_R3i-wP26EeijpKi4ArHLlg" name="readAll" operationType="ReadAll" type="Object" collectionType="List" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_yFuIkOHxEei9c5aCoJXx1g" alias="cod_pos" name="cod_pos"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_5dPvwOHxEei9c5aCoJXx1g" alias="calle" name="calle"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_NaJjEeHyEei9c5aCoJXx1g" alias="idRestaurante" lower="0" associationTarget="_NaAZIOHyEei9c5aCoJXx1g" name="restaurante" type="Object"/>
@@ -546,6 +547,10 @@
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_B4N5AuNHEeiFh9FWfcM9rQ" name="destroy" operationType="Destroy" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Jziw3eNHEeiFh9FWfcM9rQ" name="p_TipoCocina_OID" type="OID" typeObject="_sKQ-0ONGEeiFh9FWfcM9rQ"/>
+      </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_kSqPMP26EeijpKi4ArHLlg" name="readAll" operationType="ReadAll" type="Object" collectionType="List" typeObject="_sKQ-0ONGEeiFh9FWfcM9rQ"/>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_nBmhsP26EeijpKi4ArHLlg" name="readOID" operationType="ReadOID" type="Object" typeObject="_sKQ-0ONGEeiFh9FWfcM9rQ">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_oOZE8P26EeijpKi4ArHLlg" name="p_TipoCocina_OID" type="OID" typeObject="_sKQ-0ONGEeiFh9FWfcM9rQ"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_7nEEAONGEeiFh9FWfcM9rQ" alias="tipo" name="tipo" isOID="true" unique="true" isToken="true"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_EfA8IuNHEeiFh9FWfcM9rQ" alias="idRestaurante" lower="0" upper="*" associationTarget="_EfA8IONHEeiFh9FWfcM9rQ" name="restaurante" type="Object"/>
@@ -1689,6 +1694,13 @@
           <styles xmi:type="notation:FillStyle" xmi:id="_NbmSH-NGEeiFh9FWfcM9rQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NbmSIONGEeiFh9FWfcM9rQ"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_R3mpIP26EeijpKi4ArHLlg" type="3004" element="_R3i-wP26EeijpKi4ArHLlg">
+          <children xmi:type="notation:DecorationNode" xmi:id="_R3mpJf26EeijpKi4ArHLlg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_R3mpIf26EeijpKi4ArHLlg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_R3mpIv26EeijpKi4ArHLlg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_R3mpI_26EeijpKi4ArHLlg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R3mpJP26EeijpKi4ArHLlg"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_hD93yuHxEei9c5aCoJXx1g"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_hD93y-HxEei9c5aCoJXx1g"/>
       </children>
@@ -1753,6 +1765,41 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_sKQ-2eNGEeiFh9FWfcM9rQ"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_sKQ-2uNGEeiFh9FWfcM9rQ" type="7004">
+        <children xmi:type="notation:Node" xmi:id="_2PBX0P2eEeijpKi4ArHLlg" type="3004" element="_B4KOoeNHEeiFh9FWfcM9rQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2PBX1f2eEeijpKi4ArHLlg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_2PBX0f2eEeijpKi4ArHLlg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2PBX0v2eEeijpKi4ArHLlg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_2PBX0_2eEeijpKi4ArHLlg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2PBX1P2eEeijpKi4ArHLlg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2PB-4P2eEeijpKi4ArHLlg" type="3004" element="_B4N5AONHEeiFh9FWfcM9rQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2PB-5f2eEeijpKi4ArHLlg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_2PB-4f2eEeijpKi4ArHLlg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2PB-4v2eEeijpKi4ArHLlg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_2PB-4_2eEeijpKi4ArHLlg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2PB-5P2eEeijpKi4ArHLlg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2PB-5v2eEeijpKi4ArHLlg" type="3004" element="_B4N5AuNHEeiFh9FWfcM9rQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2PB-6_2eEeijpKi4ArHLlg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_2PB-5_2eEeijpKi4ArHLlg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2PB-6P2eEeijpKi4ArHLlg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_2PB-6f2eEeijpKi4ArHLlg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2PB-6v2eEeijpKi4ArHLlg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kStSgP26EeijpKi4ArHLlg" type="3004" element="_kSqPMP26EeijpKi4ArHLlg">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kStShf26EeijpKi4ArHLlg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_kStSgf26EeijpKi4ArHLlg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kStSgv26EeijpKi4ArHLlg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_kStSg_26EeijpKi4ArHLlg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kStShP26EeijpKi4ArHLlg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_nBnv0P26EeijpKi4ArHLlg" type="3004" element="_nBmhsP26EeijpKi4ArHLlg">
+          <children xmi:type="notation:DecorationNode" xmi:id="_nBoW5P26EeijpKi4ArHLlg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_nBoW4P26EeijpKi4ArHLlg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nBoW4f26EeijpKi4ArHLlg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_nBoW4v26EeijpKi4ArHLlg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nBoW4_26EeijpKi4ArHLlg"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_sKQ-2-NGEeiFh9FWfcM9rQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_sKQ-3ONGEeiFh9FWfcM9rQ"/>
       </children>
