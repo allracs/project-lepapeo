@@ -22,5 +22,8 @@ void Modify (DireccionEN direccion);
 
 void Destroy (int id
               );
+
+
+System.Collections.Generic.IList<DireccionEN> ReadAll (int first, int size);
 }
 }

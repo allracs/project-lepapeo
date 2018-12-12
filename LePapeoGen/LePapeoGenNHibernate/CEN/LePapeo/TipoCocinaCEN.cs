@@ -71,5 +71,21 @@ public void Destroy (string tipo
 {
         _ITipoCocinaCAD.Destroy (tipo);
 }
+
+public System.Collections.Generic.IList<TipoCocinaEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<TipoCocinaEN> list = null;
+
+        list = _ITipoCocinaCAD.ReadAll (first, size);
+        return list;
+}
+public TipoCocinaEN ReadOID (string tipo
+                             )
+{
+        TipoCocinaEN tipoCocinaEN = null;
+
+        tipoCocinaEN = _ITipoCocinaCAD.ReadOID (tipo);
+        return tipoCocinaEN;
+}
 }
 }

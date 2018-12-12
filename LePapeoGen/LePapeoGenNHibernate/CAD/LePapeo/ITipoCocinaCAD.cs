@@ -22,5 +22,12 @@ void Modify (TipoCocinaEN tipoCocina);
 
 void Destroy (string tipo
               );
+
+
+System.Collections.Generic.IList<TipoCocinaEN> ReadAll (int first, int size);
+
+
+TipoCocinaEN ReadOID (string tipo
+                      );
 }
 }

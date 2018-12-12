@@ -222,5 +222,35 @@ public void Destroy (int id
                 SessionClose ();
         }
 }
+
+public System.Collections.Generic.IList<DireccionEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<DireccionEN> result = null;
+        try
+        {
+                SessionInitializeTransaction ();
+                if (size > 0)
+                        result = session.CreateCriteria (typeof(DireccionEN)).
+                                 SetFirstResult (first).SetMaxResults (size).List<DireccionEN>();
+                else
+                        result = session.CreateCriteria (typeof(DireccionEN)).List<DireccionEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in DireccionCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
 }
 }

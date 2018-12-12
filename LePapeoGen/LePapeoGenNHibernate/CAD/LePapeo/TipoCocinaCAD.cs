@@ -183,5 +183,65 @@ public void Destroy (string tipo
                 SessionClose ();
         }
 }
+
+public System.Collections.Generic.IList<TipoCocinaEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<TipoCocinaEN> result = null;
+        try
+        {
+                SessionInitializeTransaction ();
+                if (size > 0)
+                        result = session.CreateCriteria (typeof(TipoCocinaEN)).
+                                 SetFirstResult (first).SetMaxResults (size).List<TipoCocinaEN>();
+                else
+                        result = session.CreateCriteria (typeof(TipoCocinaEN)).List<TipoCocinaEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in TipoCocinaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+
+//Sin e: ReadOID
+//Con e: TipoCocinaEN
+public TipoCocinaEN ReadOID (string tipo
+                             )
+{
+        TipoCocinaEN tipoCocinaEN = null;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                tipoCocinaEN = (TipoCocinaEN)session.Get (typeof(TipoCocinaEN), tipo);
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in TipoCocinaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return tipoCocinaEN;
+}
 }
 }
