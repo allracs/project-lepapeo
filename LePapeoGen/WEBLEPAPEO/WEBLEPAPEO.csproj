@@ -389,6 +389,10 @@
     <Content Include="Views\Notificacion\Create.cshtml" />
     <Content Include="Views\Notificacion\Edit.cshtml" />
     <Content Include="Views\Notificacion\Delete.cshtml" />
+<<<<<<< HEAD
+    <Content Include="Views\NotificacionGenerica\Details.cshtml" />
+    <Content Include="Views\Notificacion\Details.cshtml" />
+=======
     <Content Include="Views\Opinion\Index.cshtml" />
     <Content Include="Views\Opinion\Create.cshtml" />
     <Content Include="Views\Opinion\Edit.cshtml" />
@@ -412,6 +416,7 @@
     <Content Include="Views\Direccion\Index.cshtml" />
     <Content Include="Views\Direccion\Create.cshtml" />
     <Content Include="Views\Direccion\Edit.cshtml" />
+>>>>>>> 3fb3ace6ca2c1aabda9eb3b26a569c234c69b029
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

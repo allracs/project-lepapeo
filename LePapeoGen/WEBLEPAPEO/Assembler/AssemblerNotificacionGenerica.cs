@@ -14,10 +14,10 @@ namespace LePapeo.Models
         public NotificacionGenericaViewModel ConvertENToModelUI(NotificacionGenericaEN notigeEN)
         {
             NotificacionGenericaViewModel notige = new NotificacionGenericaViewModel();
-            notige.id = notigeEN.Id;
-            notige.tipo = notigeEN.Tipo;
-            notige.texto = notigeEN.Texto;
-            notige.nombre = notigeEN.Nombre;  
+            notige.Id = notigeEN.Id;
+            notige.Tipo = notigeEN.Tipo;
+            notige.Texto = notigeEN.Texto;
+            notige.Nombre = notigeEN.Nombre;  
 
             return notige;
 
