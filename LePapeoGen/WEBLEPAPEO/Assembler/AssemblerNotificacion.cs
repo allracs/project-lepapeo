@@ -13,10 +13,11 @@ namespace LePapeo.Models
         public NotificacionViewModel ConvertENToModelUI(NotificacionEN notiEN)
         {
             NotificacionViewModel noti = new NotificacionViewModel();
-            noti.contenido = notiEN.Contenido;
-            noti.notificacionGenerica = notiEN.NotificacionGenerica;
-            noti.fecha = (System.DateTime)notiEN.Fecha;
-            noti.enviada = notiEN.Enviada;
+            noti.Id = notiEN.Id;
+            noti.Contenido = notiEN.Contenido;
+            noti.NotificacionGenerica = notiEN.NotificacionGenerica;
+            noti.Fecha = (System.DateTime)notiEN.Fecha;
+            noti.Enviada = notiEN.Enviada;
 
             return noti;
         }

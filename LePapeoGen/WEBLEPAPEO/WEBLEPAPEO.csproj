@@ -258,6 +258,8 @@
     <Content Include="Views\Notificacion\Create.cshtml" />
     <Content Include="Views\Notificacion\Edit.cshtml" />
     <Content Include="Views\Notificacion\Delete.cshtml" />
+    <Content Include="Views\NotificacionGenerica\Details.cshtml" />
+    <Content Include="Views\Notificacion\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
