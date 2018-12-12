@@ -252,5 +252,35 @@ public System.Collections.Generic.IList<DireccionEN> ReadAll (int first, int siz
 
         return result;
 }
+
+//Sin e: ReadOID
+//Con e: DireccionEN
+public DireccionEN ReadOID (int id
+                            )
+{
+        DireccionEN direccionEN = null;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                direccionEN = (DireccionEN)session.Get (typeof(DireccionEN), id);
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in DireccionCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return direccionEN;
+}
 }
 }

@@ -100,5 +100,13 @@ public System.Collections.Generic.IList<DireccionEN> ReadAll (int first, int siz
         list = _IDireccionCAD.ReadAll (first, size);
         return list;
 }
+public DireccionEN ReadOID (int id
+                            )
+{
+        DireccionEN direccionEN = null;
+
+        direccionEN = _IDireccionCAD.ReadOID (id);
+        return direccionEN;
+}
 }
 }

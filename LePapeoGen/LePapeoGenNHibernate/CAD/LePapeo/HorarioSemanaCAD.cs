@@ -223,5 +223,65 @@ public void AgregarHorarioDia (int p_HorarioSemana_OID, System.Collections.Gener
                 SessionClose ();
         }
 }
+
+public System.Collections.Generic.IList<HorarioSemanaEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<HorarioSemanaEN> result = null;
+        try
+        {
+                SessionInitializeTransaction ();
+                if (size > 0)
+                        result = session.CreateCriteria (typeof(HorarioSemanaEN)).
+                                 SetFirstResult (first).SetMaxResults (size).List<HorarioSemanaEN>();
+                else
+                        result = session.CreateCriteria (typeof(HorarioSemanaEN)).List<HorarioSemanaEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in HorarioSemanaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+
+//Sin e: ReadOID
+//Con e: HorarioSemanaEN
+public HorarioSemanaEN ReadOID (int id
+                                )
+{
+        HorarioSemanaEN horarioSemanaEN = null;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                horarioSemanaEN = (HorarioSemanaEN)session.Get (typeof(HorarioSemanaEN), id);
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in HorarioSemanaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return horarioSemanaEN;
+}
 }
 }

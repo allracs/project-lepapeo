@@ -25,5 +25,9 @@ void Destroy (int id
 
 
 System.Collections.Generic.IList<DireccionEN> ReadAll (int first, int size);
+
+
+DireccionEN ReadOID (int id
+                     );
 }
 }

@@ -248,11 +248,15 @@
 			
 			
 			
+			
+			
 	<Compile Include="EN\LePapeo\HorarioDiaEN.cs" />
 	<Compile Include="CEN\LePapeo\HorarioDiaCEN.cs" />
 	<Compile Include="CAD\LePapeo\IHorarioDiaCAD.cs" />
 	<Compile Include="CAD\LePapeo\HorarioDiaCAD.cs" />
 	<Compile Include="CP\LePapeo\HorarioDiaCP.cs" />
+			
+			
 			
 			
 			
@@ -266,11 +270,14 @@
 			
 			
 			
+			
 	<Compile Include="EN\LePapeo\CiudadEN.cs" />
 	<Compile Include="CEN\LePapeo\CiudadCEN.cs" />
 	<Compile Include="CAD\LePapeo\ICiudadCAD.cs" />
 	<Compile Include="CAD\LePapeo\CiudadCAD.cs" />
 	<Compile Include="CP\LePapeo\CiudadCP.cs" />
+			
+			
 			
 			
 			

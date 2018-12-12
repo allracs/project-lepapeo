@@ -22,5 +22,12 @@ void Modify (CiudadEN ciudad);
 
 void Destroy (string nombre
               );
+
+
+System.Collections.Generic.IList<CiudadEN> ReadAll (int first, int size);
+
+
+CiudadEN ReadOID (string nombre
+                  );
 }
 }

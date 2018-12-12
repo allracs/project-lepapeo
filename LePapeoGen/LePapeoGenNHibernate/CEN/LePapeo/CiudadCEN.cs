@@ -74,5 +74,21 @@ public void Destroy (string nombre
 {
         _ICiudadCAD.Destroy (nombre);
 }
+
+public System.Collections.Generic.IList<CiudadEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<CiudadEN> list = null;
+
+        list = _ICiudadCAD.ReadAll (first, size);
+        return list;
+}
+public CiudadEN ReadOID (string nombre
+                         )
+{
+        CiudadEN ciudadEN = null;
+
+        ciudadEN = _ICiudadCAD.ReadOID (nombre);
+        return ciudadEN;
+}
 }
 }

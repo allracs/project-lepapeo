@@ -25,5 +25,11 @@ void Destroy (int id
 
 
 void AgregarHorarioDia (int p_HorarioSemana_OID, System.Collections.Generic.IList<int> p_horarioDia_OIDs);
+
+System.Collections.Generic.IList<HorarioSemanaEN> ReadAll (int first, int size);
+
+
+HorarioSemanaEN ReadOID (int id
+                         );
 }
 }

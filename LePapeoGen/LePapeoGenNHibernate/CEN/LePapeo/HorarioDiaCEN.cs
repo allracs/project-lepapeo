@@ -97,5 +97,20 @@ public System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.HorarioD
 {
         return _IHorarioDiaCAD.GetHorariosDiaFromHorarioSemana (p_horarioSemana);
 }
+public System.Collections.Generic.IList<HorarioDiaEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<HorarioDiaEN> list = null;
+
+        list = _IHorarioDiaCAD.ReadAll (first, size);
+        return list;
+}
+public HorarioDiaEN ReadOID (int id
+                             )
+{
+        HorarioDiaEN horarioDiaEN = null;
+
+        horarioDiaEN = _IHorarioDiaCAD.ReadOID (id);
+        return horarioDiaEN;
+}
 }
 }

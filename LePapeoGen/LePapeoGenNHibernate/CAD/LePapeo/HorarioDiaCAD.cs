@@ -251,5 +251,64 @@ public System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.HorarioD
 
         return result;
 }
+public System.Collections.Generic.IList<HorarioDiaEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<HorarioDiaEN> result = null;
+        try
+        {
+                SessionInitializeTransaction ();
+                if (size > 0)
+                        result = session.CreateCriteria (typeof(HorarioDiaEN)).
+                                 SetFirstResult (first).SetMaxResults (size).List<HorarioDiaEN>();
+                else
+                        result = session.CreateCriteria (typeof(HorarioDiaEN)).List<HorarioDiaEN>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in HorarioDiaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
+
+//Sin e: ReadOID
+//Con e: HorarioDiaEN
+public HorarioDiaEN ReadOID (int id
+                             )
+{
+        HorarioDiaEN horarioDiaEN = null;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                horarioDiaEN = (HorarioDiaEN)session.Get (typeof(HorarioDiaEN), id);
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in HorarioDiaCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return horarioDiaEN;
+}
 }
 }

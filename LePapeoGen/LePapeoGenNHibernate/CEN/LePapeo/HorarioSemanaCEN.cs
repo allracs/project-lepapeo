@@ -76,5 +76,20 @@ public void AgregarHorarioDia (int p_HorarioSemana_OID, System.Collections.Gener
 
         _IHorarioSemanaCAD.AgregarHorarioDia (p_HorarioSemana_OID, p_horarioDia_OIDs);
 }
+public System.Collections.Generic.IList<HorarioSemanaEN> ReadAll (int first, int size)
+{
+        System.Collections.Generic.IList<HorarioSemanaEN> list = null;
+
+        list = _IHorarioSemanaCAD.ReadAll (first, size);
+        return list;
+}
+public HorarioSemanaEN ReadOID (int id
+                                )
+{
+        HorarioSemanaEN horarioSemanaEN = null;
+
+        horarioSemanaEN = _IHorarioSemanaCAD.ReadOID (id);
+        return horarioSemanaEN;
+}
 }
 }

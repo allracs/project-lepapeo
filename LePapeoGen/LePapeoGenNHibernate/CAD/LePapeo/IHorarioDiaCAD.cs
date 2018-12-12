@@ -25,5 +25,12 @@ void Destroy (int id
 
 
 System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.HorarioDiaEN> GetHorariosDiaFromHorarioSemana (int p_horarioSemana);
+
+
+System.Collections.Generic.IList<HorarioDiaEN> ReadAll (int first, int size);
+
+
+HorarioDiaEN ReadOID (int id
+                      );
 }
 }
