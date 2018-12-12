@@ -183,6 +183,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Assembler\AssemblerDireccion.cs" />
     <Compile Include="Assembler\AssemblerAdmin.cs" />
+    <Compile Include="Assembler\AssemblerHorarioDia.cs" />
+    <Compile Include="Assembler\AssemblerHorarioSemana.cs" />
     <Compile Include="Assembler\AssemblerNotificacion.cs" />
     <Compile Include="Assembler\AssemblerNotificacionGenerica.cs" />
     <Compile Include="Assembler\AssemblerRegistrado.cs" />
@@ -194,6 +196,8 @@
     <Compile Include="Controllers\BasicController.cs" />
     <Compile Include="Controllers\DireccionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HorarioDiaController.cs" />
+    <Compile Include="Controllers\HorarioSemanaController.cs" />
     <Compile Include="Controllers\NotificacionController.cs" />
     <Compile Include="Controllers\NotificacionGenericaController.cs" />
     <Compile Include="Controllers\OpinionController.cs" />
@@ -206,6 +210,8 @@
     </Compile>
     <Compile Include="Models\AdminViewModel.cs" />
     <Compile Include="Models\DireccionViewModel.cs" />
+    <Compile Include="Models\HorarioDiaViewModel.cs" />
+    <Compile Include="Models\HorarioSemanaViewModel.cs" />
     <Compile Include="Models\ReservaViewModel.cs" />
     <Compile Include="Models\NotificacionViewModel.cs" />
     <Compile Include="Models\NotificacionGenericaViewModel.cs" />
@@ -412,6 +418,16 @@
     <Content Include="Views\Direccion\Index.cshtml" />
     <Content Include="Views\Direccion\Create.cshtml" />
     <Content Include="Views\Direccion\Edit.cshtml" />
+    <Content Include="Views\HorarioDia\Details.cshtml" />
+    <Content Include="Views\HorarioDia\Create.cshtml" />
+    <Content Include="Views\HorarioDia\Edit.cshtml" />
+    <Content Include="Views\HorarioDia\Delete.cshtml" />
+    <Content Include="Views\HorarioDia\Index.cshtml" />
+    <Content Include="Views\HorarioSemana\Index.cshtml" />
+    <Content Include="Views\HorarioSemana\Details.cshtml" />
+    <Content Include="Views\HorarioSemana\Create.cshtml" />
+    <Content Include="Views\HorarioSemana\Edit.cshtml" />
+    <Content Include="Views\HorarioSemana\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
