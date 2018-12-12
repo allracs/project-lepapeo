@@ -22,7 +22,7 @@ private int id;
 /**
  *	Atributo tipo
  */
-private LePapeoGenNHibernate.Enumerated.LePapeo.TipoNotificacionEnum tipo; 
+private LePapeoGenNHibernate.Enumerated.LePapeo.TipoNotificacionEnum tipo;
 
 
 

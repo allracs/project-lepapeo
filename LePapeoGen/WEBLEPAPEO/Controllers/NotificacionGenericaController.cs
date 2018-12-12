@@ -25,10 +25,7 @@ namespace WEBLEPAPEO.Controllers
         // GET: Registrado/Details/5
         public ActionResult Details(int id)
         {
-            NotificacionGenericaCEN NotificacionGenericaCEN = new NotificacionGenericaCEN();
-            NotificacionGenericaEN notiEN = NotificacionGenericaCEN.ReadOID(id);
-            NotificacionGenericaViewModel notiVM = new AssemblerNotificacionGenerica().ConvertENToModelUI(notiEN);
-            return View(notiVM);
+            return View();
         }
 
         // GET: Registrado/Create
@@ -47,7 +44,7 @@ namespace WEBLEPAPEO.Controllers
                 // TODO: Add insert logic here
 
                 NotificacionGenericaCEN cen = new NotificacionGenericaCEN();
-                cen.New_(notige.Tipo, notige.Texto, notige.Nombre);
+                cen.New_(notige.tipo, notige.texto, notige.nombre);
 
                 return RedirectToAction("Index");
             }
@@ -77,7 +74,7 @@ namespace WEBLEPAPEO.Controllers
             {
                 // TODO: Add update logic here
                 NotificacionGenericaCEN cen = new NotificacionGenericaCEN();
-                cen.Modify(notige.Id, notige.Tipo, notige.Texto, notige.Nombre);
+                cen.Modify(notige.id, notige.tipo, notige.texto, notige.nombre);
 
                 return RedirectToAction("Index");
             }
@@ -117,7 +114,7 @@ namespace WEBLEPAPEO.Controllers
             try
             {
                 // TODO: Add delete logic here
-                new NotificacionGenericaCEN().Destroy(notige.Id);
+                new NotificacionGenericaCEN().Destroy(notige.id);
 
                 return RedirectToAction("Index");
             }

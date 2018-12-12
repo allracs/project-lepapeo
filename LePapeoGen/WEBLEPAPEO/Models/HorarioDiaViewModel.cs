@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -11,45 +11,29 @@ namespace LePapeo.Models
         [ScaffoldColumn(false)]
         public int id { get; set; }
 
-        [ScaffoldColumn(false)]
-        public DateTime? hora_ini_am { get; set; }
+        [Display(Prompt = "Fecha de apertura por la mañana", Description = "Fecha de apertura por la mañana", Name = "Fecha de apertura am")]
+        [DataType(DataType.Date, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
+        public DateTime Hora_ini_am { get; set; }
 
-        [ScaffoldColumn(false)]
-        public DateTime? hora_fin_am { get; set; }
+        [Display(Prompt = "Fecha de cierre por la mañana", Description = "Fecha de cierre por la mañana", Name = "Fecha de cierre am")]
+        [DataType(DataType.Date, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
+        public DateTime Hora_fin_am { get; set; }
 
-        [ScaffoldColumn(false)]
-        public DateTime? hora_ini_pm { get; set; }
+        [Display(Prompt = "Fecha de apertura por la tarde", Description = "Fecha de apertura por la tarde", Name = "Fecha de apertura pm")]
+        [DataType(DataType.Date, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
+        public DateTime Hora_ini_pm { get; set; }
 
-        [ScaffoldColumn(false)]
-        public DateTime? hora_fin_pm { get; set; }
+        [Display(Prompt = "Fecha de cierre por la tarde", Description = "Fecha de cierre por la tarde", Name = "Fecha de cierre pm")]
+        [DataType(DataType.Date, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
+        public DateTime Hora_fin_pm { get; set; }
 
+        [Display(Prompt = "Dia de la semana", Description = "Dia de la semana", Name = "Dia")]
+        public LePapeoGenNHibernate.Enumerated.LePapeo.DiaSemanaEnum Dia { get; set; }
 
-        /*
-        [ScaffoldColumn(false)]
-        public string NombreCategoria { get; set; }
-
-
-        [Display(Prompt = "Nombre del artículo", Description = "Nombre del artículo", Name = "Nombre ")]
-        [Required(ErrorMessage = "Debe indicar un nombre para el artículo")]
+        [Display(Prompt = "Horario de la semana", Description = "Horario de la semana", Name = "Semana ")]
         [StringLength(maximumLength: 200, ErrorMessage = "El nombre no puede tener más de 200 caracteres")]
-        public string Nombre { get; set; }
+        public int HorarioSemana { get; set; }
 
-        [Display(Prompt = "Precio del artículo", Description = "Precio del artículo", Name = "Precio ")]
-        [Required(ErrorMessage = "Debe indicar un precio para el artículo")]
-        [DataType(DataType.Currency, ErrorMessage = "El precio debe ser un valor numérico")]
-        [Range(minimum: 0, maximum: 10000, ErrorMessage = "El precio debe ser mayor que cero y menor de 10000")]
-        public double Precio { get; set; }
-
-        [Display(Prompt = "Descripción del artículo", Description = "Descripción del artículo", Name = "Descripción ")]
-        [Required(ErrorMessage = "Debe indicar un nombre para el artículo")]
-        [StringLength(maximumLength: 200, ErrorMessage = "El nombre no puede tener más de 200 caracteres")]
-        public string Descripcion { get; set; }
-
-
-        [Display(Prompt = "Imagen del artículo", Description = "Unidades del artículo", Name = "Imagen ")]
-        [Required(ErrorMessage = "Debe indicar una imagen del artículo")]
-        public string Imagen { get; set; }
-        */
 
     }
 }
