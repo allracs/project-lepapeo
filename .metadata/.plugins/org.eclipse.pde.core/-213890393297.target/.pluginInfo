@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="2" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="3" hasExtensibleAPI="true" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="4" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="icu-data.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="5" localization="plugin" name="%bundleName" provider="%venderName"/>
+	<bundle bundleID="6" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="7" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="8" class="es.ua.dlsi.ooh.common.OOHCommonPlugin" name="Common">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="9" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="600" name="org.eclipse.xtext.purexbase" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="601" class="org.eclipse.xtext.purexbase.ui.internal.PureXbaseActivator" name="org.eclipse.xtext.purexbase.ui" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="602" name="JSR-45 Smap installer" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="603" class="org.eclipse.xtext.ui.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="604" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="605" class="org.eclipse.xtext.ui.codetemplates.ui.AccessibleCodetemplatesActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="606" class="org.eclipse.xtext.ui.ecore.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="607" class="org.eclipse.xtext.ui.junit.Activator" name="Xtext Junit UI Support" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="608" class="org.eclipse.xtext.ui.shared.internal.Activator" localization="plugin" name="Xtext UI Shared" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="609" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="610" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="611" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="612" name="Xbase Runtime Library" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="613" class="org.eclipse.xtext.xbase.ui.internal.XtypeActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="614" class="org.eclipse.xtext.xtext.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="615" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="616" class="org.eclipse.xtext.xtext.ui.graph.bundle.Activator" name="Xtext Railroad Diagram Plugin" provider="Eclipse Modeling Project">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="617" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="618" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="619" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="620" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="500" class="org.eclipse.pde.internal.ui.templates.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="621" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="junit.jar"/>
+	</bundle>
+	<bundle bundleID="501" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="platform.jar"/>
+	</bundle>
+	<bundle bundleID="622" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="junit.jar"/>
+	</bundle>
+	<bundle bundleID="502" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="623" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="503" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="624" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="504" class="org.eclipse.search.internal.ui.SearchPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="625" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="505" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="626" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="506" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="627" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="507" class="org.eclipse.team.internal.core.TeamPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="628" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="508" class="org.eclipse.team.internal.ccvs.core.CVSProviderPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="629" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="509" class="org.eclipse.team.internal.ccvs.ssh2.CVSSSH2Plugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="630" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="510" class="org.eclipse.team.internal.ccvs.ui.CVSUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="511" class="org.eclipse.team.internal.ui.TeamUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="512" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="513" class="org.eclipse.ui.internal.UIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="514" class="org.eclipse.ui.internal.browser.WebBrowserUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="515" class="org.eclipse.ui.internal.cheatsheets.CheatSheetPlugin" localization="plugin" name="%PLUGIN_NAME" provider="%PROVIDER_NAME"/>
+	<bundle bundleID="516" class="org.eclipse.ui.console.ConsolePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="517" class="org.eclipse.ui.internal.editors.text.EditorsPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="518" class="org.eclipse.ui.externaltools.internal.model.ExternalToolsPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="519" class="org.eclipse.ui.internal.forms.FormsPlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="520" class="org.eclipse.ui.internal.ide.IDEWorkbenchPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="e4-ide.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="400" class="org.eclipse.jdt.internal.debug.core.JDIDebugPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jdi.jar"/>
+		<library name="jdimodel.jar"/>
+		<library name="tools.jar"/>
+	</bundle>
+	<bundle bundleID="521" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="e4-ide-application.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="401" class="org.eclipse.jdt.internal.debug.ui.JDIDebugUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="522" class="org.eclipse.ui.internal.intro.impl.IntroPlugin" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="402" class="org.eclipse.jdt.internal.junit.ui.JUnitPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="523" class="org.eclipse.ui.internal.intro.universal.UniversalIntroPlugin" localization="plugin" name="%plugin_name" provider="%provider_name">
+		<library name="universal.jar"/>
+	</bundle>
+	<bundle bundleID="403" class="org.eclipse.jdt.internal.junit.JUnitCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="524" class="org.eclipse.ui.internal.navigator.NavigatorPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="404" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="525" class="org.eclipse.ui.internal.navigator.resources.plugin.WorkbenchNavigatorPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="405" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="526" class="org.eclipse.ui.trace.internal.TracingUIActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="406" class="org.eclipse.jdt.internal.launching.LaunchingPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="527" class="org.eclipse.ui.internal.views.ViewsPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="407" class="org.eclipse.jdt.internal.ui.JavaPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="528" class="org.eclipse.ui.internal.views.log.Activator" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="408" name="Jetty :: Continuation" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="529" class="org.eclipse.ui.internal.views.properties.tabbed.TabbedPropertyViewPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="409" name="Jetty :: Http Utility" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="530" localization="fragment-win32" name="%fragmentName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="410" name="Jetty :: IO Utility" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="531" class="org.eclipse.ui.internal.WorkbenchPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="e4-workbench.jar"/>
+		<library name="compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="411" name="Jetty :: Security" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="532" class="org.eclipse.ui.internal.texteditor.TextEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="412" name="Jetty :: Server Core" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="533" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="413" name="Jetty :: Servlet Handling" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="534" class="org.eclipse.uml2.codegen.ecore.CodeGenEcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="414" name="Jetty :: Utilities" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="535" class="org.eclipse.uml2.codegen.ecore.ui.CodeGenEcoreUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="415" class="org.eclipse.jface.internal.JFaceActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="536" class="org.eclipse.uml2.common.CommonPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="416" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="537" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="417" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="538" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="418" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="539" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="419" class="org.eclipse.jsch.internal.core.JSchCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="540" class="org.eclipse.uml2.examples.uml.ui.UMLExamplesUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="420" class="org.eclipse.jsch.internal.ui.JSchUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="541" class="org.eclipse.uml2.types.TypesPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="300" class="org.eclipse.equinox.internal.p2.touchpoint.natives.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="421" class="org.eclipse.ltk.internal.core.refactoring.RefactoringCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="542" class="org.eclipse.uml2.uml.UMLPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="301" class="org.eclipse.equinox.internal.p2.transport.ecf.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="422" class="org.eclipse.ltk.internal.ui.refactoring.RefactoringUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="543" class="org.eclipse.uml2.uml.ecore.exporter.UMLExporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="302" class="org.eclipse.equinox.internal.p2.ui.ProvUIActivator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="423" class="org.eclipse.m2m.internal.qvt.oml.QvtPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="544" class="org.eclipse.uml2.uml.ecore.importer.UMLImporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="303" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="424" class="org.eclipse.m2m.internal.qvt.oml.common.CommonPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="545" class="org.eclipse.uml2.uml.edit.UMLEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="304" class="org.eclipse.equinox.internal.p2.importexport.internal.ImportExportActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="425" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="546" class="org.eclipse.uml2.uml.editor.UMLEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="305" class="org.eclipse.equinox.internal.p2.ui.sdk.ProvSDKUIActivator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="426" class="org.eclipse.m2m.qvt.oml.ecore.ImperativeOCL.util.ImperativeOCLPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="547" class="org.eclipse.uml2.uml.profile.l2.L2Plugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="306" class="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="427" class="org.eclipse.m2m.internal.qvt.oml.emf.util.EmfUtilPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="548" class="org.eclipse.uml2.uml.profile.l3.L3Plugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="307" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="428" class="org.eclipse.m2m.internal.qvt.oml.project.QVTOProjectPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="549" class="org.eclipse.uml2.uml.resources.ResourcesPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="308" class="org.eclipse.equinox.internal.p2.updatesite.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="429" class="org.eclipse.m2m.internal.qvt.oml.runtime.QvtRuntimePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="309" class="org.eclipse.core.internal.preferences.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="550" class="org.eclipse.update.internal.configurator.ConfigurationActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="430" class="org.eclipse.mylyn.internal.wikitext.ui.WikiTextUiPlugin" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="551" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="310" class="org.eclipse.core.internal.registry.osgi.Activator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="431" class="org.eclipse.internal.net4j.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="552" class="org.eclipse.xpand.activities.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="311" class="org.eclipse.equinox.internal.security.auth.AuthPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="432" class="org.eclipse.net4j.internal.db.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="553" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="312" class="org.eclipse.equinox.internal.security.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="433" class="org.eclipse.net4j.db.internal.h2.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="554" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="examples.jar"/>
+	</bundle>
+	<bundle bundleID="313" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="434" class="org.eclipse.net4j.internal.debug.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="555" class="org.eclipse.xpand.ui.XpandEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="314" class="org.eclipse.equinox.internal.simpleconfigurator.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="435" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="556" class="org.eclipse.xsd.XSDPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="315" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="436" class="org.eclipse.net4j.internal.http.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="557" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="316" class="org.eclipse.equinox.internal.util.UtilActivator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="437" class="org.eclipse.net4j.http.internal.common.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="558" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="317" class="org.eclipse.gef.internal.InternalGEFPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="438" class="org.eclipse.net4j.http.internal.server.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="559" class="org.eclipse.xsd.ecore.exporter.XSDExporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="318" class="org.eclipse.gef.examples.ui.pde.internal.GefExamplesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="439" class="org.eclipse.net4j.internal.jvm.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="319" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="560" class="org.eclipse.xsd.ecore.importer.XSDImporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="440" class="org.eclipse.net4j.internal.tcp.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="561" class="org.eclipse.xsd.provider.XSDEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="320" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="441" class="org.eclipse.net4j.internal.ui.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="562" class="org.eclipse.xsd.presentation.XSDEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="200" class="org.eclipse.emf.ecore.change.ChangePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="321" class="org.eclipse.gmf.internal.bridge.trace.GmfTracePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="442" class="org.eclipse.net4j.ui.internal.shared.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="563" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="201" class="org.eclipse.emf.ecore.change.provider.ChangeEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="322" class="org.eclipse.gmf.internal.bridge.ui.Plugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="443" class="org.eclipse.net4j.internal.util.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="564" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="202" class="org.eclipse.emf.ecore.provider.EcoreEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="323" class="org.eclipse.gmf.internal.bridge.ui.dashboard.Plugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="444" class="org.eclipse.net4j.util.internal.ui.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="565" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="203" class="org.eclipse.emf.ecore.presentation.EcoreEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="324" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="445" class="org.eclipse.ocl.internal.OCLPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="566" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="204" class="org.eclipse.emf.ecore.xmi.XMIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="325" class="org.eclipse.gmf.codegen.gmfgen.presentation.EditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="446" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="567" class="org.eclipse.xtend.check.ui.CheckEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="205" class="org.eclipse.emf.ecoretools.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="326" class="org.eclipse.gmf.internal.codegen.CodeGenUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="447" class="org.eclipse.ocl.common.ui.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="568" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="206" class="org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="327" class="org.eclipse.gmf.internal.common.Activator" localization="plugin" name="GMF Tooling Commons Plug-in" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="448" class="org.eclipse.ocl.ecore.internal.OCLEcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="569" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="207" class="org.eclipse.emf.ecoretools.diagram.ui.outline.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="328" class="org.eclipse.gmf.internal.doc.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="449" class="org.eclipse.ocl.ecore.edit.OCLEcoreEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="208" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="329" class="org.eclipse.gmf.ecore.part.EcoreDiagramEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="209" class="org.eclipse.emf.ecoretools.filters.internal.FilterPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="570" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="450" class="org.eclipse.ocl.edit.OCLEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="571" class="org.eclipse.xtend.ide.internal.XtendActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="330" class="org.eclipse.gmf.examples.runtime.ui.pde.internal.GmfExamplesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="451" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="572" name="Xtend Runtime Library" provider="Eclipse Xtend"/>
+	<bundle bundleID="210" class="org.eclipse.emf.ecoretools.properties.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="331" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="452" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="573" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="211" class="org.eclipse.emf.ecoretools.tabbedproperties.internal.TabbedPropertiesPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="332" class="org.eclipse.gmf.internal.graphdef.codegen.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="453" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="574" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="212" class="org.eclipse.emf.edit.EMFEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="333" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="454" class="org.eclipse.ocl.examples.common.plugin.OCLExamplesCommonPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="575" class="org.eclipse.xtend.shared.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="213" class="org.eclipse.emf.edit.ui.EMFEditUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="334" class="org.eclipse.gmf.gmfgraph.provider.GMFGraphEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="455" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="576" name="Xtend Standalone Bundle" provider="Eclipse Xtend"/>
+	<bundle bundleID="214" name="EEF" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="335" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="456" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="577" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="215" class="org.eclipse.emf.eef.codegen.ecore.EMFCodegenPlugin" name="Acceleo Ecore Module Runtime Plug-in" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="336" class="org.eclipse.gmf.mappings.provider.GMFMapEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="457" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="578" class="org.eclipse.xtend.typesystem.emf.ui.EmfToolsPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="216" class="org.eclipse.emf.eef.codegen.launcher.EEFCodegenLauncher" name="EEF Codegen Launcher" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="337" class="org.eclipse.gmf.runtime.common.core.internal.CommonCorePlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="458" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="579" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="217" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="338" class="org.eclipse.gmf.runtime.common.ui.internal.CommonUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="459" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="218" class="org.eclipse.emf.exporter.ExporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="339" class="org.eclipse.gmf.runtime.common.ui.action.internal.CommonUIActionPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="219" class="org.eclipse.emf.editor.EEPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="580" class="org.eclipse.xtend.typesystem.uml2.ui.Uml2AdapterPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="460" class="org.eclipse.ocl.examples.interpreter.OCLExamplePlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="581" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="340" class="org.eclipse.gmf.runtime.common.ui.action.ide.internal.CommonUIActionIDEPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="461" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="582" class="org.eclipse.xtend.typesystem.xsd.ui.XSDToolsPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="220" class="org.eclipse.emf.importer.ImporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="341" class="org.eclipse.gmf.runtime.common.ui.printing.internal.PrintingPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="462" class="org.eclipse.ocl.examples.modelregistry.eclipse.ModelRegistryPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="583" class="org.eclipse.xtend.ui.XtendEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="100" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="221" class="org.eclipse.emf.importer.ecore.EcoreImporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="342" localization="printingWin32Fragment" name="%Fragment.name" provider="%Fragment.providerName"/>
+	<bundle bundleID="463" class="org.eclipse.ocl.examples.modelregistry.provider.ModelRegistryEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="584" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="101" class="org.eclipse.core.resources.ResourcesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="222" class="org.eclipse.emf.importer.java.JavaImporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="343" class="org.eclipse.gmf.runtime.common.ui.services.internal.CommonUIServicesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="464" class="org.eclipse.ocl.examples.modelregistry.presentation.ModelRegistryEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="585" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="102" localization="plugin" name="%win32FragmentName" provider="%providerName"/>
+	<bundle bundleID="223" class="org.eclipse.emf.importer.rose.RoseImporterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="344" class="org.eclipse.gmf.runtime.common.ui.services.action.internal.CommonUIServicesActionPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="465" class="org.eclipse.ocl.examples.modelregistry.ui.ModelRegistryUIPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="586" class="org.eclipse.xtext.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="103" class="org.eclipse.core.internal.runtime.PlatformActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="224" class="org.eclipse.emf.mapping.MappingPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="345" class="org.eclipse.gmf.runtime.common.ui.services.dnd.internal.CommonUIServicesDNDPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="466" class="org.eclipse.ocl.examples.pivot.util.PivotPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="587" class="org.eclipse.xtext.activities.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="104" class="org.eclipse.core.internal.plugins.CompatibilityActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="225" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="346" class="org.eclipse.gmf.runtime.common.ui.services.dnd.ide.internal.CommonUIServicesDNDIDEPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="467" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="588" class="org.eclipse.xtext.builder.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="105" class="org.eclipse.core.internal.runtime.auth.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="226" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="347" class="org.eclipse.gmf.runtime.common.ui.services.properties.internal.PSFCommonUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="468" class="org.eclipse.ocl.examples.xtext.base.utilities.BasePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="589" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="106" localization="fragment" name="%fragmentName" patch="true" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+	</bundle>
+	<bundle bundleID="227" class="org.eclipse.emf.mapping.ecore2ecore.Ecore2EcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="348" class="org.eclipse.gmf.runtime.diagram.core.internal.DiagramPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="469" class="org.eclipse.ocl.examples.xtext.completeocl.utilities.CompleteOCLPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="107" class="org.eclipse.core.variables.VariablesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="228" class="org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="349" class="org.eclipse.gmf.runtime.diagram.ui.internal.DiagramUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="108" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="229" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="109" class="org.eclipse.debug.core.DebugPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="590" class="org.eclipse.xtext.common.types.provider.TypesEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="470" class="org.eclipse.ocl.examples.xtext.completeocl.ui.internal.CompleteOCLActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="591" class="org.eclipse.xtext.common.types.shared.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="350" class="org.eclipse.gmf.runtime.diagram.ui.actions.internal.DiagramActionsPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="471" class="org.eclipse.ocl.examples.xtext.console.XtextConsolePlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="592" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="230" class="org.eclipse.emf.mapping.ecore2xml.ui.Ecore2XMLUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="351" class="org.eclipse.gmf.runtime.diagram.ui.dnd.internal.DiagramDnDPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="472" class="org.eclipse.ocl.examples.xtext.essentialocl.utilities.EssentialOCLPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="593" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="110" class="org.eclipse.debug.internal.ui.DebugUIPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="231" class="org.eclipse.emf.mapping.presentation.MappingUIPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="352" class="org.eclipse.gmf.runtime.diagram.ui.geoshapes.internal.GeoshapesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="473" class="org.eclipse.ocl.examples.xtext.essentialocl.ui.internal.EssentialOCLActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="594" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="111" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="232" class="org.eclipse.emf.mapping.xsd2ecore.XSD2EcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="353" class="org.eclipse.gmf.runtime.diagram.ui.printing.internal.DiagramPrintingPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="474" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="595" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="112" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="233" class="org.eclipse.emf.mapping.xsd2ecore.presentation.XSD2EcoreEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="354" class="org.eclipse.gmf.runtime.diagram.ui.printing.render.internal.DiagramUIPrintingRenderPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="475" class="org.eclipse.ocl.examples.xtext.markup.ui.internal.MarkupActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="596" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="113" class="org.eclipse.e4.core.commands.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="234" class="org.eclipse.emf.mwe.internal.core.MWEPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="355" class="org.eclipse.gmf.runtime.diagram.ui.properties.internal.DiagramPropertiesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="476" class="org.eclipse.ocl.examples.xtext.oclinecore.utilities.OCLinEcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="597" name="Xtext Junit Support (Deprecated, use org.eclipse.xtext.junit4 instead)" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="114" class="org.eclipse.e4.core.internal.contexts.osgi.ContextsActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="235" class="org.eclipse.emf.mwe.internal.ui.workflow.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="356" class="org.eclipse.gmf.runtime.diagram.ui.providers.internal.DiagramProvidersPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="477" class="org.eclipse.ocl.examples.xtext.oclinecore.ui.internal.OCLinEcoreActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="598" name="Xtext Junit4 Support" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="115" class="org.eclipse.e4.core.internal.di.osgi.DIActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="236" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="357" class="org.eclipse.gmf.runtime.diagram.ui.providers.ide.internal.DiagramProvidersIDEPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="478" class="org.eclipse.ocl.examples.xtext.oclstdlib.utilities.OCLstdlibPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="599" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="116" class="org.eclipse.e4.core.di.internal.extensions.DIEActivator" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="237" name="Modeling Workflow Engine 2 Language" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="358" class="org.eclipse.gmf.runtime.diagram.ui.render.internal.DiagramUIRenderPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="479" class="org.eclipse.ocl.examples.xtext.oclstdlib.ui.internal.OCLstdlibActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="117" class="org.eclipse.e4.core.internal.services.ServicesActivator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="injection_annotations.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="238" class="org.eclipse.emf.mwe2.language.ui.internal.Mwe2Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="359" class="org.eclipse.gmf.runtime.diagram.ui.resources.editor.internal.EditorPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="118" class="org.eclipse.e4.ui.bindings.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="239" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="119" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="10" name="ConceptualView Common Plug-in"/>
+	<bundle bundleID="11" name="Converter">
+		<library name="converter.jar"/>
+		<library name="lib/jdom.jar"/>
+	</bundle>
+	<bundle bundleID="12" class="es.ua.dlsi.ooh.conceptualView.diagram.part.ConceptualViewDiagramEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="13" class="es.ua.dlsi.ooh.conceptualView.provider.ConceptualViewEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="14" class="es.ua.dlsi.ooh.conceptualView.presentation.ConceptualViewEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="15" name="es.ua.dlsi.ooh.conceptualView.generator"/>
+	<bundle bundleID="16" class="es.ua.dlsi.ooh.conceptualview.generator.xtext.Activator" name="Visual2Text"/>
+	<bundle bundleID="17" class="es.ua.dlsi.ooh.conceptualview.generator.xtext.commands.Activator" name="Commands"/>
+	<bundle bundleID="18" class="es.ua.dlsi.ooh.conceptualview.properties.Activator" name="Properties Plug-in"/>
+	<bundle bundleID="19" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="480" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="360" class="org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide.internal.EditorIDEPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="481" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="240" name="MWE2 Lib" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="361" class="org.eclipse.gmf.runtime.draw2d.ui.internal.Draw2dPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="482" class="org.eclipse.ocl.uml.edit.OCLUMLEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="120" class="org.eclipse.e4.ui.internal.css.swt.CSSActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="241" name="Modeling Workflow Engine 2 Runtime" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="362" class="org.eclipse.gmf.runtime.draw2d.ui.render.internal.Draw2dRenderPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="483" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="121" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="242" class="org.eclipse.emf.query.internal.EMFQueryPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="363" class="org.eclipse.gmf.runtime.draw2d.ui.render.awt.internal.Draw2dRenderPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="484" class="org.eclipse.osgi.framework.internal.core.SystemBundleActivator" hasExtensibleAPI="true" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="122" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="243" localization="plugin" name="%Plugin.name" provider="%Provider.name"/>
+	<bundle bundleID="364" class="org.eclipse.gmf.runtime.emf.clipboard.core.internal.ClipboardPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="485" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="123" class="org.eclipse.e4.ui.model.application.impl.MWorkbenchModelActivator$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="244" class="org.eclipse.emf.query.ocl.internal.OCLPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="365" class="org.eclipse.gmf.runtime.emf.commands.core.internal.MSLCommandsPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="486" localization="plugin" name="%osgiUtil" provider="%eclipse.org"/>
+	<bundle bundleID="124" class="org.eclipse.e4.ui.internal.services.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="245" class="org.eclipse.emf.transaction.internal.EMFTransactionPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="366" class="org.eclipse.gmf.runtime.emf.core.internal.plugin.EMFCorePlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="487" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="125" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="246" localization="plugin" name="%Plugin.name" provider="%Provider.name"/>
+	<bundle bundleID="367" class="org.eclipse.gmf.runtime.emf.type.core.internal.EMFTypePlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="488" class="org.eclipse.pde.api.tools.internal.provisional.ApiPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="126" class="org.eclipse.e4.ui.internal.workbench.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="247" class="org.eclipse.emf.transaction.examples.internal.TransactionExamplesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="368" class="org.eclipse.gmf.runtime.emf.type.ui.internal.EMFTypeUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="489" class="org.eclipse.pde.api.tools.ui.internal.ApiUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="127" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="248" class="org.eclipse.emf.transaction.ui.internal.EMFTransactionUIPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="369" class="org.eclipse.gmf.runtime.emf.ui.internal.MslUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="128" class="org.eclipse.e4.ui.internal.workbench.renderers.swt.SWTRenderersActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="249" class="org.eclipse.emf.validation.internal.EMFModelValidationPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="129" class="org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="20" class="es.ua.dlsi.ooh.conceptualView.validation.ConceptualViewValidationPlugin" localization="plugin" name="%Bundle-Name"/>
+	<bundle bundleID="21" name="es.ua.dlsi.ooh.conceptualView.xtext" provider="My Company"/>
+	<bundle bundleID="22" name="es.ua.dlsi.ooh.conceptualView.xtext.tests" provider="My Company"/>
+	<bundle bundleID="23" class="es.ua.dlsi.ooh.conceptualView.xtext.ui.internal.ConceptualTextActivator" name="es.ua.dlsi.ooh.conceptualView.xtext.ui" provider="My Company"/>
+	<bundle bundleID="24" class="es.ua.dlsi.ooh.core.OOHPlugin" name="OOH IDE Core Plug-in">
+		<library name="src/"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="25" name="Package"/>
+	<bundle bundleID="26" class="es.ua.dlsi.ooh.generator.Activator" name="Generator Plug-in">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="27" class="es.ua.dlsi.ooh.generator.dependencies.Activator" name="Dependencies"/>
+	<bundle bundleID="28" class="es.ua.dlsi.ooh.gmf.runtime.extensions.Activator" name="GMF Extensions"/>
+	<bundle bundleID="29" class="es.ua.dlsi.ooh.ide.Activator" name="Ide"/>
+	<bundle bundleID="490" class="org.eclipse.pde.internal.build.BuildActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="pdebuild.jar"/>
+	</bundle>
+	<bundle bundleID="370" class="org.eclipse.gmf.runtime.emf.ui.properties.internal.EMFPropertiesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="491" class="org.eclipse.pde.internal.core.PDECore" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="250" localization="plugin" name="%Plugin.name" provider="%Provider.name"/>
+	<bundle bundleID="371" class="org.eclipse.gmf.runtime.gef.ui.internal.GefPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="492" class="org.eclipse.pde.internal.ds.core.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="130" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="251" class="org.eclipse.emf.validation.examples.internal.ValidationExamplesPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="372" class="org.eclipse.gmf.internal.runtime.lite.svg.Activator" name="GMF SVG Support" provider="Eclipse.org"/>
+	<bundle bundleID="493" class="org.eclipse.pde.internal.ds.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="131" class="org.eclipse.ecf.internal.core.ECFPlugin" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="252" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="373" class="org.eclipse.gmf.runtime.notation.NotationPlugin$Implementation" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="library.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="494" class="org.eclipse.pde.internal.junit.runtime.PDEJUnitRuntimePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="132" class="org.eclipse.ecf.internal.filetransfer.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="253" class="org.eclipse.emf.validation.ui.internal.ValidationUIPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="374" class="org.eclipse.gmf.runtime.notation.NotationEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="495" class="org.eclipse.pde.internal.launching.PDELaunchingPlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="133" class="org.eclipse.ecf.internal.core.identity.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="254" class="org.eclipse.emf.validation.ui.ide.internal.ValidationUIIDEPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="375" class="org.eclipse.gmf.runtime.notation.providers.internal.util.NotationMSLPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="496" class="org.eclipse.pde.internal.runtime.PDERuntimePlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="134" class="org.eclipse.ecf.internal.provider.filetransfer.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="255" class="org.eclipse.emf.workspace.internal.EMFWorkspacePlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="376" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="497" class="org.eclipse.pde.internal.ua.core.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="135" class="org.eclipse.ecf.internal.provider.filetransfer.httpclient4.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="256" localization="plugin" name="%Plugin.name" provider="%Provider.name"/>
+	<bundle bundleID="377" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="498" class="org.eclipse.pde.internal.ua.ui.PDEUserAssistanceUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="136" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="257" class="org.eclipse.emf.workspace.ui.internal.EMFWorkbenchUIPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="378" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="499" class="org.eclipse.pde.internal.ui.PDEPlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="137" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="258" class="org.eclipse.epp.internal.mpc.core.MarketplaceClientCorePlugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="379" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="138" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="259" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="139" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="30" class="es.ua.dlsi.ooh.persistence.nhibernate.generator.NHibernateGeneratorUIPlugin" name="es.ua.dlsi.ooh.persistence.nHibernate.generator"/>
+	<bundle bundleID="31" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="32" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="33" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="34" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="35" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="36" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="37" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="38" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="39" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="380" class="org.eclipse.gmf.tooldef.provider.GMFToolEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="260" class="org.eclipse.epp.internal.mpc.ui.MarketplaceClientUiPlugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="381" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="140" class="org.eclipse.egit.core.Activator" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="261" name="EPP Modeling Bundle" provider="Eclipse Packaging Project"/>
+	<bundle bundleID="382" class="org.eclipse.gmf.tooling.runtime.GMFToolingRuntimePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="141" class="org.eclipse.egit.ui.Activator" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="262" class="org.eclipse.equinox.internal.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="383" class="org.eclipse.gmf.internal.validate.GMFValidationPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="142" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="263" class="org.eclipse.equinox.bidi.internal.StructuredTextActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="384" class="org.eclipse.gmf.internal.xpand.Activator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="143" class="org.eclipse.emf.ant.EMFAntPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="264" class="org.eclipse.core.internal.runtime.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="385" class="org.eclipse.gmf.internal.xpand.editor.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="144" class="org.eclipse.emf.internal.cdo.bundle.Activator$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="265" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="386" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="145" class="org.eclipse.emf.cdo.internal.admin.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="266" class="org.eclipse.equinox.console.command.adapter.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="387" class="org.eclipse.help.internal.HelpPlugin" localization="plugin" name="%help_plugin_name" provider="%providerName"/>
+	<bundle bundleID="146" class="org.eclipse.emf.cdo.internal.common.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="267" class="org.eclipse.equinox.internal.ds.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="388" class="org.eclipse.help.internal.base.HelpBasePlugin" localization="plugin" name="%help_base_plugin_name" provider="%providerName"/>
+	<bundle bundleID="147" class="org.eclipse.emf.cdo.common.internal.db.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="268" class="org.eclipse.equinox.internal.event.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="389" class="org.eclipse.help.ui.internal.HelpUIPlugin" localization="plugin" name="%help_system_plugin_name" provider="%providerName"/>
+	<bundle bundleID="148" class="org.eclipse.emf.cdo.internal.compare.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="269" class="org.eclipse.equinox.internal.frameworkadmin.utils.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="149" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="40" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/ant-antlr.jar"/>
+		<library name="lib/ant-apache-bcel.jar"/>
+		<library name="lib/ant-apache-bsf.jar"/>
+		<library name="lib/ant-apache-log4j.jar"/>
+		<library name="lib/ant-apache-oro.jar"/>
+		<library name="lib/ant-apache-regexp.jar"/>
+		<library name="lib/ant-apache-resolver.jar"/>
+		<library name="lib/ant-apache-xalan2.jar"/>
+		<library name="lib/ant-commons-logging.jar"/>
+		<library name="lib/ant-commons-net.jar"/>
+		<library name="lib/ant-jai.jar"/>
+		<library name="lib/ant-javamail.jar"/>
+		<library name="lib/ant-jdepend.jar"/>
+		<library name="lib/ant-jmf.jar"/>
+		<library name="lib/ant-jsch.jar"/>
+		<library name="lib/ant-junit.jar"/>
+		<library name="lib/ant-junit4.jar"/>
+		<library name="lib/ant-launcher.jar"/>
+		<library name="lib/ant-netrexx.jar"/>
+		<library name="lib/ant-swing.jar"/>
+		<library name="lib/ant-testutil.jar"/>
+		<library name="lib/ant.jar"/>
+	</bundle>
+	<bundle bundleID="41" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="42" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="43" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="44" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="45" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="46" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="47" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="48" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="49" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="390" class="org.eclipse.help.internal.webapp.HelpWebappPlugin" localization="plugin" name="%help_webapp_plugin_name" provider="%providerName"/>
+	<bundle bundleID="270" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="391" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="150" class="org.eclipse.emf.cdo.edit.CDOEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="271" class="org.eclipse.equinox.http.jetty.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="392" localization="bundle" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="151" class="org.eclipse.emf.cdo.internal.efs.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="272" class="org.eclipse.equinox.http.registry.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="393" class="org.eclipse.jdt.apt.core.internal.AptPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="152" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="273" class="org.eclipse.equinox.http.servlet.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="394" class="org.eclipse.jdt.internal.apt.pluggable.core.Apt6Plugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="153" class="org.eclipse.emf.cdo.internal.location.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="274" class="org.eclipse.equinox.internal.jsp.jasper.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="395" class="org.eclipse.jdt.apt.ui.internal.AptUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="154" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="275" class="org.eclipse.equinox.internal.jsp.jasper.registry.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="396" localization="compiler_apt_fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="155" class="org.eclipse.emf.cdo.internal.net4j.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="276" localization="launcher" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="397" localization="compiler_tool_fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="156" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="277" localization="launcher.win32.win32.x86" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="398" class="org.eclipse.jdt.core.JavaCore" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="157" class="org.eclipse.emf.cdo.security.provider.SecurityEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="278" class="org.eclipse.equinox.internal.p2.artifact.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="399" class="org.eclipse.jdt.internal.core.manipulation.JavaManipulationPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="158" class="org.eclipse.emf.cdo.security.presentation.SecurityEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="279" class="org.eclipse.equinox.internal.p2.console.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="159" class="org.eclipse.emf.cdo.internal.server.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="50" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="51" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="52" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="53" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="54" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="55" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="56" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="57" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="58" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="59" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="280" class="org.eclipse.equinox.internal.p2.core.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="160" class="org.eclipse.emf.cdo.server.internal.admin.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="281" class="org.eclipse.equinox.internal.p2.director.DirectorActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="161" class="org.eclipse.emf.cdo.server.internal.db.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="282" class="org.eclipse.equinox.internal.p2.director.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="162" class="org.eclipse.emf.cdo.server.internal.net4j.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="283" class="org.eclipse.equinox.internal.provisional.p2.directorywatcher.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="163" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="284" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="164" class="org.eclipse.emf.cdo.server.internal.product.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="285" class="org.eclipse.equinox.internal.p2.discovery.compatibility.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="165" class="org.eclipse.emf.cdo.server.internal.security.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="286" class="org.eclipse.equinox.internal.p2.engine.EngineActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="166" class="org.eclipse.emf.cdo.internal.team.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="287" class="org.eclipse.equinox.internal.p2.extensionlocation.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="167" class="org.eclipse.emf.cdo.internal.transfer.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="288" class="org.eclipse.equinox.internal.p2.garbagecollector.GCActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="168" class="org.eclipse.emf.cdo.transfer.internal.repository.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="289" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="169" class="org.eclipse.emf.cdo.transfer.internal.ui.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="60" class="org.apache.felix.gogo.command.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="61" class="org.apache.felix.gogo.runtime.activator.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="62" class="org.apache.felix.gogo.shell.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="63" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="64" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="65" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="66" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="67" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="68" localization="plugin" name="%bundle.name" provider="%provider.name"/>
+	<bundle bundleID="69" localization="plugin" name="%Bundle-Name" provider="%Bundle-Provider"/>
+	<bundle bundleID="290" class="org.eclipse.equinox.internal.p2.metadata.MetadataActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="170" class="org.eclipse.emf.cdo.transfer.internal.workspace.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="291" class="org.eclipse.equinox.internal.p2.metadata.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="171" class="org.eclipse.emf.cdo.transfer.internal.workspace.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="292" class="org.eclipse.equinox.internal.p2.operations.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="172" class="org.eclipse.emf.cdo.internal.ui.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="293" class="org.eclipse.equinox.internal.p2.publisher.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="173" class="org.eclipse.emf.cdo.ui.internal.admin.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="294" class="org.eclipse.pde.internal.publishing.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="174" class="org.eclipse.emf.cdo.ui.internal.compare.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="295" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="175" class="org.eclipse.emf.cdo.ui.internal.efs.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="296" class="org.eclipse.equinox.internal.p2.reconciler.dropins.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="176" class="org.eclipse.emf.cdo.ui.internal.ide.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="297" class="org.eclipse.equinox.internal.p2.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="177" class="org.eclipse.emf.cdo.ui.internal.location.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="298" class="org.eclipse.equinox.p2.internal.repository.tools.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="178" class="org.eclipse.emf.cdo.ui.internal.shared.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="299" class="org.eclipse.equinox.internal.p2.touchpoint.eclipse.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="179" class="org.eclipse.emf.cdo.ui.internal.team.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="70" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="71" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="72" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="73" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="74" class="org.eclipse.acceleo.common.AcceleoCommonPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="75" class="org.eclipse.acceleo.engine.AcceleoEnginePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="76" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="77" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="78" class="org.eclipse.amalgam.discovery.ModelingDiscoveryCoreActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="79" class="org.eclipse.amalgam.discovery.modeling.Activator" name="Amalgam Modeling Discovery UI" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="180" class="org.eclipse.emf.cdo.ui.internal.workspace.bundle.OM$Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="181" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="182" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="183" class="org.eclipse.emf.cheatsheets.CheatSheetsPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="184" class="org.eclipse.emf.codegen.CodeGenPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="185" class="org.eclipse.emf.codegen.ecore.CodeGenEcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="186" class="org.eclipse.emf.codegen.ecore.genmodel.provider.GenModelEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="187" class="org.eclipse.emf.codegen.presentation.CodeGenUIPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="188" class="org.eclipse.emf.common.CommonPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="189" class="org.eclipse.emf.common.ui.CommonUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="80" class="org.eclipse.amalgam.discovery.DiscoveryUIPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="81" class="org.eclipse.ant.core.AntCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="82" class="org.eclipse.ant.internal.launching.AntLaunching" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="83" class="org.eclipse.ant.internal.ui.AntUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="84" class="org.eclipse.compare.internal.CompareUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="85" class="org.eclipse.compare.internal.core.ComparePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="86" class="org.eclipse.compare.internal.win32.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="87" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="88" class="org.eclipse.core.internal.content.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="89" class="org.eclipse.core.internal.databinding.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="190" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="191" class="org.eclipse.emf.compare.provider.EMFCompareEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="192" class="org.eclipse.emf.compare.ide.EMFCompareIDEPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="193" class="org.eclipse.emf.compare.ide.ui.internal.EMFCompareIDEUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="194" class="org.eclipse.emf.compare.rcp.EMFCompareRCPPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="195" class="org.eclipse.emf.compare.rcp.ui.EMFCompareRCPUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="196" class="org.eclipse.emf.converter.ConverterPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="197" class="org.eclipse.emf.databinding.DataBindingPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="198" class="org.eclipse.emf.databinding.edit.DataBindingEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="199" class="org.eclipse.emf.ecore.plugin.EcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="90" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="91" class="org.eclipse.core.internal.databinding.observable.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="92" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="93" class="org.eclipse.core.internal.expressions.ExpressionPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="94" class="org.eclipse.core.externaltools.internal.ExternalToolsCore" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="95" class="org.eclipse.core.internal.filebuffers.FileBuffersPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="96" class="org.eclipse.core.internal.filesystem.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="97" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="98" class="org.eclipse.core.internal.jobs.JobActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="99" class="org.eclipse.core.internal.net.Activator" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+</map>

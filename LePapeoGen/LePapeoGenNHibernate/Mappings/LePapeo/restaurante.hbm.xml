@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="LePapeoGenNHibernate"
+		                   namespace="LePapeoGenNHibernate.EN.LePapeo">
+		    
+		    
+			
+				
+<joined-subclass name="RestauranteEN" extends="LePapeoGenNHibernate.EN.LePapeo.UsuarioEN" table="Restaurante"> 
+	<key>
+    	
+				<column name="idUsuario"/>
+		
+    	
+   	</key>
+
+			
+					
+					<property name="Nombre" type="string"> 
+						<column name="nombre"  not-null="true"/>
+					</property>
+					<property name="Fecha_apertura" type="date"> 
+						<column name="fecha_apertura"  not-null="true"/>
+					</property>
+					<property name="Max_comen" type="integer"> 
+						<column name="max_comen"  not-null="true"/>
+					</property>
+					<property name="Current_comen" type="integer"> 
+						<column name="current_comen"  not-null="true"/>
+					</property>
+					<property name="Precio_medio" type="float"> 
+						<column name="precio_medio"  not-null="true"/>
+					</property>
+					<property name="Descripcion" type="string"> 
+						<column name="descripcion"  not-null="true"/>
+					</property>
+					<property name="Menu" type="string"> 
+						<column name="menu"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+						<bag name="Reserva_0" >
+							<key>
+							
+								
+								<column name="FK_idUsuario_idRestaurante"/>
+					      	</key>
+							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.ReservaEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Opinion_0" >
+							<key>
+							
+								
+								<column name="FK_idUsuario_idRestaurante"/>
+					      	</key>
+							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.OpinionEN"/>
+					    </bag>
+					
+			
+		  			
+						<many-to-one name="HorarioSemana" class="LePapeoGenNHibernate.EN.LePapeo.HorarioSemanaEN" >	
+								<column name="FK_idHorarioSemana_idHorarioSemana"/> 
+						</many-to-one>
+											 					
+			
+		  			
+					
+							<many-to-one name="Direccion" class="LePapeoGenNHibernate.EN.LePapeo.DireccionEN" >
+								<column name="FK_idDireccion_idDireccion"/> 
+        					</many-to-one>
+					 
+						
+			
+		  			
+						<many-to-one name="TipoCocina" class="LePapeoGenNHibernate.EN.LePapeo.TipoCocinaEN" >	
+								<column name="FK_tipo_idTipoCocina"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+			
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="RestauranteENReadAllHQL">from RestauranteEN</query>
+		  <query name="RestauranteENbuscarRestauranteHQL"><![CDATA[FROM RestauranteEN]]></query>
+		  <query name="RestauranteENgetHorarioSemanaHQL"><![CDATA[select res.HorarioSemana FROM RestauranteEN as res where res.id = :p_restaurante]]></query>
+		  <query name="RestauranteENgetDireccionHQL"><![CDATA[select res.Direccion FROM RestauranteEN as res where res.id = :p_restaurante]]></query>
+		</hibernate-mapping>
+	

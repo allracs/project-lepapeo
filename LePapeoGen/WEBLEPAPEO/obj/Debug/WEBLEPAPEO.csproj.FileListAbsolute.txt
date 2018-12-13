@@ -1,0 +1,585 @@
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\ApplicationInsights.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\hibernate.cfg.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.rsp
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.rsp
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.AppContext.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Console.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Compression.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Claims.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.ValueTuple.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.rsp
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Antlr3.Runtime.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.ApplicationInsights.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WebGrease.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\jose-jwt.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Iesi.Collections.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\log4net.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll.config
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Helpers.resources.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Mvc.resources.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Optimization.resources.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Razor.resources.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.resources.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CopyComplete
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Castle.DynamicProxy2.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LinFu.DynamicProxy.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.ByteCode.LinFu.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\nunit.core.dll
+C:\Users\EPS\Desktop\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\nunit.framework.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\ApplicationInsights.config
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\hibernate.cfg.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll.config
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.pdb
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe.config
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.rsp
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe.config
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.rsp
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.AppContext.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Collections.Immutable.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Console.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Compression.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Reflection.Metadata.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.AccessControl.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Claims.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.ValueTuple.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe.config
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.rsp
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe.config
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Antlr3.Runtime.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Castle.DynamicProxy2.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Iesi.Collections.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\jose-jwt.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LinFu.DynamicProxy.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\log4net.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.ApplicationInsights.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.Web.Infrastructure.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.ByteCode.Castle.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.ByteCode.LinFu.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\nunit.core.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\nunit.framework.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WebGrease.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.pdb
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll.config
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Helpers.resources.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Mvc.resources.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Optimization.resources.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Razor.resources.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.resources.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CopyComplete
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+D:\Carrera\3 Curso\DSM\OficialPractica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\ApplicationInsights.config
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\hibernate.cfg.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll.config
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.pdb
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe.config
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.rsp
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe.config
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.rsp
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Managed.Core.targets
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.AppContext.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Collections.Immutable.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Console.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Compression.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Reflection.Metadata.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.AccessControl.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Claims.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.ValueTuple.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe.config
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.rsp
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe.config
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Antlr3.Runtime.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Castle.DynamicProxy2.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Iesi.Collections.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\jose-jwt.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LinFu.DynamicProxy.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\log4net.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.ApplicationInsights.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.Web.Infrastructure.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.ByteCode.Castle.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.ByteCode.LinFu.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\NHibernate.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\nunit.core.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\nunit.framework.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WebGrease.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.pdb
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll.config
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Helpers.resources.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Mvc.resources.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Optimization.resources.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Razor.resources.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.resources.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CopyComplete
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+C:\OOH4RIA\workspace\p1\project-lepapeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+F:\Escritorio\multimedia\TERCERO\DSM\proyecto-le-papeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+F:\Escritorio\multimedia\TERCERO\DSM\proyecto-le-papeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+F:\Escritorio\multimedia\TERCERO\DSM\proyecto-le-papeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+F:\Escritorio\multimedia\TERCERO\DSM\proyecto-le-papeo\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\ApplicationInsights.config
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\hibernate.cfg.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll.config
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.pdb
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe.config
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.rsp
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe.config
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.rsp
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Managed.Core.targets
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.AppContext.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Collections.Immutable.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Console.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Compression.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Reflection.Metadata.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.AccessControl.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Claims.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Principal.Windows.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.ValueTuple.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe.config
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.rsp
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe.config
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.pdb
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll.config
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Helpers.resources.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Mvc.resources.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Optimization.resources.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Razor.resources.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.resources.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Deployment.resources.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Razor.resources.dll
+H:\Documentos\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CopyComplete
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\ApplicationInsights.config
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\hibernate.cfg.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll.config
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.pdb
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe.config
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.rsp
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe.config
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.rsp
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.AppContext.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Collections.Immutable.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Console.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Compression.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Reflection.Metadata.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.AccessControl.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Claims.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.ValueTuple.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe.config
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.rsp
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe.config
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.pdb
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll.config
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Helpers.resources.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Mvc.resources.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Optimization.resources.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Razor.resources.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.resources.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CopyComplete
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+D:\Carlos\Escritorio\lepapeotmp2\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+D:\Users\David\Dropbox\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+D:\Users\David\Dropbox\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+D:\Users\David\Dropbox\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+D:\Users\David\Dropbox\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\ApplicationInsights.config
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\hibernate.cfg.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll.config
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.pdb
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.exe.config
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csc.rsp
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.exe.config
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\csi.rsp
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.AppContext.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Collections.Immutable.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Console.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Compression.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.IO.Pipes.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Reflection.Metadata.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.AccessControl.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Claims.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.ValueTuple.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.exe.config
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\vbc.rsp
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\roslyn\VBCSCompiler.exe.config
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.pdb
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\LePapeoGenNHibernate.dll.config
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Helpers.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Mvc.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Optimization.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.Razor.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Deployment.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Web.WebPages.Razor.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Newtonsoft.Json.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.DependencyCollector.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.WindowsServer.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.AI.Web.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Helpers.resources.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Mvc.resources.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Optimization.resources.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.Razor.resources.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.resources.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Carrera\3 Curso\DSM\PracticaV1\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CopyComplete
