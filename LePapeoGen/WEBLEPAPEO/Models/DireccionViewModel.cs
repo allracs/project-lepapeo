@@ -13,7 +13,11 @@ namespace LePapeo.Models
 
         [Display(Prompt = "Ciudad", Description = "Ciudad", Name = "Ciudad")]
         [Required(ErrorMessage = "Debe indicar una ciudad")]
-        public LePapeoGenNHibernate.EN.LePapeo.CiudadEN ciudad { get; set; }
+        public String ciudad { get; set; }
+
+        [Display(Prompt = "Provincia", Description = "Provincia", Name = "Provincia")]
+        [Required(ErrorMessage = "Debe indicar una provincia")]
+        public String provincia { get; set; }
 
         [Display(Prompt = "Código postal", Description = "Código postal", Name = "Cod_postal")]
         [Required(ErrorMessage = "Debe indicar un código postal válido")]

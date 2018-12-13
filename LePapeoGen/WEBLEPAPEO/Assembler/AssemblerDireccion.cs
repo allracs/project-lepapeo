@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using LePapeo.Models;
+using LePapeoGenNHibernate.CAD.LePapeo;
+using LePapeoGenNHibernate.CEN.LePapeo;
 using LePapeoGenNHibernate.EN.LePapeo;
 
 
@@ -15,8 +17,10 @@ namespace LePapeo.Models
         {
             DireccionViewModel dir = new DireccionViewModel();
             dir.id = dirEN.Id;
-            dir.ciudad = dirEN.Ciudad;
+            dir.ciudad = "ciudad_test_str";
+            dir.provincia = "provincia_test_str";
             dir.calle = dirEN.Calle;
+            dir.cod_pos = dirEN.Cod_pos;
             dir.numero_puerta = dirEN.Numero;
             dir.pos_x = dirEN.Pos_x;
             dir.pos_y = dirEN.Pos_y;

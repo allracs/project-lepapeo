@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LePapeoGenNHibernate.EN.LePapeo.DireccionEN>
+﻿@model IEnumerable<LePapeo.Models.DireccionViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -13,19 +13,25 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Cod_pos)
+            @Html.DisplayNameFor(model => model.ciudad)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Calle)
+            @Html.DisplayNameFor(model => model.provincia)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Numero)
+            @Html.DisplayNameFor(model => model.cod_pos)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Pos_x)
+            @Html.DisplayNameFor(model => model.calle)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Pos_y)
+            @Html.DisplayNameFor(model => model.numero_puerta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pos_x)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pos_y)
         </th>
         <th></th>
     </tr>
@@ -33,24 +39,30 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Cod_pos)
+            @Html.DisplayFor(modelItem => item.ciudad)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Calle)
+            @Html.DisplayFor(modelItem => item.provincia)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Numero)
+            @Html.DisplayFor(modelItem => item.cod_pos)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Pos_x)
+            @Html.DisplayFor(modelItem => item.calle)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Pos_y)
+            @Html.DisplayFor(modelItem => item.numero_puerta)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.DisplayFor(modelItem => item.pos_x)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pos_y)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id })
         </td>
     </tr>
 }

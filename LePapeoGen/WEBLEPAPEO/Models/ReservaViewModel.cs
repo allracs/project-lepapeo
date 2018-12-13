@@ -11,13 +11,21 @@ namespace LePapeo.Models
         [ScaffoldColumn(false)]
         public int id { get; set; }
 
+        [Display(Prompt = "id usuario", Description = "id usuario", Name = "Id_usuario")]
+        [Required(ErrorMessage = "Debe indicar un número de id usuario")]
+        public int idusuario { get; set; }
+
+        [Display(Prompt = "id restaurante", Description = "id restaurante", Name = "Id_restaurante")]
+        [Required(ErrorMessage = "Debe indicar un número de id restaurante")]
+        public int idrestaurante { get; set; }
+
         [Display(Prompt = "Número de comensales", Description = "Número de comensales", Name = "Comensales")]
         [Required(ErrorMessage = "Debe indicar un número de comensales")]
         public int comensales { get; set; }
 
         [Display(Prompt = "Estado de la reserva", Description = "Estado de la reserva (pendiente, aceptado, denegado)", Name = "Estado")]
         [Required(ErrorMessage = "No debería de dar error, como default se pone estado pendiente")]
-        public IList<int> estado { get; set; }
+        public LePapeoGenNHibernate.Enumerated.LePapeo.EstadoReservaEnum estado { get; set; }
 
         [Display(Prompt = "Reserva finalizada o no", Description = "En forma booleana muestra si la fecha de la reserva es anterior o posterior a fecha actual", Name = "Finalizada")]
         [Required(ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
