@@ -503,6 +503,7 @@ H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csp
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+<<<<<<< HEAD
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\ApplicationInsights.config
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\hibernate.cfg.xml
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\WEBLEPAPEO.dll.config
@@ -579,3 +580,9 @@ H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPag
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Deployment.resources.dll
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\bin\es\System.Web.WebPages.Razor.resources.dll
 H:\Documentos\dsm\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CopyComplete
+=======
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csprojAssemblyReference.cache
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.csproj.CoreCompileInputs.cache
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.dll
+D:\Users\David\Dropbox\Universidad\DSM\Practica\project-lepapeo\LePapeoGen\WEBLEPAPEO\obj\Debug\WEBLEPAPEO.pdb
+>>>>>>> 3748f1b1fa2549432e1df002be1292523ec957d7

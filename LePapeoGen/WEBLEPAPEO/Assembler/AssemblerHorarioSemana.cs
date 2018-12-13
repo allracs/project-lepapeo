@@ -15,8 +15,8 @@ namespace LePapeo.Models
         {
             HorarioSemanaViewModel sem = new HorarioSemanaViewModel();
             sem.id = semEN.Id;
-            sem.Restaurante = semEN.Restaurante;
-            sem.Horario_dia = sem.Horario_dia;
+            //sem.Restaurante = semEN.Restaurante;
+            //sem.Horario_dia = sem.Horario_dia;
 
             return sem;
         }
