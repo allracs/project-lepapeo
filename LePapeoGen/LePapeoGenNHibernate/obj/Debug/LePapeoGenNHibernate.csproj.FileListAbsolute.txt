@@ -270,3 +270,22 @@ D:\Users\David\Downloads\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Deb
 D:\Users\David\Downloads\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 D:\Users\David\Downloads\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 D:\Users\David\Downloads\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+D:\Carrera\3 Curso\DSM\LePapeoV2\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
