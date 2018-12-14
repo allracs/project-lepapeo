@@ -1,0 +1,127 @@
+using LePapeo.Models;
+using LePapeoGenNHibernate.CAD.LePapeo;
+using LePapeoGenNHibernate.CEN.LePapeo;
+using LePapeoGenNHibernate.EN.LePapeo;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace WEBLEPAPEO.Controllers
+{
+    public class NotificacionGenericaController : BasicController
+    {
+        // GET: Registrado
+        public ActionResult Index()
+        {
+            NotificacionGenericaCEN NotificacionGenericaCEN = new NotificacionGenericaCEN();
+            IList<NotificacionGenericaEN> listNotigeEN = NotificacionGenericaCEN.ReadAll(0, -1);
+            IEnumerable<NotificacionGenericaViewModel> listreg = new AssemblerNotificacionGenerica().ConvertListENToModel(listNotigeEN);
+
+            return View(listreg);
+        }
+
+        // GET: Registrado/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        // GET: Registrado/Create
+        public ActionResult Create()
+        {
+            NotificacionGenericaViewModel notige = new NotificacionGenericaViewModel();
+            return View(notige);
+        }
+
+        // POST: Registrado/Create
+        [HttpPost]
+        public ActionResult Create(NotificacionGenericaViewModel notige)
+        {
+            try
+            {
+                // TODO: Add insert logic here
+
+                NotificacionGenericaCEN cen = new NotificacionGenericaCEN();
+                cen.New_(notige.tipo, notige.texto, notige.nombre);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: Registrado/Edit/5
+        public ActionResult Edit(int id)
+        {
+            NotificacionGenericaViewModel notige = null;
+            SessionInitialize();
+            NotificacionGenericaEN notiEN = new NotificacionGenericaCAD(session).ReadOIDDefault(id);
+            notige = new AssemblerNotificacionGenerica().ConvertENToModelUI(notiEN);
+            SessionClose();
+
+            return View(notige);
+        }
+
+        // POST: Registrado/Edit/5
+        [HttpPost]
+        public ActionResult Edit(NotificacionGenericaViewModel notige)
+        {
+            try
+            {
+                // TODO: Add update logic here
+                NotificacionGenericaCEN cen = new NotificacionGenericaCEN();
+                cen.Modify(notige.id, notige.tipo, notige.texto, notige.nombre);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: Registrado/Delete/5
+        public ActionResult Delete(int id)
+        {
+            try
+            {
+                SessionInitialize();
+                NotificacionGenericaCAD notigeCAD = new NotificacionGenericaCAD(session);
+                NotificacionGenericaCEN cen = new NotificacionGenericaCEN(notigeCAD);
+                NotificacionGenericaEN notigeEN = cen.ReadOID(id);
+                NotificacionGenericaViewModel notige = new AssemblerNotificacionGenerica().ConvertENToModelUI(notigeEN);
+
+                SessionClose();
+
+               
+                return View(notige);
+            }
+            catch
+            {
+                //Meter aqui el mensaje de error
+                return View();
+            }
+        }
+
+        // POST: Registrado/Delete/5
+        [HttpPost]
+        public ActionResult Delete(NotificacionGenericaViewModel notige)
+        {
+            try
+            {
+                // TODO: Add delete logic here
+                new NotificacionGenericaCEN().Destroy(notige.id);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+    }
+}

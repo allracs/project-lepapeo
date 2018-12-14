@@ -1,0 +1,2 @@
+A:\Usuarios\Diego\Escritorio\LEpapeolast\project-lepapeo-master\LePapeoGen\WEBLoginLePAPEO\obj\Debug\WEBLoginLePAPEO.csprojAssemblyReference.cache
+A:\Usuarios\Diego\Escritorio\LEpapeolast\project-lepapeo-master\LePapeoGen\WEBLoginLePAPEO\obj\Debug\WEBLoginLePAPEO.csproj.CoreCompileInputs.cache

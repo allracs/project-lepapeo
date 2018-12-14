@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="LePapeoGenNHibernate"
+		                   namespace="LePapeoGenNHibernate.EN.LePapeo">
+		    
+		    
+			
+				<class name="OpinionEN" table="Opinion"> 
+				  	
+						<id name="Id" column="idOpinion" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Valoracion" > 
+						<column name="valoracion"  not-null="true"/>
+					</property>
+					<property name="Titulo" type="string"> 
+						<column name="titulo"  not-null="true"/>
+					</property>
+					<property name="Comentario" type="string"> 
+						<column name="comentario"  not-null="true"/>
+					</property>
+					<property name="Fecha" type="timestamp"> 
+						<column name="fecha"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+		  			
+						<many-to-one name="Registrado" class="LePapeoGenNHibernate.EN.LePapeo.RegistradoEN" >	
+								<column name="FK_idUsuario_idRegistrado"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Restaurante" class="LePapeoGenNHibernate.EN.LePapeo.RestauranteEN" >	
+								<column name="FK_idUsuario_idRestaurante"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="Notificacion" >
+							<key>
+							
+								
+								<column name="FK_idOpinion_idOpinion"/>
+					      	</key>
+							<one-to-many class="LePapeoGenNHibernate.EN.LePapeo.NotificacionEN"/>
+					    </bag>
+					
+			
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="OpinionENReadAllHQL">from OpinionEN</query>
+		  <query name="OpinionENgetOpinionsFromRegistradoHQL"><![CDATA[FROM OpinionEN as opi where opi.Registrado = :p_registrado]]></query>
+		  <query name="OpinionENgetOpinionsFromRestauranteHQL"><![CDATA[FROM OpinionEN as opi where opi.Restaurante = :p_restaurante]]></query>
+		  <query name="OpinionENgetOpinionsFromRegistradoByValoracionHQL"><![CDATA[FROM OpinionEN as opi where opi.Registrado = :p_registrado and opi.Valoracion = :p_valoracion ]]></query>
+		  <query name="OpinionENgetOpinionsFromRestauranteByValoracionHQL"><![CDATA[FROM OpinionEN as opi where opi.Restaurante = :p_restaurante and opi.Valoracion = :p_valoracion ]]></query>
+		  <query name="OpinionENgetOpinionsFromRegistradoYRestauranteHQL"><![CDATA[from OpinionEN as opi where opi.Restaurante = :p_restaurante and opi.Registrado = :p_registrado]]></query>
+		  <query name="OpinionENgetOpinionsFromRegistradoYRestauranteByValoracionHQL"><![CDATA[FROM OpinionEN as opi where opi.Restaurante = :p_restaurante and opi.Valoracion = :p_valoracion and opi.Registrado = :p_registrado]]></query>
+		</hibernate-mapping>
+	

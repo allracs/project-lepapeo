@@ -1,0 +1,67 @@
+@model LePapeo.Models.HorarioDiaViewModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HorarioDiaViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_ini_am)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_ini_am)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_fin_am)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_fin_am)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_ini_pm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_ini_pm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_fin_pm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_fin_pm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HorarioSemana)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HorarioSemana)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

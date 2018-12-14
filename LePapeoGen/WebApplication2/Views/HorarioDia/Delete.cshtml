@@ -1,0 +1,73 @@
+@model LePapeo.Models.HorarioDiaViewModel
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>HorarioDiaViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_ini_am)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_ini_am)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_fin_am)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_fin_am)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_ini_pm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_ini_pm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hora_fin_pm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hora_fin_pm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HorarioSemana)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HorarioSemana)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
