@@ -399,6 +399,9 @@
     <Content Include="Views\Reserva\Edit.cshtml" />
     <Content Include="Views\Reserva\Index.cshtml" />
     <Content Include="Views\Usuario\Details.cshtml" />
+    <Content Include="Views\Direccion\Details.cshtml" />
+    <Content Include="Views\Ciudad\Details.cshtml" />
+    <Content Include="Views\Reserva\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
