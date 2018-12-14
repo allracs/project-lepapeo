@@ -1756,7 +1756,8 @@ a {
 }
 
 .w3-index-img {
-    height:250px;
+    width: 250px;
+    height: auto;
 }
 
 .w3-title{
