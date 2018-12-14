@@ -8,7 +8,6 @@ namespace LePapeo.Models
 {
     public class ReservaViewModel
     {
-        [ScaffoldColumn(false)]
         public int id { get; set; }
 
         [Display(Prompt = "id usuario", Description = "id usuario", Name = "Id_usuario")]

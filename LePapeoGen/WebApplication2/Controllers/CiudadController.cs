@@ -22,9 +22,12 @@ namespace WEBLEPAPEO.Controllers
         }
 
         // GET: Ciudad/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(String id)
         {
-            return View();
+            CiudadCEN ciucen = new CiudadCEN();
+            CiudadEN ciuen = ciucen.ReadOID(id);
+            CiudadViewModel ciuview = new AssemblerCiudad().ConvertENToModelUI(ciuen);
+            return View(ciuview);
         }
 
         // GET: Ciudad/Create
@@ -42,7 +45,7 @@ namespace WEBLEPAPEO.Controllers
             {
                 // TODO: Add insert logic here
                 CiudadCEN ciucen = new CiudadCEN();
-                ciucen.New_(view.nombre, view.provincia);
+                ciucen.New_(view.id, view.provincia);
 
                 return RedirectToAction("Index");
             }
@@ -53,10 +56,10 @@ namespace WEBLEPAPEO.Controllers
         }
 
         // GET: Ciudad/Edit/5
-        public ActionResult Edit(String nombre)
+        public ActionResult Edit(String id)
         {
             SessionInitialize();
-            CiudadEN ciuen = new CiudadCAD(session).ReadOID(nombre);
+            CiudadEN ciuen = new CiudadCAD(session).ReadOID(id);
             CiudadViewModel ciuview = new AssemblerCiudad().ConvertENToModelUI(ciuen);
             SessionClose();
             return View(ciuview);
@@ -70,7 +73,7 @@ namespace WEBLEPAPEO.Controllers
             {
                 // TODO: Add update logic here
                 CiudadCEN ciucen = new CiudadCEN();
-                ciucen.Modify(view.nombre, view.provincia);
+                ciucen.Modify(view.id, view.provincia);
                 return RedirectToAction("Index");
             }
             catch
@@ -80,12 +83,12 @@ namespace WEBLEPAPEO.Controllers
         }
 
         // GET: Ciudad/Delete/5
-        public ActionResult Delete(String nombre)
+        public ActionResult Delete(String id)
         {
             SessionInitialize();
             CiudadCAD ciucad = new CiudadCAD(session);
             CiudadCEN ciucen = new CiudadCEN(ciucad);
-            CiudadEN ciuen = ciucen.ReadOID(nombre);
+            CiudadEN ciuen = ciucen.ReadOID(id);
             CiudadViewModel ciuview = new AssemblerCiudad().ConvertENToModelUI(ciuen);
             SessionClose();
             return View(ciuview);
@@ -98,7 +101,7 @@ namespace WEBLEPAPEO.Controllers
             try
             {
                 // TODO: Add delete logic here
-                new CiudadCEN().Destroy(view.nombre);
+                new CiudadCEN().Destroy(view.id);
 
                 return RedirectToAction("Index");
             }

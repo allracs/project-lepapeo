@@ -8,12 +8,9 @@ namespace LePapeo.Models
 {
     public class CiudadViewModel
     {
-        [ScaffoldColumn(false)]
-        public int id { get; set; }
-
         [Display(Prompt = "Ciudad", Description = "Ciudad", Name = "Nombre")]
         [Required(ErrorMessage = "Debe indicar una ciudad")]
-        public String nombre { get; set; }
+        public String id { get; set; }
 
         [Display(Prompt = "Provincia", Description = "Provincia", Name = "Provincia")]
         [Required(ErrorMessage = "Debe indicar una provincia")]
@@ -21,7 +18,7 @@ namespace LePapeo.Models
 
         [Display(Prompt = "Ciudad", Description = "Ciudad", Name = "Nombre")]
         [Required(ErrorMessage = "Debe indicar una ciudad")]
-        public IList<LePapeoGenNHibernate.EN.LePapeo.DireccionEN> direcciones { get; set; }
+        public List<int> direcciones { get; set; }
 
     }
 }

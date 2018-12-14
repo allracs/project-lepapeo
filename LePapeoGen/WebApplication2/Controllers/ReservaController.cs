@@ -24,7 +24,10 @@ namespace WEBLEPAPEO.Controllers
         // GET: Reserva/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            ReservaCEN rescen = new ReservaCEN();
+            ReservaEN resen = rescen.ReadOID(id);
+            ReservaViewModel vi = new AssemblerReserva().ConvertENToModelUI(resen);
+            return View(vi);
         }
 
         // GET: Reserva/Create
@@ -87,7 +90,7 @@ namespace WEBLEPAPEO.Controllers
             ReservaEN resen = rescen.ReadOID(id);
             ReservaViewModel resview = new AssemblerReserva().ConvertENToModelUI(resen);
             SessionClose();
-            return View(resen);
+            return View(resview);
         }
 
         // POST: Reserva/Delete/5

@@ -8,7 +8,8 @@ namespace LePapeo.Models
 {
     public class DireccionViewModel
     {
-        [ScaffoldColumn(false)]
+        [Display(Prompt = "id", Description = "id", Name = "Id")]
+        [Required(ErrorMessage = "Debe indicar un id")]
         public int id { get; set; }
 
         [Display(Prompt = "Ciudad", Description = "Ciudad", Name = "Ciudad")]

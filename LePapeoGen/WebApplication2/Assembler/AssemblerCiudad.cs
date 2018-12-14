@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using LePapeo.Models;
+using LePapeoGenNHibernate.CAD.LePapeo;
+using LePapeoGenNHibernate.CEN.LePapeo;
 using LePapeoGenNHibernate.EN.LePapeo;
 
 
@@ -14,8 +16,8 @@ namespace LePapeo.Models
         public CiudadViewModel ConvertENToModelUI(CiudadEN ciuEN)
         {
             CiudadViewModel ciu = new CiudadViewModel();
-            ciu.direcciones = ciuEN.Direccion;
-            ciu.nombre = ciuEN.Nombre;
+            ciu.direcciones = new List<int>();
+            ciu.id = ciuEN.Nombre;
             ciu.provincia = ciuEN.Provincia;
             
             return ciu;
