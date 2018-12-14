@@ -1,8 +1,24 @@
 ﻿@model WEBLEPAPEO.Models.RestauranteViewModel
+@using LePapeoGenNHibernate.EN.LePapeo;
 
 @{
     ViewBag.Title = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    List<TipoCocinaEN> listaTipoCocina = (List<TipoCocinaEN>)ViewData["listaTipoCocina"];
+
+    List<SelectListItem> listItems = new List<SelectListItem>();
+    foreach (TipoCocinaEN e in listaTipoCocina)
+    {
+        {
+            String txt = e.Tipo;
+            listItems.Add(new SelectListItem
+            {
+                Text = txt,
+                Value = e.Tipo
+            });
+        }
+    }
 }
 
 <h2>Edit</h2>
@@ -11,7 +27,7 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>RestauranteViewModel</h4>
         <hr />
@@ -91,8 +107,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Tipo, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Tipo, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Tipo, "", new { @class = "text-danger" })
+                @Html.DropDownList("Tipo", listItems, "Selecciona Tipo", new { @class = "form-control" })
             </div>
         </div>
 

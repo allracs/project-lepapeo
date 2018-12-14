@@ -13,6 +13,9 @@
     <table class="table">
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
@@ -23,19 +26,22 @@
 
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FechaInscripcion)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "w3-text-crimson" }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "w3-text-crimson" }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "w3-text-crimson" })
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaInscripcion)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "w3-text-crimson" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "w3-text-crimson" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "w3-text-crimson" })
+            </td>
+        </tr>
         }
 
     </table>

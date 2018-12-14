@@ -67,6 +67,11 @@ namespace WEBLEPAPEO.Controllers
         {
             RestauranteViewModel res = null;
             SessionInitialize();
+
+            TipoCocinaCEN tipoCocinaCEN = new TipoCocinaCEN();
+            IList<TipoCocinaEN> listaTipoCocina = tipoCocinaCEN.ReadAll(0, -1);
+            ViewData["listaTipoCocina"] = listaTipoCocina;
+
             RestauranteEN resEN = new RestauranteCAD(session).ReadOIDDefault(id);
             res = new AssemblerRestaurante().ConvertENToModelUI(resEN);
             SessionClose();
