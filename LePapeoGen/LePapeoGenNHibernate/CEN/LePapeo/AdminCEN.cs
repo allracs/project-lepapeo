@@ -66,7 +66,7 @@ public void Modify (int p_Admin_OID, string p_email, String p_pass, Nullable<Dat
         adminEN = new AdminEN ();
         adminEN.Id = p_Admin_OID;
         adminEN.Email = p_email;
-        adminEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        adminEN.Pass = p_pass; //Utils.Util.GetEncondeMD5 (p_pass);
         adminEN.Fecha_inscripcion = p_fecha_inscripcion;
         //Call to AdminCAD
 

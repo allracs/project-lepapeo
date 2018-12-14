@@ -104,10 +104,12 @@ namespace WEBLEPAPEO.Controllers
                 return RedirectToAction("Index");
                 */
 
+                AdminCEN pre = new AdminCEN();
+                AdminEN preEN = pre.ReadOID(admin.id);
 
                 // TODO: Add update logic here
                 AdminCEN cen = new AdminCEN();
-                cen.Modify(admin.id, admin.Email, admin.Password, admin.FechaInscripcion);
+                cen.Modify(admin.id, admin.Email, preEN.Pass, admin.FechaInscripcion);
 
                 return RedirectToAction("Index");
 
@@ -136,21 +138,28 @@ namespace WEBLEPAPEO.Controllers
 
             try
             {
-                // TODO: Add delete logic here
-                //int idCategoria = -1;
-                SessionInitialize();
+                /*SessionInitialize();
                 AdminCAD adminCAD = new AdminCAD(session);
                 AdminCEN adminCEN = new AdminCEN(adminCAD);
                 AdminEN adminEN = adminCEN.ReadOID(id);
                 AdminViewModel art = new AssemblerAdmin().ConvertENToModelUI(adminEN);
-                //idCategoria = art.IdCategoria;
                 SessionClose();
 
                 new AdminCEN().Destroy(id);
 
 
-                //return RedirectToAction("PorCategoria", new { id = idCategoria });
-                return RedirectToAction("Index");
+                return RedirectToAction("Index");*/
+
+                SessionInitialize();
+                AdminCAD adminCAD = new AdminCAD(session);
+                AdminCEN adminCEN = new AdminCEN(adminCAD);
+                AdminEN adminEN = adminCEN.ReadOID(id);
+                AdminViewModel adminVM = new AssemblerAdmin().ConvertENToModelUI(adminEN);
+
+                SessionClose();
+
+                return View(adminVM);
+
             }
             catch
             {

@@ -27,6 +27,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Restaurante)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Valoracion)
+        </th>
         <th></th>
     </tr>
 
@@ -48,9 +51,12 @@
             @Html.DisplayFor(modelItem => item.Restaurante)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+            @Html.DisplayFor(modelItem => item.Valoracion)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id })
         </td>
     </tr>
 }
