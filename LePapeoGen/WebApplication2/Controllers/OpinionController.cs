@@ -38,6 +38,15 @@ namespace WEBLEPAPEO.Controllers
         {
             OpinionViewModel opi = new OpinionViewModel();
 
+            RestauranteCEN restauranteCEN = new RestauranteCEN();
+            IList<RestauranteEN> listaRestaurante = restauranteCEN.ReadAll(0, -1);
+            ViewData["listaRestaurante"] = listaRestaurante;
+
+            RegistradoCEN registradoCEN = new RegistradoCEN();
+            IList<RegistradoEN> listaRegistrado = registradoCEN.ReadAll(0, -1);
+            ViewData["listaRegistrado"] = listaRegistrado;
+
+
             return View(opi);
         }
 
