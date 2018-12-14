@@ -104,10 +104,12 @@ namespace WEBLEPAPEO.Controllers
                 return RedirectToAction("Index");
                 */
 
+                AdminCEN pre = new AdminCEN();
+                AdminEN preEN = pre.ReadOID(admin.id);
 
                 // TODO: Add update logic here
                 AdminCEN cen = new AdminCEN();
-                cen.Modify(admin.id, admin.Email, admin.Password, admin.FechaInscripcion);
+                cen.Modify(admin.id, admin.Email, preEN.Pass, admin.FechaInscripcion);
 
                 return RedirectToAction("Index");
 
