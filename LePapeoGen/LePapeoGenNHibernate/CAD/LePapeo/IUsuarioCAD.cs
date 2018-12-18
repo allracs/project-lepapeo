@@ -33,5 +33,8 @@ System.Collections.Generic.IList<UsuarioEN> ReadAll (int first, int size);
 
 
 System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> GetNotificaciones (int p_usuario);
+
+
+int DgetOIDfromEmail (string p_email);
 }
 }

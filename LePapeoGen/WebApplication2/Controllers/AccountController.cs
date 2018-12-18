@@ -81,7 +81,7 @@ namespace WebApplication2.Controllers
             {
                 case SignInStatus.Success:
                     UsuarioCEN usu = new UsuarioCEN();
-                    //usu.Login(, model.Password);
+                   var tipoUSU = usu.Login(usu.DgetOIDfromEmail(model.Email), model.Password);
 
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:

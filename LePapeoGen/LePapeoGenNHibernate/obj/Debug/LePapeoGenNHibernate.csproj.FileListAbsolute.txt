@@ -346,3 +346,41 @@ C:\OOH4RIA\workspace\p1\project-lepapeo\6\project-lepapeo\LePapeoGen\LePapeoGenN
 C:\OOH4RIA\workspace\p1\project-lepapeo\6\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 C:\OOH4RIA\workspace\p1\project-lepapeo\6\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 C:\OOH4RIA\workspace\p1\project-lepapeo\6\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\project-lepapeo-master\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb

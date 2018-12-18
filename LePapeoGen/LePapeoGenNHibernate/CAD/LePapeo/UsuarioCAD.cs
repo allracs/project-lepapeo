@@ -292,5 +292,37 @@ public System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.Notifica
 
         return result;
 }
+public int DgetOIDfromEmail (string p_email)
+{
+        int result;
+
+        try
+        {
+                SessionInitializeTransaction ();
+                //String sql = @"FROM UsuarioEN self where Select Usuario.Id from UsuarioEN as Usuario where Usuario.Email =:p_email";
+                //IQuery query = session.CreateQuery(sql);
+                IQuery query = (IQuery)session.GetNamedQuery ("UsuarioENdgetOIDfromEmailHQL");
+                query.SetParameter ("p_email", p_email);
+
+
+                result = query.UniqueResult<int>();
+                SessionCommit ();
+        }
+
+        catch (Exception ex) {
+                SessionRollBack ();
+                if (ex is LePapeoGenNHibernate.Exceptions.ModelException)
+                        throw ex;
+                throw new LePapeoGenNHibernate.Exceptions.DataLayerException ("Error in UsuarioCAD.", ex);
+        }
+
+
+        finally
+        {
+                SessionClose ();
+        }
+
+        return result;
+}
 }
 }

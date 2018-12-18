@@ -66,7 +66,7 @@ public void Modify (int p_Usuario_OID, string p_email, String p_pass, Nullable<D
         usuarioEN = new UsuarioEN ();
         usuarioEN.Id = p_Usuario_OID;
         usuarioEN.Email = p_email;
-        usuarioEN.Pass = Utils.Util.GetEncondeMD5 (p_pass); //Cambiar por: usuarioEN.Pass = p_pass;
+        usuarioEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
         usuarioEN.Fecha_inscripcion = p_fecha_inscripcion;
         //Call to UsuarioCAD
 
@@ -98,6 +98,10 @@ public System.Collections.Generic.IList<UsuarioEN> ReadAll (int first, int size)
 public System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.NotificacionEN> GetNotificaciones (int p_usuario)
 {
         return _IUsuarioCAD.GetNotificaciones (p_usuario);
+}
+public int DgetOIDfromEmail (string p_email)
+{
+        return _IUsuarioCAD.DgetOIDfromEmail (p_email);
 }
 
 

@@ -47,5 +47,6 @@
 		  
 		  <query name="UsuarioENReadAllHQL">from UsuarioEN</query>
 		  <query name="UsuarioENgetNotificacionesHQL"><![CDATA[select us.Notificacion FROM UsuarioEN as us where us.id = :p_usuario]]></query>
+		  <query name="UsuarioENdgetOIDfromEmailHQL"><![CDATA[Select Usuario.Id from UsuarioEN as Usuario where Usuario.Email =:p_email]]></query>
 		</hibernate-mapping>
 	
