@@ -83,6 +83,13 @@ namespace WebApplication2.Controllers
                     UsuarioCEN usu = new UsuarioCEN();
                    var tipoUSU = usu.Login(usu.DgetOIDfromEmail(model.Email), model.Password);
 
+                    if (tipoUSU.Equals("AdminEN"))
+                    {
+                      //  User.Identity. = "Admin";
+                        return RedirectToAction("Admin", "Home");
+                    }
+                    
+
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
                     return View("Lockout");
@@ -163,8 +170,13 @@ namespace WebApplication2.Controllers
 
                     try
                     {
+                        /*
                         RegistradoCEN registradoCEN = new RegistradoCEN();
                         registradoCEN.New_(model.Email, model.Password, DateTime.Now, model.Name, model.Surname, model.BirthDate);
+                        */
+
+                        AdminCEN registradoCEN = new AdminCEN();
+                        registradoCEN.New_(model.Email, model.Password, DateTime.Now);
                     }
                     catch
                     {
