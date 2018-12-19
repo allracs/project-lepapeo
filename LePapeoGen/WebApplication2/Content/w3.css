@@ -1739,6 +1739,8 @@ a {
     border-color: #e7ffff !important
 }
 
+/*Nuestras*/
+
 .w3-fontOpenSans {
     font-family: 'Open Sans', sans-serif;
 }
@@ -1766,4 +1768,21 @@ a {
 
 .w3-header{
     margin-bottom: 2em;
+}
+
+.w3-reg-hover {
+    color: #545454 !important;
+}
+
+.w3-reg-hover:hover {
+    color: crimson !important;
+    text-decoration: underline !important;
+}
+
+.w3-menu-hover {
+    color: crimson !important;
+}
+
+.w3-menu-hover:hover {
+    text-decoration: underline !important;
 }
