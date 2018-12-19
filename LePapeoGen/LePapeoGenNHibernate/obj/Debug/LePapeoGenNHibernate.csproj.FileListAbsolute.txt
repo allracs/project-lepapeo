@@ -398,8 +398,8 @@ A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNH
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
-A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache

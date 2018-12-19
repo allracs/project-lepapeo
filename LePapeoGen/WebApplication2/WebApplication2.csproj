@@ -402,6 +402,7 @@
     <Content Include="Views\Direccion\Details.cshtml" />
     <Content Include="Views\Ciudad\Details.cshtml" />
     <Content Include="Views\Reserva\Details.cshtml" />
+    <Content Include="Views\Home\Admin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
