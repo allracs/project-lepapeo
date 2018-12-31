@@ -1,8 +1,42 @@
 ﻿@model LePapeo.Models.ReservaViewModel
+@using LePapeoGenNHibernate.EN.LePapeo;
+@using LePapeoGenNHibernate.CEN.LePapeo;
 
 @{
     ViewBag.Title = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    RestauranteCEN restauranteCEN = new RestauranteCEN();
+    IList<RestauranteEN> listaRestaurante2 = restauranteCEN.ReadAll(0, -1);
+
+    List<SelectListItem> listItems = new List<SelectListItem>();
+    foreach (RestauranteEN e in listaRestaurante2)
+    {
+        {
+            String txt = e.Id.ToString();
+            listItems.Add(new SelectListItem
+            {
+                Text = txt,
+                Value = e.Id.ToString()
+            });
+        }
+    }
+
+    RegistradoCEN registradoCEN = new RegistradoCEN();
+    IList<RegistradoEN> listaRegistrado2 = registradoCEN.ReadAll(0, -1);
+
+    List<SelectListItem> listItems2 = new List<SelectListItem>();
+    foreach (RegistradoEN e in listaRegistrado2)
+    {
+        {
+            String txt2 = e.Id.ToString();
+            listItems2.Add(new SelectListItem
+            {
+                Text = txt2,
+                Value = e.Id.ToString()
+            });
+        }
+    }
 }
 
 <h2>Edit</h2>
@@ -11,24 +45,25 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>ReservaViewModel</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.idusuario, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.idusuario, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.idusuario, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.idrestaurante, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.idrestaurante, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.idrestaurante, "", new { @class = "text-danger" })
+                @Html.DropDownListFor(model => model.idrestaurante, listItems, "Selecciona Restaurante", htmlAttributes: new { @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.idrestaurante)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.idusuario, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.idusuario, listItems2, "Selecciona Registrado", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.idusuario)
             </div>
         </div>
 
@@ -53,17 +88,58 @@
         <div class="form-group">
             @Html.LabelFor(model => model.fecha_hora, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.fecha_hora, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.fecha_hora, new { htmlAttributes = new { @class = "form-control", id = "fecha_hora" } })
                 @Html.ValidationMessageFor(model => model.fecha_hora, "", new { @class = "text-danger" })
+                <label for="type_date">Fecha:</label>
+                <input type="date" id="type_date" class="form-control" onchange="setFechaHora()" />
+                <br />
+                <label for="select_hora_soli">Hora:</label>
+                <select id="select_hora_soli" class="form-control" onchange="setFechaHora()">
+                    <option value="00">0</option>
+                    <option value="01">1</option>
+                    <option value="02">2</option>
+                    <option value="03">3</option>
+                    <option value="04">4</option>
+                    <option value="05">5</option>
+                    <option value="06">6</option>
+                    <option value="07">7</option>
+                    <option value="08">8</option>
+                    <option value="09">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <label for="select_min_soli">Minutos:</label>
+                <select id="select_min_soli" class="form-control" onchange="setFechaHora()">
+                    <option value="00">00</option>
+                    <option value="30">30</option>
+                </select>
+                <script>
+                    function setFechaHora() {
+                        //var datetime = document.getElementById("fecha_hora").value;
+                        var date = document.getElementById("type_date").value;
+                        var time = document.getElementById("select_hora_soli").value + ":" + document.getElementById("select_min_soli").value;
+                        document.getElementById("fecha_hora").value = date + " " + time;
+                    }
+                </script>
+            </div>
+            <div class="col-md-10">
+                
             </div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group" >
             @Html.LabelFor(model => model.fecha_solicitud, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.fecha_solicitud, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.fecha_solicitud, new { htmlAttributes = new { @class = "form-control", id = "fecha_sol", onclick = "setFechaSolicitud()" } })
                 @Html.ValidationMessageFor(model => model.fecha_solicitud, "", new { @class = "text-danger" })
             </div>
+            <script>
+                function setFechaSolicitud() {
+                    var date = new Date().getUTCFullYear() + "-" + new Date().getUTCMonth() + "-" + new Date().getUTCDay() + " " + new Date().getUTCHours() + ":" + new Date().getUTCMinutes();
+                    document.getElementById("fecha_sol").value = date;
+                }
+            </script>
         </div>
 
         <div class="form-group">
