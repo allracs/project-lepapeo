@@ -17,6 +17,10 @@ namespace WEBLEPAPEO.Controllers
         {
             OpinionCEN opi = new OpinionCEN();
             IList<OpinionEN> listopiEN = opi.ReadAll(0, -1);
+            if(User.Identity.GetType().Name.Equals("Restaurante"))
+            {
+                //listopiEN = opi.GetOpinionsFromRestaurante();
+            }
             IEnumerable<OpinionViewModel> listopi = new AssemblerOpinion().ConvertListENToModel(listopiEN);
             return View(listopi);
         }
