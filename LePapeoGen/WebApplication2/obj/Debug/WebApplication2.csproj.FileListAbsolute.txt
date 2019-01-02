@@ -1593,7 +1593,6 @@ A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\WebAppl
 A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\WebApplication2\obj\Debug\WebApplication2.dll
 A:\Usuarios\Diego\Escritorio\MARTES LEPAPEO\CON METODO OJARIA\LePapeoGen\WebApplication2\obj\Debug\WebApplication2.pdb
-A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\Newtonsoft.Json.xml
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\ApplicationInsights.config
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\hibernate.cfg.xml
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\WebApplication2.dll.config
@@ -1701,6 +1700,7 @@ A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplicati
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\System.Web.WebPages.xml
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\System.Web.WebPages.Deployment.xml
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\System.Web.WebPages.Razor.xml
+A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\Newtonsoft.Json.xml
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\EntityFramework.xml
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\EntityFramework.SqlServer.xml
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\WebApplication2\bin\Microsoft.AspNet.Identity.Core.xml
