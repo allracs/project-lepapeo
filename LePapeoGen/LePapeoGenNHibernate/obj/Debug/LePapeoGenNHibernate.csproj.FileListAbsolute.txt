@@ -402,10 +402,13 @@ A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNH
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/master
 <<<<<<< refs/remotes/origin/master
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
 =======
+=======
+>>>>>>> ManejoUsuarios
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
@@ -425,6 +428,9 @@ F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGe
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+<<<<<<< HEAD
 >>>>>>> Selects a medias
 =======
 >>>>>>> Gestion admin en login
+=======
+>>>>>>> ManejoUsuarios
