@@ -398,8 +398,33 @@ A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNH
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
-A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+<<<<<<< refs/remotes/origin/master
+<<<<<<< refs/remotes/origin/master
+A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
+=======
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll.config
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LePapeoGenNHibernate.pdb
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\jose-jwt.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Newtonsoft.Json.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\NHibernate.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Iesi.Collections.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\log4net.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CoreCompileInputs.cache
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
+F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+>>>>>>> Selects a medias
+=======
+>>>>>>> Gestion admin en login

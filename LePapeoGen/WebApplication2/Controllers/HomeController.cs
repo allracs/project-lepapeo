@@ -10,6 +10,7 @@ namespace WebApplication2.Controllers
     {
         public ActionResult Index()
         {
+            if(User.Identity.Name == "diegoAdmin@mail.com") return RedirectToAction("Admin", "Home");
             return View();
         }
 
@@ -24,6 +25,11 @@ namespace WebApplication2.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Admin()
+        {
             return View();
         }
     }
