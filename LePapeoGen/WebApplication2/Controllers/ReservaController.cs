@@ -34,6 +34,15 @@ namespace WEBLEPAPEO.Controllers
         public ActionResult Create()
         {
             ReservaViewModel v = new ReservaViewModel();
+
+            RegistradoCEN registradoCEN = new RegistradoCEN();
+            IList<RegistradoEN> listaRegistrado2 = registradoCEN.ReadAll(0, -1);
+            ViewData["listaRegistrado2"] = listaRegistrado2;
+
+            RestauranteCEN restauranteCEN = new RestauranteCEN();
+            IList<RestauranteEN> listaRestaurante2 = restauranteCEN.ReadAll(0, -1);
+            ViewData["listaRestaurante2"] = listaRestaurante2;
+
             return View(v);
         }
 
