@@ -38,11 +38,6 @@ namespace WEBLEPAPEO.Controllers
         public ActionResult Create()
         {
             DireccionViewModel dir = new DireccionViewModel();
-
-            CiudadCEN ciudadCEN = new CiudadCEN();
-            IList<CiudadEN> listaCiudad = ciudadCEN.ReadAll(0, -1);
-            ViewData["listaCiudad"] = listaCiudad;
-
             return View(dir);
         }
 

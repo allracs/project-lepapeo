@@ -35,11 +35,6 @@ namespace WEBLEPAPEO.Controllers
         public ActionResult Create() 
         {
             HorarioDiaViewModel dia = new HorarioDiaViewModel();
-
-            HorarioSemanaCEN horarioSemanaCEN = new HorarioSemanaCEN();
-            IList<HorarioSemanaEN> listaHorarioSemana = horarioSemanaCEN.ReadAll(0, -1);
-            ViewData["listaHorarioSemana"] = listaHorarioSemana;
-
             return View(dia);
         }
 
