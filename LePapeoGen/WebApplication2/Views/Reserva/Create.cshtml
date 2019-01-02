@@ -136,10 +136,10 @@
                 @Html.ValidationMessageFor(model => model.fecha_solicitud, "", new { @class = "text-danger" })
             </div>
             <script>
-                function setFechaSolicitud() {
-                    var date = new Date().getUTCFullYear() + "-" + new Date().getUTCMonth() + "-" + new Date().getUTCDay() + " " + new Date().getUTCHours() + ":" + new Date().getUTCMinutes();
-                    document.getElementById("fecha_sol").value = date;
-                }
+                //function setFechaSolicitud() {
+                var date = new Date().getFullYear() + "-" + new Date().getMonth()+1 + "-" + new Date().getDate() + " " + new Date().getHours() + ":" + new Date().getMinutes();
+                document.getElementById("fecha_sol").value = date;
+                //}
             </script>
         </div>
 
