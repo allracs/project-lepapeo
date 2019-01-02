@@ -6,12 +6,11 @@
     @Html.AntiForgeryToken()
 
     <ul class="nav navbar-nav navbar-right">
-        <li>@if (ViewData["Rol"] == "Admin") {
-            Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" });
-        }
+        <li>@Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" });
+        
     </li>
 
-    <li><a href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a></li>
+    <li><a href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesi&oacuten</a></li>
 
 </ul>
     }

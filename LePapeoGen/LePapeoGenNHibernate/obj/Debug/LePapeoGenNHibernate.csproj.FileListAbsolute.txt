@@ -403,6 +403,7 @@ A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNH
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
 <<<<<<< refs/remotes/origin/master
+<<<<<<< refs/remotes/origin/master
 A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache
 =======
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\bin\Debug\hibernate.cfg.xml
@@ -425,3 +426,5 @@ F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGe
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
 >>>>>>> Selects a medias
+=======
+>>>>>>> Gestion admin en login
