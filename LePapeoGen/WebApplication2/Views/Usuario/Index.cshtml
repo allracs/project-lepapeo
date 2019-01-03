@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.FechaInscripcion)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "w3-text-crimson" }) |
-                @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "w3-text-crimson" }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "w3-text-crimson" })
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id })
             </td>
         </tr>
         }

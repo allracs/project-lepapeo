@@ -136,7 +136,7 @@
             </div>
             <script>
                 function setFechaSolicitud() {
-                    var date = new Date().getUTCFullYear() + "-" + new Date().getUTCMonth() + "-" + new Date().getUTCDay() + " " + new Date().getUTCHours() + ":" + new Date().getUTCMinutes();
+                    var date = new Date().getUTCFullYear() + "-" + new Date().getUTCMonth()+1 + "-" + new Date().getUTCDay() + " " + new Date().getUTCHours() + ":" + new Date().getUTCMinutes();
                     document.getElementById("fecha_sol").value = date;
                 }
             </script>
