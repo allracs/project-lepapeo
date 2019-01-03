@@ -126,5 +126,16 @@ namespace WEBLEPAPEO.Controllers
                 return View();
             }
         }
+
+
+        // GET: HorarioDia/AgregarHorarioDia/5
+        public ActionResult AgregarHorarioDia(int id)
+        {
+            //return View();
+            //return RedirectToAction("Index");
+            return Redirect("../../HorarioDia/Create2/" + id);
+            //return RedirectToRoute(new RouteAreaAttribute("HorarioDia/Create"));
+        }
+
     }
 }
