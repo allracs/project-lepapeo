@@ -51,8 +51,9 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Dia, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Dia, "", new { @class = "text-danger" })
+                @*@Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control" } })*@
+                @Html.EnumDropDownListFor(model => model.Dia)
+                @*@Html.ValidationMessageFor(model => model.Dia, "", new { @class = "text-danger" })*@
             </div>
         </div>
 
