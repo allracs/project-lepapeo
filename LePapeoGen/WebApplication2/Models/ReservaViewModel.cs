@@ -31,11 +31,11 @@ namespace LePapeo.Models
         public bool finalizada { get; set; }
 
         [Display(Prompt = "Fecha para la que se solicita la reserva", Description = "Fecha para la que se solicita la reserva, cuando quieren asistir los comensales", Name = "Fecha_hora")]
-        [DataType(DataType.Date, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
+        [DataType(DataType.DateTime, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
         public DateTime fecha_hora { get; set; }
 
         [Display(Prompt = "Fecha de solicitud", Description = "Fecha en la que se solicita la reserva", Name = "Fecha solicitud")]
-        [DataType(DataType.Date, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
+        [DataType(DataType.DateTime, ErrorMessage = "La fecha introducida debe tener un formato dd/mm/aaaa")]
         public DateTime fecha_solicitud { get; set; }
     }
 }
