@@ -20,7 +20,7 @@ namespace LePapeo.Models
             dia.Hora_ini_pm = (System.DateTime)diaEN.Hora_ini_pm;
             dia.Hora_fin_pm = (System.DateTime)diaEN.Hora_fin_pm;
             dia.Dia = diaEN.Dia; 
-            dia.HorarioSemana = dia.HorarioSemana;
+            dia.HorarioSemana = diaEN.HorarioSemana.Id;
 
             return dia;
         }

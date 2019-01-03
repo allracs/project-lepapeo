@@ -13,6 +13,7 @@ namespace LePapeo.Models
 
         [Display(Prompt = "Tipo de Notificacion para la NotificacionGenerica", Description = "Tipo de Notificacion para la NotificacionGenerica", Name = "Tipo Notificacion ")]
         [Required(ErrorMessage = "Debe indicar un tipo de notificacion para la notificacion generica")] 
+        [Range(1,8)]
         public LePapeoGenNHibernate.Enumerated.LePapeo.TipoNotificacionEnum Tipo { get; set; } 
 
         [Display(Prompt = "Texto para la notificacion generica", Description = "Texto para la notificacion generica", Name = "Texto ")]

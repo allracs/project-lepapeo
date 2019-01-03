@@ -17,7 +17,7 @@ namespace LePapeo.Models
         {
             DireccionViewModel dir = new DireccionViewModel();
             dir.id = dirEN.Id;
-            dir.ciudad = "ciudad_test_str";
+            dir.ciudad = dirEN.Ciudad.Nombre;
             dir.provincia = "provincia_test_str";
             dir.calle = dirEN.Calle;
             dir.cod_pos = dirEN.Cod_pos;

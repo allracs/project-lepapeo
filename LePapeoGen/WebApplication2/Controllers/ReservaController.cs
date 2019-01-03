@@ -13,13 +13,75 @@ namespace WEBLEPAPEO.Controllers
     public class ReservaController : BasicController
     {
         // GET: Reserva
-        public ActionResult Index()
+        /*public ActionResult Index()
         {
             ReservaCEN rescen = new ReservaCEN();
             IList<ReservaEN> resenlist = rescen.ReadAll(0, -1);
             IEnumerable<ReservaViewModel> resv = new AssemblerReserva().ConvertListENToModel(resenlist);
             return View(resv);
+        }*/
+
+
+        public ActionResult Index()
+        {
+            ReservaCEN rescen = new ReservaCEN();
+
+            IList<ReservaEN> listresFinalizadasEN;
+            IList<ReservaEN> listresNoFinalizadasEN;
+
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            //Console.Write("\n"+idd+"\n");
+            if(usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+
+                if (tipo[tipo.Length - 1].Equals("RestauranteEN"))
+                {
+                    listresFinalizadasEN = rescen.GetReservasFromRestauranteFinal(idd, true);
+                    listresNoFinalizadasEN = rescen.GetReservasFromRestauranteFinal(idd, false);
+                    //IEnumerable<ReservaViewModel> listres = new AssemblerReserva().ConvertListENToModel(listresFinalizadasEN);
+                    //IEnumerable<ReservaViewModel> listres2 = new AssemblerReserva().ConvertListENToModel(listresNoFinalizadasEN);
+
+
+                    ViewData["listaReservaFinalizadas"] = listresFinalizadasEN;
+                    ViewData["listaReservaNoFinalizadas"] = listresFinalizadasEN;
+
+                }
+                else if (tipo[tipo.Length - 1].Equals("RegistradoEN"))
+                {
+                    listresFinalizadasEN = rescen.GetReservasFromRestauranteFinal(idd, true);
+                    listresNoFinalizadasEN = rescen.GetReservasFromRestauranteFinal(idd, false);
+
+                    ViewData["listaReservaFinalizadas"] = listresFinalizadasEN;
+                    ViewData["listaReservaNoFinalizadas"] = listresFinalizadasEN;
+                }
+                else if (tipo[tipo.Length - 1].Equals("AdminEN"))
+                {
+                    listresFinalizadasEN = rescen.GetReservasFromRestauranteFinal(idd, true);
+                    listresNoFinalizadasEN = rescen.GetReservasFromRestauranteFinal(idd, false);
+
+                    ViewData["listaReservaFinalizadas"] = listresFinalizadasEN;
+                    ViewData["listaReservaNoFinalizadas"] = listresFinalizadasEN;
+                }
+            }
+            else
+            {
+                IList<ReservaEN> resenlist = rescen.ReadAll(0, -1);
+                IEnumerable<ReservaViewModel> resv = new AssemblerReserva().ConvertListENToModel(resenlist);
+                return View(resv);
+            }
+            
+            
+                
+
+            return View();
+            //return View(listres);
         }
+
+
+
 
         // GET: Reserva/Details/5
         public ActionResult Details(int id)
@@ -108,5 +170,6 @@ namespace WEBLEPAPEO.Controllers
                 return View();
             }
         }
+
     }
 }
