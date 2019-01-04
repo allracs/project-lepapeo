@@ -10,7 +10,13 @@ namespace WebApplication2.Controllers
     {
         public ActionResult Index()
         {
-            if(User.Identity.Name == "diegoAdmin@mail.com") return RedirectToAction("Admin", "Home");
+            if(User.Identity.Name == "Admin@mail.com") return RedirectToAction("Admin", "Home");
+
+
+            /*
+             * Es de tipo restauranteEN?
+             * return RedirectToAction
+             */
             return View();
         }
 
@@ -27,7 +33,7 @@ namespace WebApplication2.Controllers
 
             return View();
         }
-
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Admin()
         {
             return View();

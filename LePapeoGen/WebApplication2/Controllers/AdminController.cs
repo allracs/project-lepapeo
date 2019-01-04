@@ -11,6 +11,7 @@ using LePapeoGenNHibernate.EN.LePapeo;
 
 namespace WEBLEPAPEO.Controllers
 {
+    [Authorize(Users ="Admin@mail.com")]
     public class AdminController : BasicController
     {
         // GET: Admin

@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class DireccionController : BasicController
     {
         // GET: Direccion
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             DireccionCEN dirCEN = new DireccionCEN();

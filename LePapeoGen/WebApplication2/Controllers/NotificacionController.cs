@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class NotificacionController : BasicController
     {
         // GET: Registrado
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             NotificacionCEN NotificacionCEN = new NotificacionCEN();

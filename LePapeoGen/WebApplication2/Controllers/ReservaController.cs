@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class ReservaController : BasicController
     {
         // GET: Reserva
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             ReservaCEN rescen = new ReservaCEN();

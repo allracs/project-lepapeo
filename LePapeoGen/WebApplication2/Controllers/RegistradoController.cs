@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class RegistradoController : BasicController
     {
         // GET: Registrado
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             RegistradoCEN registradoCEN = new RegistradoCEN();

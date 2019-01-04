@@ -58,6 +58,8 @@ namespace WebApplication2.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            if (Request.IsAuthenticated)
+                return RedirectToAction("Index", "Home");
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -80,15 +82,21 @@ namespace WebApplication2.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
-                    UsuarioCEN usu = new UsuarioCEN();
-                   var tipoUSU = usu.Login(usu.DgetOIDfromEmail(model.Email), model.Password);
-
-                    if (tipoUSU.Equals("AdminEN"))
+                    try
                     {
-                      //  User.Identity. = "Admin";
-                        return RedirectToAction("Admin", "Home");
+                        UsuarioCEN usu = new UsuarioCEN();
+                        var tipoUSU = usu.Login(usu.DgetOIDfromEmail(model.Email), model.Password);
+
+                        if (tipoUSU.Equals("AdminEN"))
+                        {
+                            //  User.Identity. = "Admin";
+                            return RedirectToAction("Admin", "Home");
+                        }
+                    }catch{
+                        ModelState.AddModelError("", "Intento de inicio de sesión no válido.");
+                        AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+                        return View(model);
                     }
-                    
 
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
@@ -170,13 +178,14 @@ namespace WebApplication2.Controllers
 
                     try
                     {
-                        /*
+                        
                         RegistradoCEN registradoCEN = new RegistradoCEN();
                         registradoCEN.New_(model.Email, model.Password, DateTime.Now, model.Name, model.Surname, model.BirthDate);
-                        */
+                        /*
 
                         AdminCEN registradoCEN = new AdminCEN();
                         registradoCEN.New_(model.Email, model.Password, DateTime.Now);
+                        */
                     }
                     catch
                     {

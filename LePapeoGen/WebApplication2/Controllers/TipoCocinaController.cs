@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class TipoCocinaController : BasicController
     {
         // GET: TipoCocina
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             TipoCocinaCEN tipoCocinaCEN = new TipoCocinaCEN();

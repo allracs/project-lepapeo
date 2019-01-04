@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class OpinionController : BasicController
     {
         // GET: Opinion
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             OpinionCEN opi = new OpinionCEN();

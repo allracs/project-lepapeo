@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class HorarioSemanaController : BasicController
     {
         // GET: HorarioSemana
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             HorarioSemanaCEN semCEN = new HorarioSemanaCEN();

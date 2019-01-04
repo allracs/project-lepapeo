@@ -13,6 +13,7 @@ namespace WEBLEPAPEO.Controllers
     public class CiudadController : BasicController
     {
         // GET: Ciudad
+        [Authorize(Users = "Admin@mail.com")]
         public ActionResult Index()
         {
             CiudadCEN ciucen = new CiudadCEN();
