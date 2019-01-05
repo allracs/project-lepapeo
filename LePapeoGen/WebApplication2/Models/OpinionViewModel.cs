@@ -13,6 +13,7 @@ namespace LePapeo.Models
 
         [Display(Prompt = "Valoracion", Description = "Valoracion", Name = "Valoracion ")]
         [Required(ErrorMessage = "Debe indicar una valoracion para el usuario")]
+        [Range(1,5)]
         public LePapeoGenNHibernate.Enumerated.LePapeo.ValoracionEnum Valoracion { get; set; }
 
         [Required(ErrorMessage = "Debe proporcionar un titulo")]
