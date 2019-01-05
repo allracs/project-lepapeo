@@ -1739,6 +1739,8 @@ a {
     border-color: #e7ffff !important
 }
 
+/*Nuestras*/
+
 .w3-fontOpenSans {
     font-family: 'Open Sans', sans-serif;
 }
@@ -1767,3 +1769,120 @@ a {
 .w3-header{
     margin-bottom: 2em;
 }
+
+.w3-reg-hover {
+    color: #545454 !important;
+}
+
+.w3-reg-hover:hover {
+    color: crimson !important;
+    text-decoration: underline !important;
+}
+
+.w3-menu-hover {
+    color: crimson !important;
+}
+
+.w3-menu-hover:hover {
+    text-decoration: underline !important;
+}
+
+.w3-display-inline-block{
+    display: inline-block;
+}
+
+.w3-buscador-contenedor {
+    -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.w3-buscador-select {
+    padding: 20px;
+    border: 0;
+    border-right: 1px solid black;
+    margin: 0;
+    min-width: 0%;
+}
+
+
+.w3-buscador-text {
+    padding: 20px;
+    border: 0;
+    border-right: 1px solid black;
+    margin: 0;
+    min-width: 48%;
+}
+
+.w3-buscador-number {
+    padding: 20px;
+    border: 0;
+    border-right: 1px solid black;
+    margin: 0;
+    min-width: 12%;
+}
+
+.w3-buscador-submit {
+    padding: 20px;
+    border: 0;
+    margin: 0;
+    min-width: 11%;
+    color: white;
+    background-color: rgba(255,22,22,.7);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+.w3-buscador-submit:hover {
+    -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+}
+    
+
+    .w3-ciudades-hover:hover {
+        -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+        box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    }
+
+.w3-body-mainbg {
+    background-image: url("../imgs/backfood.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+@media (max-width: 1230px){
+    .w3-buscador-contenedor {
+        max-width: 2000px;
+        border: 0;
+    }
+    .w3-buscador-select {
+        min-width: 100%;
+        border: 0;
+    }
+
+    .w3-buscador-text {
+        min-width: 100%;
+        border: 0;
+    }
+
+    .w3-buscador-number {
+        min-width: 100%;
+        border: 0;
+    }
+
+    .w3-buscador-submit {
+        min-width: 100%;
+        border: 0;
+        background-color: crimson;
+        color: white;
+    }
+}
+
+

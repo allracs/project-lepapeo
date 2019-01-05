@@ -46,10 +46,19 @@ namespace WebApplication2.Controllers
 
             return View();
         }
-        [Authorize(Users = "Admin@mail.com")]
+       
         public ActionResult Admin()
         {
-            return View();
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+                return View();
+            }
+            return RedirectToAction("Index", "Home");
         }
     }
 }
