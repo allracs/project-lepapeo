@@ -1,106 +1,208 @@
+<!DOCTYPE html>
+<html>
 @{
     ViewBag.Title = "Home Page";
 }
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Content/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
 
-<header class="w3-container w3-center w3-padding-32">
-    <h1 class="w3-title"><b>LE PAPEO</b></h1>
-    <h3>Index web</h3>
-</header>
+<body class="w3-content w3-body-mainbg" style="max-width:1564px">
 
-<div class="w3-content w3-padding" style="max-width:1564px">
-    <!-- Navegacion -->
-<!--
-    <div class="w3-container w3-padding-32" id="projects"> 
+    <header class="w3-container w3-center w3-padding-32"></header>
 
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Usuario</div>
-                    <a href="../Usuario"><img class="w3-index-img" src="../../imgs/user.png" alt="Usuario" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Registrado</div>
-                    <a href="../Registrado"><img class="w3-index-img" src="../../imgs/registrado.png" alt="Registrado" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Administrador</div>
-                    <a href="../Admin"><img class="w3-index-img" src="../../imgs/admin.png" alt="Admin" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Notificación</div>
-                    <a href="../Notificacion"><img class="w3-index-img" src="../../imgs/noti.png" alt="Notificacion" style="width:100%"></a>
-                </div>
-            </div>
-        </div>
+    @*<div class="w3-content w3-padding" style="max-width:1564px">*@
+    <br />
+    <br />
+    <br />
 
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Notificacion Generica</div>
-                    <a href="../NotificacionGenerica"><img class="w3-index-img" src="../../imgs/gene.png" alt="Notificacion" style="width:100%"></a>
-                </div>
+    <h2 class="w3-right-align w3-text-red">Reserva en tus restaurantes favoritos <br /> de forma c&oacute;moda, r&aacute;pida y al mejor precio</h2>
+    <br />
+    <br />
+    <br />
+    <!--Buscador-->
+    <div class="w3-center">
+        <form>
+            <div class="w3-buscador-contenedor w3-fontOpenSans" style="font-size: 16px;">
+                <select class="w3-buscador-select"> 
+                    <option value="0">Cocina</option> 
+                    <option value="Asiatica">Asiatica</option> 
+                    <option value="Italiana">Italiana</option> 
+                    <option value="Espanola">Espa&ntilde;ola</option> 
+                    <option value="Mexicana">Mexicana</option> 
+                </select> 
+                <input type="text" name="nombre-direccion" value="" placeholder="Direccion, nombre del restaurante" class="w3-buscador-text" size="100" />
+                <select class="w3-buscador-select">
+                    <option value="null">D&iacute;a</option>
+                    <option value="0">Lunes</option>
+                    <option value="1">Martes</option>
+                    <option value="2">Mi&eacute;rcoles</option>
+                    <option value="3">Jueves</option>
+                    <option value="4">Viernes</option>
+                    <option value="5">Sabado</option>
+                    <option value="6">Domingo</option>
+                </select>
+                <input type="number" name="name" value="" placeholder="Comen." maxlength="80" max="50" min="1" class="w3-buscador-number" />
+                <input type="submit" name="name" value="Buscar" class="w3-buscador-submit" />
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Horario Dia</div>
-                    <a href="../HorarioDia"><img class="w3-index-img" src="../../imgs/day.png" alt="Dia" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Horario Semana</div>
-                    <a href="../HorarioSemana"><img class="w3-index-img" src="../../imgs/week.png" alt="Semana" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Restaurante</div>
-                    <a href="../Restaurante"><img class="w3-index-img" src="../../imgs/rest.png" alt="Restaurante" style="width:100%"></a>
-                </div>
-            </div>
-        </div>
+        </form>
+    </div>
 
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Tipo Cocina</div>
-                    <a href="../TipoCocina"><img class="w3-index-img" src="../../imgs/tipo.png" alt="Tipo Cocina" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Ciudad</div>
-                    <a href="../Ciudad"><img class="w3-index-img" src="../../imgs/city.png" alt="Ciudad" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Reservas</div>
-                    <a href="../Reserva"><img class="w3-index-img" src="../../imgs/reser.png" alt="Reserva" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Direccion</div>
-                    <a href="../Direccion"><img class="w3-index-img" src="../../imgs/dir.png" alt="Ciudad" style="width:100%"></a>
-                </div>
-            </div>
-        </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-crimson w3-padding">Opinion</div>
-                    <a href="../Opinion"><img class="w3-index-img" src="../../imgs/opinion.png" alt="Opinion" style="width:100%"></a>
-                </div>
-            </div>
+
+    <!--Ciudades-->
+    <div class="w3-center w3-margin-top">
+        <a href="#"><img src="~/imgs/madrid.png" alt="Alternate Text" class="w3-ciudades-hover" /></a>
+        <a href="#"><img src="~/imgs/barcelona.png" alt="Alternate Text" class="w3-ciudades-hover"/></a>
+        <a href="#"><img src="~/imgs/valencia.png" alt="Alternate Text" class="w3-ciudades-hover"/></a>
+        <a href="#"><img src="~/imgs/bilbao.png" alt="Alternate Text" class="w3-ciudades-hover"/></a>
+        <a href="#"><img src="~/imgs/sevilla.png" alt="Alternate Text" class="w3-ciudades-hover"/></a>
+        <a href="#"><img src="~/imgs/zaragoza.png" alt="Alternate Text" class="w3-ciudades-hover" /></a>
+        <a href="#"><img src="~/imgs/donostia.png" alt="Alternate Text" class="w3-ciudades-hover"/></a>
+        <a href="#"><img src="~/imgs/malaga.png" alt="Alternate Text" class="w3-ciudades-hover"/></a>
+        <a href="#"><img src="~/imgs/granada.png" alt="Alternate Text" class="w3-ciudades-hover"/></a>
+    </div>
+    <br />
+    <br />
+
+    <!--Así funciona-->
+    <hr />
+    <div class="w3-container w3-center">
+        <h2 class="w3-center">As&iacute; funciona</h2>
+        <img src="~/imgs/comofunciona.JPG" alt="Como funciona" class="w3-center w3-image" />
+    </div>
+    <hr />
+    <br />
+    <br />
+
+    <!--Unete restaurante-->
+    <div class="w3-container w3-center">
+        <h2 class="w3-center">Si eres due&ntilde;o de un restaurante</h2>
+        <br />
+        <img src="~/imgs/tfm.png" alt="Unete restaurante" class="w3-image w3-center w3-margin-bottom" />
+        <br />
+        <div>
+            <a href="#" class="w3-fontOpenSans">DESCUBRE LOS SERVICIOS Y VENTAJAS PARA LOS RESTAURANTES</a>
         </div>
     </div>
-    -->
-</div>
+    <hr />
+    <br />
+
+    <!--Redes sociales-->
+    <div class="w3-container w3-center">
+        <h2 class="w3-center">S&iacute;guenos</h2>
+        <br />
+        <a href="#"><img src="~/imgs/instagram.png" alt="Instagram" class="w3-image w3-center w3-display-inline-block" width="100" /></a>
+        <a href="#"><img src="~/imgs/facebook.png" alt="Facebook" class="w3-image w3-center w3-display-inline-block" width="100" /></a>
+        <a href="#"><img src="~/imgs/twitter.png" alt="Twitter" class="w3-image w3-center w3-display-inline-block" width="100" /></a>
+    </div>
+
+
+
+    <!-- Navegacion -->
+    <!--
+        <div class="w3-container w3-padding-32" id="projects">
+
+            <div class="w3-row-padding">
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Usuario</div>
+                        <a href="../Usuario"><img class="w3-index-img" src="../../imgs/user.png" alt="Usuario" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Registrado</div>
+                        <a href="../Registrado"><img class="w3-index-img" src="../../imgs/registrado.png" alt="Registrado" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Administrador</div>
+                        <a href="../Admin"><img class="w3-index-img" src="../../imgs/admin.png" alt="Admin" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Notificación</div>
+                        <a href="../Notificacion"><img class="w3-index-img" src="../../imgs/noti.png" alt="Notificacion" style="width:100%"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Notificacion Generica</div>
+                        <a href="../NotificacionGenerica"><img class="w3-index-img" src="../../imgs/gene.png" alt="Notificacion" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Horario Dia</div>
+                        <a href="../HorarioDia"><img class="w3-index-img" src="../../imgs/day.png" alt="Dia" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Horario Semana</div>
+                        <a href="../HorarioSemana"><img class="w3-index-img" src="../../imgs/week.png" alt="Semana" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Restaurante</div>
+                        <a href="../Restaurante"><img class="w3-index-img" src="../../imgs/rest.png" alt="Restaurante" style="width:100%"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Tipo Cocina</div>
+                        <a href="../TipoCocina"><img class="w3-index-img" src="../../imgs/tipo.png" alt="Tipo Cocina" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Ciudad</div>
+                        <a href="../Ciudad"><img class="w3-index-img" src="../../imgs/city.png" alt="Ciudad" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Reservas</div>
+                        <a href="../Reserva"><img class="w3-index-img" src="../../imgs/reser.png" alt="Reserva" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Direccion</div>
+                        <a href="../Direccion"><img class="w3-index-img" src="../../imgs/dir.png" alt="Ciudad" style="width:100%"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+                <div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-crimson w3-padding">Opinion</div>
+                        <a href="../Opinion"><img class="w3-index-img" src="../../imgs/opinion.png" alt="Opinion" style="width:100%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    @*</div>*@
+</body>
+</html>
