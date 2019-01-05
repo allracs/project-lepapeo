@@ -13,13 +13,23 @@ namespace WEBLEPAPEO.Controllers
     public class OpinionController : BasicController
     {
         // GET: Opinion
-        [Authorize(Users = "Admin@mail.com")]
+       
         public ActionResult Index()
         {
-            OpinionCEN opi = new OpinionCEN();
-            IList<OpinionEN> listopiEN = opi.ReadAll(0, -1);
-            IEnumerable<OpinionViewModel> listopi = new AssemblerOpinion().ConvertListENToModel(listopiEN);
-            return View(listopi);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+
+                OpinionCEN opi = new OpinionCEN();
+                IList<OpinionEN> listopiEN = opi.ReadAll(0, -1);
+                IEnumerable<OpinionViewModel> listopi = new AssemblerOpinion().ConvertListENToModel(listopiEN);
+                return View(listopi);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Opinion/Details/5

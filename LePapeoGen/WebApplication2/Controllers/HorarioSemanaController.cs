@@ -13,14 +13,25 @@ namespace WEBLEPAPEO.Controllers
     public class HorarioSemanaController : BasicController
     {
         // GET: HorarioSemana
-        [Authorize(Users = "Admin@mail.com")]
+      
         public ActionResult Index()
         {
-            HorarioSemanaCEN semCEN = new HorarioSemanaCEN();
-            IList<HorarioSemanaEN> listsemEN = semCEN.ReadAll(0, -1);
-            IEnumerable<HorarioSemanaViewModel> listsem = new AssemblerHorarioSemana().ConvertListENToModel(listsemEN);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
 
-            return View(listsem);
+                HorarioSemanaCEN semCEN = new HorarioSemanaCEN();
+                IList<HorarioSemanaEN> listsemEN = semCEN.ReadAll(0, -1);
+                IEnumerable<HorarioSemanaViewModel> listsem = new AssemblerHorarioSemana().ConvertListENToModel(listsemEN);
+
+                return View(listsem);
+            }
+
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: HorarioSemana/Details/5

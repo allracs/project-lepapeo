@@ -13,13 +13,24 @@ namespace WEBLEPAPEO.Controllers
     public class TipoCocinaController : BasicController
     {
         // GET: TipoCocina
-        [Authorize(Users = "Admin@mail.com")]
+      
         public ActionResult Index()
         {
-            TipoCocinaCEN tipoCocinaCEN = new TipoCocinaCEN();
-            IList<TipoCocinaEN> listtipEN = tipoCocinaCEN.ReadAll(0, -1);
-            IEnumerable<TipoCocinaViewModel> listtip = new AssemblerTipoCocina().ConvertListENToModel(listtipEN);
-            return View(listtip);
+
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+
+                TipoCocinaCEN tipoCocinaCEN = new TipoCocinaCEN();
+                IList<TipoCocinaEN> listtipEN = tipoCocinaCEN.ReadAll(0, -1);
+                IEnumerable<TipoCocinaViewModel> listtip = new AssemblerTipoCocina().ConvertListENToModel(listtipEN);
+                return View(listtip);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: TipoCocina/Details/5

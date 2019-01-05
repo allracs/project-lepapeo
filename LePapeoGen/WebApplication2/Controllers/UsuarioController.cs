@@ -13,13 +13,23 @@ namespace WEBLEPAPEO.Controllers
     public class UsuarioController : BasicController
     {
         // GET: Usuario
-        [Authorize(Users = "Admin@mail.com")]
+      
         public ActionResult Index()
         {
-            UsuarioCEN usu = new UsuarioCEN();
-            IList<UsuarioEN> listusuEN = usu.ReadAll(0, -1);
-            IEnumerable<UsuarioViewModel> listusu = new AssemblerUsuario().ConvertListENToModel(listusuEN);
-            return View(listusu);
+
+            UsuarioCEN usu2 = new UsuarioCEN();
+            int idd = usu2.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu2.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+                UsuarioCEN usu = new UsuarioCEN();
+                IList<UsuarioEN> listusuEN = usu.ReadAll(0, -1);
+                IEnumerable<UsuarioViewModel> listusu = new AssemblerUsuario().ConvertListENToModel(listusuEN);
+                return View(listusu);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Usuario/Details/5
@@ -52,8 +62,8 @@ namespace WEBLEPAPEO.Controllers
                 //  SessionClose(); 
                 UsuarioCEN cen = new UsuarioCEN();
                 cen.New_(usu.Email, usu.Password, usu.FechaInscripcion);
-
-                return RedirectToAction("Index");
+                return RedirectToAction("RegisterUsuario", "Account", usu);
+                //return RedirectToAction("Index");
             }
             catch
             {

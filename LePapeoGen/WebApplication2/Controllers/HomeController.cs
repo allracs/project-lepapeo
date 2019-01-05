@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LePapeoGenNHibernate.CEN.LePapeo;
+using LePapeoGenNHibernate.EN.LePapeo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,8 +12,19 @@ namespace WebApplication2.Controllers
     {
         public ActionResult Index()
         {
-            if(User.Identity.Name == "Admin@mail.com") return RedirectToAction("Admin", "Home");
+            //if(User.Identity.Name == "Admin@mail.com") return RedirectToAction("Admin", "Home");
 
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Admin", "Home");
+                if (tipo[tipo.Length - 1].Equals("RestauranteEN")) return RedirectToAction("Index", "Home");
+
+            }
 
             /*
              * Es de tipo restauranteEN?

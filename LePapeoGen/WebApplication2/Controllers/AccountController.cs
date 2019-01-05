@@ -5,11 +5,13 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using LePapeo.Models;
 using LePapeoGenNHibernate.CEN.LePapeo;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication2.Models;
+using WEBLEPAPEO.Models;
 
 namespace WebApplication2.Controllers
 {
@@ -207,6 +209,43 @@ namespace WebApplication2.Controllers
             return View(model);
         }
 
+        //  CREAR RESTAURANTE 
+        //
+        //
+        public async Task<ActionResult> RegisterRestaurant (RestauranteViewModel res )
+        {
+            var user = new ApplicationUser { UserName = res.Email, Email = res.Email };
+            var result = await UserManager.CreateAsync(user, res.Pass);
+            return RedirectToAction("Index", "Restaurante");
+        }
+        //  CREAR REGISTRADO
+        //
+        //
+        public async Task<ActionResult> RegisterRegistrado(RegistradoViewModel res)
+        {
+            var user = new ApplicationUser { UserName = res.Email, Email = res.Email };
+            var result = await UserManager.CreateAsync(user, res.Password);
+            return RedirectToAction("Index", "Registrado");
+        }
+        //  CREAR ADMINISTRADOR
+        //
+        //
+        public async Task<ActionResult> RegisterAdmin(AdminViewModel adm)
+        {
+            var user = new ApplicationUser { UserName = adm.Email, Email = adm.Email };
+          
+            var result = await UserManager.CreateAsync(user, adm.Password);
+            return RedirectToAction("Index", "Admin");
+        }
+        //  CREAR USUARIO
+        //
+        //
+        public async Task<ActionResult> RegisterUsuario(UsuarioViewModel usu)
+        {
+            var user = new ApplicationUser { UserName = usu.Email, Email = usu.Email };
+            var result = await UserManager.CreateAsync(user, usu.Password);
+            return RedirectToAction("Index", "Usuario");
+        }
         //
         // GET: /Account/ConfirmEmail
         [AllowAnonymous]

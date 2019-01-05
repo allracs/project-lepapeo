@@ -13,13 +13,26 @@ namespace WEBLEPAPEO.Controllers
     public class ReservaController : BasicController
     {
         // GET: Reserva
-        [Authorize(Users = "Admin@mail.com")]
+        
         public ActionResult Index()
         {
-            ReservaCEN rescen = new ReservaCEN();
-            IList<ReservaEN> resenlist = rescen.ReadAll(0, -1);
-            IEnumerable<ReservaViewModel> resv = new AssemblerReserva().ConvertListENToModel(resenlist);
-            return View(resv);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+
+
+
+                ReservaCEN rescen = new ReservaCEN();
+                IList<ReservaEN> resenlist = rescen.ReadAll(0, -1);
+                IEnumerable<ReservaViewModel> resv = new AssemblerReserva().ConvertListENToModel(resenlist);
+                return View(resv);
+            }
+
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Reserva/Details/5

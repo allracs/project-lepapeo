@@ -421,3 +421,4 @@ F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGe
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csproj.CopyComplete
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.dll
 F:\Escritorio\multimedia\TERCERO\DSM\Final1\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.pdb
+A:\Usuarios\Diego\Escritorio\GIT LEPAPEO\project-lepapeo\LePapeoGen\LePapeoGenNHibernate\obj\Debug\LePapeoGenNHibernate.csprojAssemblyReference.cache

@@ -13,13 +13,23 @@ namespace WEBLEPAPEO.Controllers
     public class CiudadController : BasicController
     {
         // GET: Ciudad
-        [Authorize(Users = "Admin@mail.com")]
+      
         public ActionResult Index()
         {
-            CiudadCEN ciucen = new CiudadCEN();
-            IList<CiudadEN> ciulisten = ciucen.ReadAll(0, -1);
-            IEnumerable<CiudadViewModel> ciuenum = new AssemblerCiudad().ConvertListENToModel(ciulisten);
-            return View(ciuenum);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+
+                CiudadCEN ciucen = new CiudadCEN();
+                IList<CiudadEN> ciulisten = ciucen.ReadAll(0, -1);
+                IEnumerable<CiudadViewModel> ciuenum = new AssemblerCiudad().ConvertListENToModel(ciulisten);
+                return View(ciuenum);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Ciudad/Details/5

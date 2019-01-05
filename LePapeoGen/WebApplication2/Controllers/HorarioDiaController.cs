@@ -13,14 +13,24 @@ namespace WEBLEPAPEO.Controllers
     public class HorarioDiaController : BasicController
     {
         // GET: HorarioDia
-        [Authorize(Users = "Admin@mail.com")]
+        
         public ActionResult Index()
         {
-            HorarioDiaCEN diaCEN = new HorarioDiaCEN();
-            IList<HorarioDiaEN> listdiaEN = diaCEN.ReadAll(0, -1); 
-            IEnumerable<HorarioDiaViewModel> listdia = new AssemblerHorarioDia().ConvertListENToModel(listdiaEN);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
 
-            return View(listdia);
+                HorarioDiaCEN diaCEN = new HorarioDiaCEN();
+                IList<HorarioDiaEN> listdiaEN = diaCEN.ReadAll(0, -1);
+                IEnumerable<HorarioDiaViewModel> listdia = new AssemblerHorarioDia().ConvertListENToModel(listdiaEN);
+
+                return View(listdia);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Registrado/Details/5

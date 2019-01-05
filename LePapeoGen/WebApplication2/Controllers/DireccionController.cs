@@ -13,13 +13,24 @@ namespace WEBLEPAPEO.Controllers
     public class DireccionController : BasicController
     {
         // GET: Direccion
-        [Authorize(Users = "Admin@mail.com")]
+       
         public ActionResult Index()
         {
-            DireccionCEN dirCEN = new DireccionCEN();
-            IList<DireccionEN> listDirEN = dirCEN.ReadAll(0, -1);
-            IEnumerable<DireccionViewModel> listd = new AssemblerDireccion().ConvertListENToModel(listDirEN);
-            return View(listd);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+
+                DireccionCEN dirCEN = new DireccionCEN();
+                IList<DireccionEN> listDirEN = dirCEN.ReadAll(0, -1);
+                IEnumerable<DireccionViewModel> listd = new AssemblerDireccion().ConvertListENToModel(listDirEN);
+                return View(listd);
+            }
+
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Direccion/Details/5

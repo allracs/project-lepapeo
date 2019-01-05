@@ -11,7 +11,7 @@ using LePapeoGenNHibernate.EN.LePapeo;
 
 namespace WEBLEPAPEO.Controllers
 {
-    [Authorize(Users ="Admin@mail.com")]
+    
     public class AdminController : BasicController
     {
         // GET: Admin
@@ -23,11 +23,20 @@ namespace WEBLEPAPEO.Controllers
             */
 
             //return View();
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
 
-            AdminCEN adminCEN = new AdminCEN();
-            IList<AdminEN> listadminEN = adminCEN.ReadAll(0, -1);
-            IEnumerable<AdminViewModel> listadmin = new AssemblerAdmin().ConvertListENToModel(listadminEN);
-            return View(listadmin);
+                AdminCEN adminCEN = new AdminCEN();
+                IList<AdminEN> listadminEN = adminCEN.ReadAll(0, -1);
+                IEnumerable<AdminViewModel> listadmin = new AssemblerAdmin().ConvertListENToModel(listadminEN);
+                return View(listadmin);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Admin/Details/5
@@ -69,8 +78,8 @@ namespace WEBLEPAPEO.Controllers
 
                 AdminCEN cen = new AdminCEN();
                 cen.New_(admin.Email, admin.Password, admin.FechaInscripcion);
-
-                return RedirectToAction("Index");
+                return RedirectToAction("RegisterAdmin", "Account", admin);
+                //return RedirectToAction("Index");
             }
             catch
             {

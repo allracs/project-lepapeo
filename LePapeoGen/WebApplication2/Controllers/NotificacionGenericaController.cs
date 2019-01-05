@@ -13,14 +13,26 @@ namespace WEBLEPAPEO.Controllers
     public class NotificacionGenericaController : BasicController
     {
         // GET: Registrado
-        [Authorize(Users = "Admin@mail.com")]
+       
         public ActionResult Index()
         {
-            NotificacionGenericaCEN NotificacionGenericaCEN = new NotificacionGenericaCEN();
-            IList<NotificacionGenericaEN> listNotigeEN = NotificacionGenericaCEN.ReadAll(0, -1);
-            IEnumerable<NotificacionGenericaViewModel> listreg = new AssemblerNotificacionGenerica().ConvertListENToModel(listNotigeEN);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
 
-            return View(listreg);
+
+                NotificacionGenericaCEN NotificacionGenericaCEN = new NotificacionGenericaCEN();
+                IList<NotificacionGenericaEN> listNotigeEN = NotificacionGenericaCEN.ReadAll(0, -1);
+                IEnumerable<NotificacionGenericaViewModel> listreg = new AssemblerNotificacionGenerica().ConvertListENToModel(listNotigeEN);
+
+                return View(listreg);
+            }
+
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Registrado/Details/5
