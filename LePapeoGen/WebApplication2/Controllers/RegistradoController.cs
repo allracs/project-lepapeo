@@ -13,13 +13,25 @@ namespace WEBLEPAPEO.Controllers
     public class RegistradoController : BasicController
     {
         // GET: Registrado
+        
         public ActionResult Index()
         {
-            RegistradoCEN registradoCEN = new RegistradoCEN();
-            IList<RegistradoEN> listregEN = registradoCEN.ReadAll(0, -1);
-            IEnumerable<RegistradoViewModel> listreg = new AssemblerRegistrado().ConvertListENToModel(listregEN);
 
-            return View(listreg);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+
+                RegistradoCEN registradoCEN = new RegistradoCEN();
+                IList<RegistradoEN> listregEN = registradoCEN.ReadAll(0, -1);
+                IEnumerable<RegistradoViewModel> listreg = new AssemblerRegistrado().ConvertListENToModel(listregEN);
+
+                return View(listreg);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Registrado/Details/5
@@ -48,10 +60,10 @@ namespace WEBLEPAPEO.Controllers
 
                 RegistradoCEN cen = new RegistradoCEN();
                 cen.New_(reg.Email, reg.Password, reg.FechaInscripcion, reg.Nombre, reg.Apellidos, reg.Fecha_nacimiento);
-                
-            
 
-                return RedirectToAction("Index");
+
+                return RedirectToAction("RegisterRegistrado", "Account", reg);
+                //return RedirectToAction("Index");
             }
             catch
             {

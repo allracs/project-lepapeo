@@ -13,16 +13,37 @@ namespace WEBLEPAPEO.Controllers
     public class RestauranteController : BasicController
     {
         // GET: Restaurante
+       
         public ActionResult Index()
         {
-            RestauranteCEN restauranteCEN = new RestauranteCEN();
-            IList<RestauranteEN> listresEN = restauranteCEN.ReadAll(0, -1);
-            IEnumerable<RestauranteViewModel> listres = new AssemblerRestaurante().ConvertListENToModel(listresEN);
-            return View(listres);
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+
+                RestauranteCEN restauranteCEN = new RestauranteCEN();
+                IList<RestauranteEN> listresEN = restauranteCEN.ReadAll(0, -1);
+                IEnumerable<RestauranteViewModel> listres = new AssemblerRestaurante().ConvertListENToModel(listresEN);
+                return View(listres);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Restaurante/Details/5
         public ActionResult Details(int id)
+        {
+            RestauranteViewModel res = null;
+            SessionInitialize();
+            RestauranteEN resEN = new RestauranteCAD(session).ReadOIDDefault(id);
+            res = new AssemblerRestaurante().ConvertENToModelUI(resEN);
+            SessionClose();
+            return View(res);
+        }
+
+        public ActionResult Details2(int id)
         {
             RestauranteViewModel res = null;
             SessionInitialize();
@@ -54,7 +75,8 @@ namespace WEBLEPAPEO.Controllers
                 RestauranteCEN cen = new RestauranteCEN();
                 cen.New_(res.Email, res.Pass, res.Fecha_inscripcion, res.Nombre, res.Fecha_apertura, res.Tipo, res.Max_comen, res.Current_comen, res.Precio_medio, res.Descripcion, res.Menu);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("RegisterRestaurant", "Account",res);
+               // return RedirectToAction("Index");
             }
             catch
             {
