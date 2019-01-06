@@ -97,8 +97,8 @@ public static void InitializeData ()
 
 
                 //Creamos Admin
-                AdminCEN admin_davidCEN = new AdminCEN ();
-                int davidID = admin_davidCEN.New_ ("david@mail.com", "david_pass", new DateTime (2001, 1, 1, 9, 0, 0));
+                AdminCEN admin = new AdminCEN();
+                int davidID = admin.New_("admin@mail.com", "Admin1!", new DateTime(2001, 1, 1, 9, 0, 0));
 
                 //Creamos Ciudad
                 CiudadCEN ciudadCEN = new CiudadCEN ();
