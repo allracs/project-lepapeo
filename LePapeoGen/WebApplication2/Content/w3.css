@@ -1280,6 +1280,10 @@ a {
     margin: 16px !important
 }
 
+.w3-margin-auto {
+    margin:auto;
+}
+
 .w3-margin-top {
     margin-top: 16px !important
 }
