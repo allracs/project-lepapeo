@@ -50,14 +50,14 @@ private int id;
 /**
  *	Atributo pos_x
  */
-private int pos_x;
+private float pos_x;
 
 
 
 /**
  *	Atributo pos_y
  */
-private int pos_y;
+private float pos_y;
 
 
 
@@ -107,13 +107,13 @@ public virtual int Id {
 
 
 
-public virtual int Pos_x {
+public virtual float Pos_x {
         get { return pos_x; } set { pos_x = value;  }
 }
 
 
 
-public virtual int Pos_y {
+public virtual float Pos_y {
         get { return pos_y; } set { pos_y = value;  }
 }
 
@@ -134,7 +134,7 @@ public DireccionEN()
 
 
 
-public DireccionEN(int id, string cod_pos, string calle, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.RegistradoEN> registrado, int numero, int pos_x, int pos_y, LePapeoGenNHibernate.EN.LePapeo.CiudadEN ciudad
+public DireccionEN(int id, string cod_pos, string calle, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.RegistradoEN> registrado, int numero, float pos_x, float pos_y, LePapeoGenNHibernate.EN.LePapeo.CiudadEN ciudad
                    )
 {
         this.init (Id, cod_pos, calle, restaurante, registrado, numero, pos_x, pos_y, ciudad);
@@ -147,7 +147,7 @@ public DireccionEN(DireccionEN direccion)
 }
 
 private void init (int id
-                   , string cod_pos, string calle, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.RegistradoEN> registrado, int numero, int pos_x, int pos_y, LePapeoGenNHibernate.EN.LePapeo.CiudadEN ciudad)
+                   , string cod_pos, string calle, LePapeoGenNHibernate.EN.LePapeo.RestauranteEN restaurante, System.Collections.Generic.IList<LePapeoGenNHibernate.EN.LePapeo.RegistradoEN> registrado, int numero, float pos_x, float pos_y, LePapeoGenNHibernate.EN.LePapeo.CiudadEN ciudad)
 {
         this.Id = id;
 

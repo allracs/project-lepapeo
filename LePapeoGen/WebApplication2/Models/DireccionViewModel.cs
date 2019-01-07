@@ -36,10 +36,10 @@ namespace LePapeo.Models
 
         [Display(Prompt = "Pos X", Description = "Posición X de las coordenadas en el mapa", Name = "Pos_x")]
         [Required(ErrorMessage = "Debe de ser un número válido")]
-        public int pos_x { get; set; }
+        public float pos_x { get; set; }
 
         [Display(Prompt = "Pos Y", Description = "Posición Y de las coordenadas en el mapa", Name = "Pos_y")]
         [Required(ErrorMessage = "Debe de ser un número válido")]
-        public int pos_y { get; set; }
+        public float pos_y { get; set; }
     }
 }

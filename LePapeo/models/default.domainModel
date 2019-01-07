@@ -498,27 +498,27 @@
     <elements xmi:type="es.ua.dlsi.ooh:Association" xmi:id="_Z5jV8N0DEeimCYijSpS5xA" name="restaurante_horarioSemana" alias="restaurante_horarioSemana" rolOrigin="_Z5jV8d0DEeimCYijSpS5xA" rolTarget="_Z5jV8t0DEeimCYijSpS5xA" classTarget="_K6bPYNLrEeiY9rh3wEvPsQ" classOrigin="_yR-kQN0BEeimCYijSpS5xA" rolOriginName="restaurante" rolTargetName="horarioSemana" rolOriginMultiplicity="0..*" rolTargetMultiplicity="0..1"/>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_hD0GwOHxEei9c5aCoJXx1g" name="Direccion" alias="Direccion" asociationTarget="_NaAZIOHyEei9c5aCoJXx1g _PTtswOHyEei9c5aCoJXx1g" associationOrigin="_iy3xoONGEeiFh9FWfcM9rQ">
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_9IaY8eH8Eei9c5aCoJXx1g" name="new" operationType="New" type="Object" typeObject="_hD0GwOHxEei9c5aCoJXx1g">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMQONGEeiFh9FWfcM9rQ" name="p_cod_pos"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMQeNGEeiFh9FWfcM9rQ" name="p_calle"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMQuNGEeiFh9FWfcM9rQ" name="p_numero" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMQ-NGEeiFh9FWfcM9rQ" name="p_pos_x" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMRONGEeiFh9FWfcM9rQ" name="p_pos_y" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMReNGEeiFh9FWfcM9rQ" name="p_ciudad" type="OID" typeObject="_di2pgONGEeiFh9FWfcM9rQ"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3vvgBIPEemYCe4nGJpM8Q" name="p_cod_pos"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3vvgRIPEemYCe4nGJpM8Q" name="p_calle"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3vvghIPEemYCe4nGJpM8Q" name="p_numero" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3vvgxIPEemYCe4nGJpM8Q" name="p_pos_x" type="Float"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3vvhBIPEemYCe4nGJpM8Q" name="p_pos_y" type="Float"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3vvhRIPEemYCe4nGJpM8Q" name="p_ciudad" type="OID" typeObject="_di2pgONGEeiFh9FWfcM9rQ"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_9IaY9uH8Eei9c5aCoJXx1g" name="modify" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMRuNGEeiFh9FWfcM9rQ" name="p_Direccion_OID" type="OID" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMR-NGEeiFh9FWfcM9rQ" name="p_cod_pos"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMSONGEeiFh9FWfcM9rQ" name="p_calle"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMSeNGEeiFh9FWfcM9rQ" name="p_numero" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMSuNGEeiFh9FWfcM9rQ" name="p_pos_x" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3PMS-NGEeiFh9FWfcM9rQ" name="p_pos_y" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3wWkBIPEemYCe4nGJpM8Q" name="p_Direccion_OID" type="OID" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3wWkRIPEemYCe4nGJpM8Q" name="p_cod_pos"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3wWkhIPEemYCe4nGJpM8Q" name="p_calle"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3wWkxIPEemYCe4nGJpM8Q" name="p_numero" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3wWlBIPEemYCe4nGJpM8Q" name="p_pos_x" type="Float"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3wWlRIPEemYCe4nGJpM8Q" name="p_pos_y" type="Float"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_9IaY_OH8Eei9c5aCoJXx1g" name="destroy" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_p3Y9QONGEeiFh9FWfcM9rQ" name="p_Direccion_OID" type="OID" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3wWlhIPEemYCe4nGJpM8Q" name="p_Direccion_OID" type="OID" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_R3i-wP26EeijpKi4ArHLlg" name="readAll" operationType="ReadAll" type="Object" collectionType="List" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_BC0pwP8tEeiBNJZc2vS1SA" name="readOID" operationType="ReadOID" type="Object" typeObject="_hD0GwOHxEei9c5aCoJXx1g">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_BC134P8tEeiBNJZc2vS1SA" name="p_Direccion_OID" type="OID" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_e3w9oBIPEemYCe4nGJpM8Q" name="p_Direccion_OID" type="OID" typeObject="_hD0GwOHxEei9c5aCoJXx1g"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_yFuIkOHxEei9c5aCoJXx1g" alias="cod_pos" name="cod_pos"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_5dPvwOHxEei9c5aCoJXx1g" alias="calle" name="calle"/>
@@ -526,8 +526,8 @@
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_PTtswuHyEei9c5aCoJXx1g" alias="idRegistrado" lower="0" upper="*" associationTarget="_PTtswOHyEei9c5aCoJXx1g" name="registrado" type="Object" collectionType="List"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_V_Y6kOHyEei9c5aCoJXx1g" alias="numero" name="numero" type="Integer"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_9IaY8OH8Eei9c5aCoJXx1g" alias="idDireccion" name="id" type="Autogenerated" isOID="true"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_BjwowONDEei5FJozjem7WQ" alias="pos_x" name="pos_x" type="Integer"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_CxRkwONDEei5FJozjem7WQ" alias="pos_y" name="pos_y" type="Integer"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_BjwowONDEei5FJozjem7WQ" alias="pos_x" name="pos_x" type="Float"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_CxRkwONDEei5FJozjem7WQ" alias="pos_y" name="pos_y" type="Float"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_iy3xoeNGEeiFh9FWfcM9rQ" alias="idCiudad" associationOrigin="_iy3xoONGEeiFh9FWfcM9rQ" name="ciudad" type="Object"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Association" xmi:id="_NaAZIOHyEei9c5aCoJXx1g" name="direccion_restaurante" alias="direccion_restaurante" rolOrigin="_NaJjEOHyEei9c5aCoJXx1g" rolTarget="_NaJjEeHyEei9c5aCoJXx1g" classTarget="_hD0GwOHxEei9c5aCoJXx1g" classOrigin="_K6bPYNLrEeiY9rh3wEvPsQ" rolOriginName="direccion" rolTargetName="restaurante" rolOriginMultiplicity="0..1" rolTargetMultiplicity="0..1"/>

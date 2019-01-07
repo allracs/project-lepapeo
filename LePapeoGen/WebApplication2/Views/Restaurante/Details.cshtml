@@ -1,107 +1,241 @@
 ﻿@model WEBLEPAPEO.Models.RestauranteViewModel
+@using LePapeoGenNHibernate.EN.LePapeo
+@using LePapeoGenNHibernate.CEN.LePapeo
+@using LePapeoGenNHibernate.CAD.LePapeo
 
 @{
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+@{
+    UsuarioCEN usu = new UsuarioCEN();
+    int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+    UsuarioEN usuen = usu.ReadOID(idd);
+    String sesion = "none";
+    if (usuen != null)
+    {
+        String[] tipo = usuen.GetType().ToString().Split('.');
+        if (tipo[tipo.Length - 1].Equals("AdminEN"))
+        {
+            sesion = "AdminEN";
+        }
+        else if (tipo[tipo.Length - 1].Equals("RegistradoEN"))
+        {
+            sesion = "RegistradoEN";
+        }
+        else if (tipo[tipo.Length - 1].Equals("RestauranteEN"))
+        {
+            sesion = "RestauranteEN";
+        }
+    }
+    if (sesion.Equals("AdminEN"))
+    {
 
-<div>
-    <h4>RestauranteViewModel</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
+        <h2>Details</h2>
 
-        <dd>
-            @Html.DisplayFor(model => model.Email)
-        </dd>
+        <div>
+            <h4>RestauranteViewModel</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Pass)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Pass)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Fecha_inscripcion)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Fecha_inscripcion)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Fecha_inscripcion)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Fecha_inscripcion)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Fecha_apertura)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Fecha_apertura)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Fecha_apertura)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Fecha_apertura)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Max_comen)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Max_comen)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Max_comen)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Max_comen)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Current_comen)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Current_comen)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Current_comen)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Current_comen)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Precio_medio)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Precio_medio)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Precio_medio)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Precio_medio)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Descripcion)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Descripcion)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Menu)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Menu)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Menu)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Menu)
-        </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Tipo)
+                </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Tipo)
-        </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Tipo)
+                </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Tipo)
-        </dd>
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Back to List", "Index")
+        </p>
 
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+    }
+    else if (sesion.Equals("none") || sesion.Equals("RegistradoEN") || sesion.Equals("RestauranteEN"))
+    {
+        <h2 class="w3-padding ">@Model.Nombre</h2>
+
+        <div class="w3-container">
+            <div class="w3-card w3-padding-16 w3-round col-md-5 w3-margin-right">
+                <p>
+                    Direccion: 
+                    @{
+                        float lat = 0, lon = 0;
+                        bool gotdir = false;
+                        try
+                        {
+                            RestauranteCEN res = new RestauranteCEN();
+                            DireccionEN direccion = res.GetDireccion(Model.Id);
+                            if (direccion != null)
+                            {
+                                lat = direccion.Pos_y;
+                                lon = direccion.Pos_x;
+                                gotdir = true;
+                                <label>@direccion.Ciudad.Nombre, @direccion.Calle, n&deg;@direccion.Numero CP: @direccion.Cod_pos - lat: @lat, lon: @lon</label>
+                            }
+                            else
+                            {
+                                <label>este restaurante no tiene una dirección asignada</label>
+                            }
+                        }
+                        catch { }
+                    }
+                </p>
+                <label>Precio medio: @Model.Precio_medio &euro;</label>
+                @{
+                    try
+                    {
+                        RestauranteCEN rescen = new RestauranteCEN();
+                        HorarioDiaCEN horcen = new HorarioDiaCEN();
+                        IList<HorarioDiaEN> lista = horcen.GetHorariosDiaFromHorarioSemana(rescen.GetHorarioSemana(Model.Id).Id);
+                        foreach (HorarioDiaEN e in lista)
+                        {
+                            DateTime iniam = (DateTime)e.Hora_ini_am;
+                            DateTime finam = (DateTime)e.Hora_fin_am;
+                            DateTime inipm = (DateTime)e.Hora_ini_pm;
+                            DateTime finpm = (DateTime)e.Hora_fin_pm;
+                            <h5>@e.Dia: @iniam.ToString("hh:mm") - @finam.ToString("hh:mm") / @inipm.ToString("hh:mm") - @finpm.ToString("hh:mm")</h5>
+                        }
+                    }
+                    catch { }
+                }
+                <img src="~/imgs/res.jpg" class="img-responsive" />
+            </div>
+
+            <div class="w3-card w3-padding-16 w3-round col-md-5 w3-margin-left">
+                <h3>Reservar</h3>
+                aqui va el formulario para la reserva si está iniciado sesion como resgistradoEN
+            </div>
+
+        </div>
+
+        <section class="col-md-8 w3-margin-top">
+            <div class="w3-card w3-padding w3-round w3-margin-right">
+                <h3>Descripci&oacute;n</h3>
+                <p>@Model.Descripcion</p>
+            </div>
+
+            <div class="w3-card w3-padding w3-round w3-margin-right w3-margin-top">
+                <h3>Men&uacute;</h3>
+                <p>@Model.Menu</p>
+            </div>
+        </section>
+
+        <section class="">
+            <script>
+                let myMap;
+                let canvas;
+                const mappa = new Mappa('Leaflet');
+                const options = {
+                    lat: @lat,
+                    lng: @lon,
+                    zoom: 6,
+                    style: "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+                }
+
+                function setup() {
+                    canvas = createCanvas(500, 500);
+                    myMap = mappa.tileMap(options);
+                    myMap.overlay(canvas)
+
+                    fill(200, 100, 100);
+
+                    // Only redraw the point when the map changes and not every frame.
+                    if (true) {
+                        myMap.onChange(drawPoint);
+                    }
+                }
+
+                function draw() {
+                }
+
+                function drawPoint() {
+                    clear();
+
+                    const ubi = myMap.latLngToPixel(@lat, @lon);
+                    ellipse(ubi.x, ubi.y, 10, 10);
+                }
+            </script>
+        </section>
+
+        <section class="w3-container">
+            <h3>Opiniones</h3>
+        </section>
+
+    }
+}
