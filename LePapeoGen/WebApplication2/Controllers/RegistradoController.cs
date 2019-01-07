@@ -398,7 +398,7 @@ namespace WEBLEPAPEO.Controllers
                 {
                     try
                     {
-                        if (e.Usuario.Id != idd)
+                        if (e.Usuario.Id != idd || e.Enviada)
                         {
                             auxNotEN.Remove(e);
                         }
@@ -420,7 +420,7 @@ namespace WEBLEPAPEO.Controllers
                 {
                     try
                     {
-                        if (e.Usuario.Id != idd)
+                        if (e.Usuario.Id != idd || e.Enviada)
                         {
                             auxNotEN.Remove(e);
                         }
