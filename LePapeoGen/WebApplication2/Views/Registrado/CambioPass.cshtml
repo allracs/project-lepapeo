@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "CambioPass";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="navbar navbar-inverse" style="margin-top:3em;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="MiPerfil">Mi perfil</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="ReservasProximas">Reservas próximas</a></li>
+            <li><a href="ReservasAnteriores">Reservas anteriores</a></li>
+            <li><a href="MisOpiniones">Mis opiniones</a></li>
+            <li><a href="MisDatos">Mis datos</a></li>
+            <li class="active"><a href="CambioPass">Cambiar contraseña</a></li>
+            <li><a href="EliminarCuenta">Eliminar cuenta</a></li>
+        </ul>
+    </div>
+</nav>
+
+<form>
+    <div class="form-group">
+        @Html.Label("Contraseña antigua", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.Editor("asd", new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+    <div class="form-group" style="padding-top:3em;">
+        @Html.Label("Contraseña nueva", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.Editor("asd", new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+    <div class="form-group" style="padding-top:2em;">
+        @Html.Label("Repite Contraseña nueva", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.Editor("asd", new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+</form>

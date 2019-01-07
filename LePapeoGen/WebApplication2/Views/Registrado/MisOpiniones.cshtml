@@ -1,0 +1,75 @@
+﻿@model IEnumerable<LePapeo.Models.OpinionViewModel>
+@using LePapeoGenNHibernate.CEN.LePapeo
+
+@{
+    ViewBag.Title = "MisOpiniones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    RestauranteCEN resview = (RestauranteCEN)ViewData["resview"];
+
+}
+
+<nav class="navbar navbar-inverse" style="margin-top:3em;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="MiPerfil">Mi perfil</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="ReservasProximas">Reservas próximas</a></li>
+            <li><a href="ReservasAnteriores">Reservas anteriores</a></li>
+            <li class="active"><a href="MisOpiniones">Mis opiniones</a></li>
+            <li><a href="MisDatos">Mis datos</a></li>
+            <li><a href="CambioPass">Cambiar contraseña</a></li>
+            <li><a href="EliminarCuenta">Eliminar cuenta</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comentario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.Registrado)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Restaurante)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comentario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.Registrado)
+                </td>*@
+            <td>
+                @resview.ReadOID(item.Restaurante).Nombre
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                </td>*@
+        </tr>
+    }
+
+</table>

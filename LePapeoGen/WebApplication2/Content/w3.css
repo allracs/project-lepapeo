@@ -1766,11 +1766,11 @@ a {
     height: auto;
 }
 
-.w3-title{
-    font-size:50px;
+.w3-title {
+    font-size: 50px;
 }
 
-.w3-header{
+.w3-header {
     margin-bottom: 2em;
 }
 
@@ -1778,82 +1778,80 @@ a {
     color: #545454 !important;
 }
 
-.w3-reg-hover:hover {
-    color: crimson !important;
-    text-decoration: underline !important;
-}
+    .w3-reg-hover:hover {
+        color: crimson !important;
+        text-decoration: underline !important;
+    }
 
 .w3-menu-hover {
     color: crimson !important;
 }
 
-.w3-menu-hover:hover {
-    text-decoration: underline !important;
-}
+    .w3-menu-hover:hover {
+        text-decoration: underline !important;
+    }
 
-.w3-display-inline-block{
+.w3-display-inline-block {
     display: inline-block;
 }
 
 .w3-buscador-contenedor {
-    -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
-    box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
-    max-width: 1000px;
+    -webkit-box-shadow: 0px 5px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 12px 2px rgba(0,0,0,0.75);
+    max-width: 1100px;
     margin: auto;
+    border: 0;
+    padding: 8px;
+    background-color: white;
 }
-
 
 .w3-buscador-select {
     padding: 20px;
     border: 0;
-    border-right: 1px solid black;
     margin: 0;
-    min-width: 0%;
+    min-width: 100%;
 }
-
 
 .w3-buscador-text {
     padding: 20px;
     border: 0;
-    border-right: 1px solid black;
     margin: 0;
-    min-width: 48%;
+    min-width: 100%;
 }
 
 .w3-buscador-number {
     padding: 20px;
     border: 0;
-    border-right: 1px solid black;
     margin: 0;
-    min-width: 12%;
+    min-width: 100%;
 }
 
 .w3-buscador-submit {
-    padding: 20px;
+    padding: 18px;
     border: 0;
-    margin: 0;
-    min-width: 11%;
+    margin: 0px;
+    min-width: 100%;
     color: white;
-    background-color: rgba(255,22,22,.7);
+    background-color: crimson;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 0px solid #000000;
+    font-size: 18px;
 }
 
-.w3-buscador-submit:hover {
-    -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
-    box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
-}
-    
-
-    .w3-ciudades-hover:hover {
+    .w3-buscador-submit:hover {
         -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
         -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
         box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
     }
+
+
+.w3-ciudades-hover:hover {
+    -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.75);
+}
 
 .w3-body-mainbg {
     background-image: url("../imgs/backfood.jpg");
@@ -1861,11 +1859,15 @@ a {
     background-size: 600px;
 }
 
-@media (max-width: 1230px){
+/*Resultados de busqueda*/
+
+
+@media (max-width: 1230px) {
     .w3-buscador-contenedor {
         max-width: 2000px;
         border: 0;
     }
+
     .w3-buscador-select {
         min-width: 100%;
         border: 0;
@@ -1888,5 +1890,16 @@ a {
         color: white;
     }
 }
+
+.w3-shadow-campana {
+    -webkit-box-shadow: inset 0px 0px 21px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 21px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 21px 1px rgba(0,0,0,0.75);
+}
+
+    .w3-shadow-campana:hover {
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+        content: url("../imgs/booksi.png");
+    }
 
 
