@@ -131,7 +131,7 @@
         <h2 class="w3-padding ">@Model.Nombre</h2>
 
         <div class="w3-container">
-            <div class="w3-card w3-padding-16 w3-round col-md-5 w3-margin-right">
+            <div class="w3-card w3-padding-16 w3-round col-md-7 w3-margin-right">
                 <p>
                     Direccion: 
                     @{
@@ -177,65 +177,80 @@
                 <img src="~/imgs/res.jpg" class="img-responsive" />
             </div>
 
-            <div class="w3-card w3-padding-16 w3-round col-md-5 w3-margin-left">
+            <div class="w3-card w3-padding-16 w3-round col-md-3 w3-margin-left">
                 <h3>Reservar</h3>
-                aqui va el formulario para la reserva si está iniciado sesion como resgistradoEN
+                <a href="~/Reserva/Create" class="w3-border w3-padding-small w3-button w3-round" style="text-decoration:none">Realizar reserva</a>
             </div>
 
         </div>
 
-        <section class="col-md-8 w3-margin-top">
-            <div class="w3-card w3-padding w3-round w3-margin-right">
+        <div class="col-md-5 w3-margin-top">
+            <div class="w3-card w3-padding w3-container w3-round">
                 <h3>Descripci&oacute;n</h3>
                 <p>@Model.Descripcion</p>
             </div>
 
-            <div class="w3-card w3-padding w3-round w3-margin-right w3-margin-top">
+            <div class="w3-card w3-padding w3-round w3-margin-top">
                 <h3>Men&uacute;</h3>
                 <p>@Model.Menu</p>
             </div>
-        </section>
+        </div>
 
-        <section class="">
+        <div class="w3-margin-left">
             <script>
-                let myMap;
-                let canvas;
-                const mappa = new Mappa('Leaflet');
-                const options = {
-                    lat: @lat,
-                    lng: @lon,
-                    zoom: 6,
-                    style: "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+            let myMap;
+            let canvas;
+            const mappa = new Mappa('Leaflet');
+            const options = {
+                lat: @lat,
+                lng: @lon,
+                zoom: 6,
+                style: "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+            }
+
+            function setup() {
+                canvas = createCanvas(500, 500);
+                myMap = mappa.tileMap(options);
+                myMap.overlay(canvas)
+
+                fill(200, 100, 100);
+
+                // Only redraw the point when the map changes and not every frame.
+                if (true) {
+                    myMap.onChange(drawPoint);
                 }
+            }
 
-                function setup() {
-                    canvas = createCanvas(500, 500);
-                    myMap = mappa.tileMap(options);
-                    myMap.overlay(canvas)
+            function draw() {
+            }
 
-                    fill(200, 100, 100);
+            function drawPoint() {
+                clear();
 
-                    // Only redraw the point when the map changes and not every frame.
-                    if (true) {
-                        myMap.onChange(drawPoint);
-                    }
-                }
-
-                function draw() {
-                }
-
-                function drawPoint() {
-                    clear();
-
-                    const ubi = myMap.latLngToPixel(@lat, @lon);
-                    ellipse(ubi.x, ubi.y, 10, 10);
-                }
+                const ubi = myMap.latLngToPixel(@lat, @lon);
+                ellipse(ubi.x, ubi.y, 10, 10);
+            }
             </script>
-        </section>
+        </div>
 
-        <section class="w3-container">
+        <div class="w3-container">
             <h3>Opiniones</h3>
-        </section>
+            <a href="~/Opinion/Create" class="w3-border w3-padding-small w3-button w3-round" style="text-decoration:none">Opinar</a>
+            @{
+                IList<OpinionEN> listopiEN;
+                OpinionCEN opi = new OpinionCEN();
+                listopiEN = opi.GetOpinionsFromRestaurante(Model.Id);
+                foreach (OpinionEN e in listopiEN)
+                {
+                    <div>
+                        <h5><b>@e.Titulo</b></h5>
+                        <p>@e.Comentario</p>
+                        <label>Valoraci&oacute;n: @e.Valoracion</label>
+                    </div>
+                    <hr />
+                }
+            }
+        </div>
 
-    }
+                }
 }
