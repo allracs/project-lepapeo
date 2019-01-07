@@ -10,6 +10,7 @@
             <a class="navbar-brand" href="MiPerfil">Mi perfil</a>
         </div>
         <ul class="nav navbar-nav">
+            <li><a href="MisNotificaciones">Mis notificaciones</a></li>
             <li><a href="ReservasProximas">Reservas próximas</a></li>
             <li><a href="ReservasAnteriores">Reservas anteriores</a></li>
             <li><a href="MisOpiniones">Mis opiniones</a></li>
@@ -40,3 +41,13 @@
         </div>
     </div>
 </form>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color w3-margin w3-center">
+        <input type="submit" value="Confirmar" class="btn btn-default" /> |
+        @Html.ActionLink("Cancelar", "MiPerfil")
+    </div>
+}

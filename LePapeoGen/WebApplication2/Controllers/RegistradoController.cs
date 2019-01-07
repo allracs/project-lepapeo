@@ -367,7 +367,7 @@ namespace WEBLEPAPEO.Controllers
         }
 
 
-        // GET: Registrado/ReservasProximas
+        // GET: Registrado/MisNotificaciones
         public ActionResult MisNotificaciones()
         {
             NotificacionCEN notcen = new NotificacionCEN();
@@ -388,16 +388,44 @@ namespace WEBLEPAPEO.Controllers
             {
                 //listresFinalizadasEN = rescen.GetReservasFromRestauranteFinal(1048576, true);
                 listresNoFinalizadasEN = notcen.ReadAll(0, -1);
+
+                IList<NotificacionEN> auxNotEN = notcen.ReadAll(0, -1);
+                foreach (NotificacionEN e in listresNoFinalizadasEN)
+                {
+                    try
+                    {
+                        if (e.Usuario.Id != idd)
+                        {
+                            auxNotEN.Remove(e);
+                        }
+                    }
+                    catch { }
+                }
+
                 //IEnumerable<ReservaViewModel> listres = new AssemblerReserva().ConvertListENToModel(listresFinalizadasEN);
-                IEnumerable<NotificacionViewModel> listres2 = new AssemblerNotificacion().ConvertListENToModel(listresNoFinalizadasEN);
+                IEnumerable<NotificacionViewModel> listres2 = new AssemblerNotificacion().ConvertListENToModel(auxNotEN);
                 return View(listres2);
             }
             else if (tipo[tipo.Length - 1].Equals("RegistradoEN"))
             {
                 //listresFinalizadasEN = rescen.GetReservasFromRestauranteFinal(1048576, true);
                 listresNoFinalizadasEN = notcen.ReadAll(0, -1);
+
+                IList<NotificacionEN> auxNotEN = notcen.ReadAll(0, -1);
+                foreach (NotificacionEN e in listresNoFinalizadasEN)
+                {
+                    try
+                    {
+                        if (e.Usuario.Id != idd)
+                        {
+                            auxNotEN.Remove(e);
+                        }
+                    }
+                    catch { }
+                }
+
                 //IEnumerable<ReservaViewModel> listres = new AssemblerReserva().ConvertListENToModel(listresFinalizadasEN);
-                IEnumerable<NotificacionViewModel> listres2 = new AssemblerNotificacion().ConvertListENToModel(listresNoFinalizadasEN);
+                IEnumerable<NotificacionViewModel> listres2 = new AssemblerNotificacion().ConvertListENToModel(auxNotEN);
                 return View(listres2);
             }
 
