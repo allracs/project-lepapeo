@@ -90,8 +90,12 @@ namespace WEBLEPAPEO.Controllers
             try
             {
                 // TODO: Add update logic here
+
+                RegistradoCEN regCEN = new RegistradoCEN();
+                RegistradoEN regEN = regCEN.ReadOID(reg.id);
+
                 RegistradoCEN cen = new RegistradoCEN();
-                cen.Modify(reg.id, reg.Email, reg.Password, reg.FechaInscripcion, reg.Nombre, reg.Apellidos, reg.Fecha_nacimiento);
+                cen.Modify(reg.id, reg.Email, regEN.Pass, reg.FechaInscripcion, reg.Nombre, reg.Apellidos, reg.Fecha_nacimiento);
 
                 return RedirectToAction("Index");
             }

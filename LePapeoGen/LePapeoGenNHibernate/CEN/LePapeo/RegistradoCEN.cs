@@ -49,7 +49,7 @@ public int New_ (string p_email, String p_pass, Nullable<DateTime> p_fecha_inscr
         registradoEN.Email = p_email;
 
         registradoEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
-
+        
         registradoEN.Fecha_inscripcion = p_fecha_inscripcion;
 
         registradoEN.Nombre = p_nombre;
@@ -72,7 +72,8 @@ public void Modify (int p_Registrado_OID, string p_email, String p_pass, Nullabl
         registradoEN = new RegistradoEN ();
         registradoEN.Id = p_Registrado_OID;
         registradoEN.Email = p_email;
-        registradoEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        //registradoEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        registradoEN.Pass = p_pass;
         registradoEN.Fecha_inscripcion = p_fecha_inscripcion;
         registradoEN.Nombre = p_nombre;
         registradoEN.Apellidos = p_apellidos;
