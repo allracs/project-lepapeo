@@ -96,7 +96,7 @@
                 <br />
                 <label for="select_hora_soli">Hora:</label>
                 <select id="select_hora_soli" class="form-control" onchange="setFechaHora()">
-                    <option value="00">0</option>
+                    @*<option value="00">0</option>
                     <option value="01">1</option>
                     <option value="02">2</option>
                     <option value="03">3</option>
@@ -108,7 +108,18 @@
                     <option value="09">9</option>
                     <option value="10">10</option>
                     <option value="11">11</option>
-                    <option value="12">12</option>
+                    <option value="12">12</option>*@
+                    @{ 
+                        for (int i = 0; i < 24; i++)
+                        {
+                            String val = "i";
+                            if(val.Length == 1)
+                            {
+                                val = "0" + val;
+                            }
+                            <option value="@val">@i</option>
+                        }
+                    }
                 </select>
                 <label for="select_min_soli">Minutos:</label>
                 <select id="select_min_soli" class="form-control" onchange="setFechaHora()">

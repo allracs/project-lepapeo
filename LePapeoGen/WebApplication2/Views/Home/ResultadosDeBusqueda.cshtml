@@ -38,7 +38,12 @@ else
             <div class="w3-left">
                 <h2 style="text-align: left;" class="w3-fontOpenSans">@Html.DisplayFor(modelItem => item.Nombre)</h2>
                 <hr style="border-bottom: solid 1px black;  margin-top: 0; margin-bottom: 0" />
-                <h5 class="w3-fontOpenSans w3-margin-bottom">Direccion: <b> @resview.GetDireccion(item.Id).Calle, @resview.GetDireccion(item.Id).Numero - @resview.GetDireccion(item.Id).Cod_pos (@resview.GetDireccion(item.Id).Ciudad.Nombre) </b></h5>
+                @{
+                    try
+                    {
+                        <h5 class="w3-fontOpenSans w3-margin-bottom">Direccion: <b> @resview.GetDireccion(item.Id).Calle, @resview.GetDireccion(item.Id).Numero - @resview.GetDireccion(item.Id).Cod_pos (@resview.GetDireccion(item.Id).Ciudad.Nombre) </b></h5>
+                    } catch { }
+                }
                 <h4 class="w3-fontOpenSans w3-left-align">Precio medio: <b> @Html.DisplayFor(modelItem => item.Precio_medio)&euro; </b></h4>
                 <h4 class="w3-fontOpenSans w3-left-align">Cocina:<b> @Html.DisplayFor(modelItem => item.Tipo) </b></h4>
             </div>
