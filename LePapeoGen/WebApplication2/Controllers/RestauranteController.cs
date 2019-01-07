@@ -1,4 +1,4 @@
-﻿using WEBLEPAPEO.Models;
+using WEBLEPAPEO.Models;
 using LePapeoGenNHibernate.CAD.LePapeo;
 using LePapeoGenNHibernate.CEN.LePapeo;
 using LePapeoGenNHibernate.EN.LePapeo;
@@ -115,6 +115,48 @@ namespace WEBLEPAPEO.Controllers
                 RestauranteCEN cen = new RestauranteCEN();
                 cen.Modify(res.Id, res.Email, resEN.Pass, res.Fecha_inscripcion, res.Nombre, res.Fecha_apertura, res.Max_comen, res.Current_comen, res.Precio_medio, res.Descripcion, res.Menu); //parametros restaurante
                 
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: Restaurante/Edit/5
+        public ActionResult EditarDatos()
+        {
+            RestauranteViewModel res = null;
+            SessionInitialize();
+
+            TipoCocinaCEN tipoCocinaCEN = new TipoCocinaCEN();
+            IList<TipoCocinaEN> listaTipoCocina = tipoCocinaCEN.ReadAll(0, -1);
+            ViewData["listaTipoCocina"] = listaTipoCocina;
+
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+
+            RestauranteEN resEN = new RestauranteCAD(session).ReadOIDDefault(idd);
+            res = new AssemblerRestaurante().ConvertENToModelUI(resEN);
+            SessionClose();
+
+            return View(res);
+        }
+
+        // POST: Restaurante/Edit/5
+        [HttpPost]
+        public ActionResult EditarDatos(RestauranteViewModel res) //Restaurante res
+        {
+            try
+            {
+                // TODO: Add update logic here
+
+                RestauranteCEN resCEN = new RestauranteCEN();
+                RestauranteEN resEN = resCEN.ReadOID(res.Id);
+
+                RestauranteCEN cen = new RestauranteCEN();
+                cen.Modify(res.Id, res.Email, resEN.Pass, res.Fecha_inscripcion, res.Nombre, res.Fecha_apertura, res.Max_comen, res.Current_comen, res.Precio_medio, res.Descripcion, res.Menu); //parametros restaurante
+
                 return RedirectToAction("Index");
             }
             catch

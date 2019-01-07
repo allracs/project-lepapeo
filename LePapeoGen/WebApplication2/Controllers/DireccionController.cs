@@ -1,4 +1,4 @@
-﻿using LePapeo.Models;
+using LePapeo.Models;
 using LePapeoGenNHibernate.CAD.LePapeo;
 using LePapeoGenNHibernate.CEN.LePapeo;
 using LePapeoGenNHibernate.EN.LePapeo;
@@ -53,7 +53,7 @@ namespace WEBLEPAPEO.Controllers
             try
             {
                 // TODO: Add insert logic here
-
+                //String indx = "Index";
                 CiudadCEN ciudadCEN = new CiudadCEN();
                 CiudadEN ciudadEN = ciudadCEN.ReadOID(dir.ciudad);
                 CiudadCEN c = new CiudadCEN();
@@ -67,6 +67,21 @@ namespace WEBLEPAPEO.Controllers
 
                 DireccionCEN dircen = new DireccionCEN();
                 dircen.New_(dir.cod_pos, dir.calle, dir.numero_puerta, dir.pos_x, dir.pos_y, dir.ciudad);
+
+                UsuarioCEN usu = new UsuarioCEN();
+                int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+                UsuarioEN usuen = usu.ReadOID(idd);
+                //Console.Write("\n"+idd+"\n");
+                if (usuen != null)
+                {
+                    String[] tipo = usuen.GetType().ToString().Split('.');
+
+                    if (tipo[tipo.Length - 1].Equals("RestauranteEN"))
+                    {
+                        RestauranteCEN rescen = new RestauranteCEN();
+                        rescen.AgregarDireccion(idd, dir.id);
+                    }
+                }
 
                 return RedirectToAction("Index");
             }

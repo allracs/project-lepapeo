@@ -23,7 +23,7 @@ namespace WebApplication2.Controllers
             {
                 String[] tipo = usuen.GetType().ToString().Split('.');
                 if (tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Admin", "Home");
-                if (tipo[tipo.Length - 1].Equals("RestauranteEN")) return RedirectToAction("Index", "Home");
+                if (tipo[tipo.Length - 1].Equals("RestauranteEN")) return RedirectToAction("Restaurante", "Home");
 
             }
 
@@ -61,6 +61,20 @@ namespace WebApplication2.Controllers
             {
                 String[] tipo = usuen.GetType().ToString().Split('.');
                 if (!tipo[tipo.Length - 1].Equals("AdminEN")) return RedirectToAction("Index", "Home");
+                return View();
+            }
+            return RedirectToAction("Index", "Home");
+        }
+
+        public ActionResult Restaurante()
+        {
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (!tipo[tipo.Length - 1].Equals("RestauranteEN")) return RedirectToAction("Index", "Home");
                 return View();
             }
             return RedirectToAction("Index", "Home");
