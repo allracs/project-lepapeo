@@ -1,0 +1,83 @@
+@model IEnumerable<WEBLEPAPEO.Models.RestauranteViewModel>
+@using System;
+@using System.Collections;
+
+@using LePapeoGenNHibernate.CEN.LePapeo;
+@using LePapeoGenNHibernate.EN.LePapeo;
+
+@{
+    ViewBag.Title = "ResultadosDeBusqueda";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    RestauranteCEN resview = (RestauranteCEN)ViewData["resview"];
+
+    HorarioDiaCEN hdview = (HorarioDiaCEN)ViewData["hdview"];
+}
+
+<br />
+
+<h2 class="w3-fontOpenSans">Restaurantes para ti</h2>
+
+@if (!Model.Any())
+{
+    <br />
+    <h4 class="w3-fontOpenSans">Parece que no hay ning&uacute;n restaurante que coincida con esas preferencias. <a href="../../"> Vuelve a la p&aacute;gina principal y busca de nuevo :)</a> </h4>
+}
+else
+{
+    <h4 class="w3-fontOpenSans">&iquest;No est&aacute;s conforme con los resultados? <a href="../../"> Vuelve a la p&aacute;gina principal y busca de nuevo :)</a> </h4>
+}
+
+
+<br />
+<section class="w3-center w3-row w3-margin-top">
+    @foreach (var item in Model)
+    {
+        <article class="w3-col w3-margin-top w3-margin-bottom w3-resultados-article" style="background-color:white; border: 1px solid black; -webkit-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.75);box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.75);">
+            <img class="w3-display-inline-block w3-left w3-border w3-margin-right w3-image" src="~/imgs/nofoto.png" alt="Alternate Text" />
+            <div class="w3-left">
+                <h2 style="text-align: left;" class="w3-fontOpenSans">@Html.DisplayFor(modelItem => item.Nombre)</h2>
+                <hr style="border-bottom: solid 1px black;  margin-top: 0; margin-bottom: 0" />
+                <h5 class="w3-fontOpenSans w3-margin-bottom">Direccion: <b> @resview.GetDireccion(item.Id).Calle, @resview.GetDireccion(item.Id).Numero - @resview.GetDireccion(item.Id).Cod_pos (@resview.GetDireccion(item.Id).Ciudad.Nombre) </b></h5>
+                <h4 class="w3-fontOpenSans w3-left-align">Precio medio: <b> @Html.DisplayFor(modelItem => item.Precio_medio)&euro; </b></h4>
+                <h4 class="w3-fontOpenSans w3-left-align">Cocina:<b> @Html.DisplayFor(modelItem => item.Tipo) </b></h4>
+            </div>
+            <div>
+                <img class="w3-margin-top w3-margin-right w3-right w3-image w3-shadow-campana w3-opacity-min" width="163" src="~/imgs/bookno.png" alt="Alternate Text" style="margin-top: auto; margin-bottom: auto;" />
+            </div>
+
+        </article>
+    }
+</section>
+
+<!--Así funciona-->
+<hr />
+<div class="w3-container w3-center">
+    <h2 class="w3-center">As&iacute; funciona</h2>
+    <img src="~/imgs/comofunciona.JPG" alt="Como funciona" class="w3-center w3-image" />
+</div>
+<hr />
+<br />
+<br />
+
+<!--Unete restaurante-->
+<div class="w3-container w3-center">
+    <h2 class="w3-center">Si eres due&ntilde;o de un restaurante</h2>
+    <br />
+    <img src="~/imgs/tfm.png" alt="Unete restaurante" class="w3-image w3-center w3-margin-bottom" />
+    <br />
+    <div>
+        <a href="#" class="w3-fontOpenSans">DESCUBRE LOS SERVICIOS Y VENTAJAS PARA LOS RESTAURANTES</a>
+    </div>
+</div>
+<hr />
+<br />
+
+<!--Redes sociales-->
+<div class="w3-container w3-center">
+    <h2 class="w3-center">S&iacute;guenos</h2>
+    <br />
+    <a href="#"><img src="~/imgs/instagram.png" alt="Instagram" class="w3-image w3-center w3-display-inline-block" width="100" /></a>
+    <a href="#"><img src="~/imgs/facebook.png" alt="Facebook" class="w3-image w3-center w3-display-inline-block" width="100" /></a>
+    <a href="#"><img src="~/imgs/twitter.png" alt="Twitter" class="w3-image w3-center w3-display-inline-block" width="100" /></a>
+</div>
