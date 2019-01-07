@@ -109,7 +109,13 @@ namespace WEBLEPAPEO.Controllers
             {
                 // TODO: Add insert logic here
                 ReservaCEN rescen = new ReservaCEN();
-                rescen.New_(v.idusuario, v.idrestaurante, v.comensales, v.estado, v.finalizada, v.fecha_hora, v.fecha_solicitud);
+                int idres = rescen.New_(v.idusuario, v.idrestaurante, v.comensales, v.estado, v.finalizada, v.fecha_hora, v.fecha_solicitud);
+
+                NotificacionCEN notCEN = new NotificacionCEN();
+                int idnot = notCEN.New_("Tienes una reserva pendiente", 229376, (DateTime?)DateTime.Now, false);
+                notCEN.AgregarReserva(idnot, idres);
+                notCEN.AgregarUsuario(idnot, v.idrestaurante);
+
                 return RedirectToAction("Index");
             }
             catch
