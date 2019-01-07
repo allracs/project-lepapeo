@@ -1,0 +1,64 @@
+﻿@model IEnumerable<LePapeo.Models.NotificacionViewModel>
+
+@{
+    ViewBag.Title = "MisNotificaciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="navbar navbar-inverse" style="margin-top:3em;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="MiPerfil">Mi perfil</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="MisNotificaciones">Mis Notificaciones</a></li>
+            <li><a href="ReservasProximas">Reservas próximas</a></li>
+            <li><a href="ReservasAnteriores">Reservas anteriores</a></li>
+            <li><a href="MisOpiniones">Mis opiniones</a></li>
+            <li><a href="MisDatos">Mis datos</a></li>
+            <li><a href="CambioPass">Cambiar contraseña</a></li>
+            <li><a href="EliminarCuenta">Eliminar cuenta</a></li>
+        </ul>
+    </div>
+</nav>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Contenido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NotificacionGenerica)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+            Leída
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contenido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotificacionGenerica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enviada)
+            </td>
+            <td>
+                @Html.ActionLink("Ver", "AccionNotificacion", new { id = item.Id }) |
+                @Html.ActionLink("Visto", "VistoNotificacion", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
