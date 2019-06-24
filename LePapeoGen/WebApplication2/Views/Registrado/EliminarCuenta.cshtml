@@ -1,0 +1,41 @@
+﻿@model LePapeo.Models.RegistradoViewModel
+
+@{
+    ViewBag.Title = "EliminarCuenta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="navbar navbar-inverse" style="margin-top:3em;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="MiPerfil">Mi perfil</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="MisNotificaciones">Mis notificaciones</a></li>
+            <li><a href="ReservasProximas">Reservas próximas</a></li>
+            <li><a href="ReservasAnteriores">Reservas anteriores</a></li>
+            <li><a href="MisOpiniones">Mis opiniones</a></li>
+            <li><a href="MisDatos">Mis datos</a></li>
+            <li><a href="CambioPass">Cambiar contraseña</a></li>
+            <li class="active"><a href="EliminarCuenta">Eliminar cuenta</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div>
+    <h3 class="w3-center">¿Seguro que deseas eliminar tu cuenta?</h3>
+
+    @*<div class="w3-padding w3-margin w3-center">
+        <label>Introduce tu contraseña: </label>
+        <input type="password"/>
+    </div>*@
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        
+        <div class="form-actions no-color w3-margin w3-center">
+            <input type="submit" value="Confirmar" class="btn btn-default btn-danger" /> |
+            @Html.ActionLink("Cancelar", "MiPerfil")
+        </div>
+    }
+</div>

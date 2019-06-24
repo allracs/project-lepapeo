@@ -66,7 +66,8 @@ public void Modify (int p_Usuario_OID, string p_email, String p_pass, Nullable<D
         usuarioEN = new UsuarioEN ();
         usuarioEN.Id = p_Usuario_OID;
         usuarioEN.Email = p_email;
-        usuarioEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        //usuarioEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        usuarioEN.Pass = p_pass;
         usuarioEN.Fecha_inscripcion = p_fecha_inscripcion;
         //Call to UsuarioCAD
 

@@ -36,6 +36,10 @@ namespace WEBLEPAPEO.Controllers
         {
             NotificacionViewModel noti = new NotificacionViewModel();
 
+            NotificacionGenericaCEN notificacionGenerica = new NotificacionGenericaCEN();
+            IList<NotificacionGenericaEN> listaNotificacionGenerica = notificacionGenerica.ReadAll(0, -1);
+            ViewData["listaNotificacionGenerica"] = listaNotificacionGenerica;
+
             return View(noti);
         }
 

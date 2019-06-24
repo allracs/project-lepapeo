@@ -1,33 +1,17 @@
 @model LePapeo.Models.HorarioDiaViewModel
-@using LePapeoGenNHibernate.EN.LePapeo;
 
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
-
-    List<HorarioSemanaEN> listaHorarioSemana = (List<HorarioSemanaEN>)ViewData["listaHorarioSemana"];
-
-    List<SelectListItem> listItems = new List<SelectListItem>();
-    foreach (HorarioSemanaEN e in listaHorarioSemana)
-    {
-        {
-            String txt = e.Id.ToString();
-            listItems.Add(new SelectListItem
-            {
-                Text = txt,
-                Value = e.Id.ToString()
-            });
-        }
-    }
 }
 
 <h2>Create</h2>
 
 
-@using (Html.BeginForm())
+@using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
-
+    
 <div class="form-horizontal">
     <h4>HorarioDiaViewModel</h4>
     <hr />
@@ -67,15 +51,17 @@
     <div class="form-group">
         @Html.LabelFor(model => model.Dia, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.Dia, "", new { @class = "text-danger" })
+            @*@Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control" } })*@
+            @Html.EnumDropDownListFor(model => model.Dia)
+            @*@Html.ValidationMessageFor(model => model.Dia, "", new { @class = "text-danger" })*@
         </div>
     </div>
 
     <div class="form-group">
         @Html.LabelFor(model => model.HorarioSemana, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.DropDownList("HorarioSemana", listItems, "Selecciona HorarioSemana", new { @class = "form-control" })
+            @Html.EditorFor(model => model.HorarioSemana, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.HorarioSemana, "", new { @class = "text-danger" })
         </div>
     </div>
 

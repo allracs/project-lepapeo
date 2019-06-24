@@ -1,24 +1,36 @@
-﻿@model LePapeo.Models.DireccionViewModel
+@model LePapeo.Models.DireccionViewModel
 @using LePapeoGenNHibernate.EN.LePapeo;
+@using LePapeoGenNHibernate.CEN.LePapeo;
 
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-    List<CiudadEN> listaCiudad = (List<CiudadEN>)ViewData["listaCiudad"];
+    //List<CiudadEN> listaCiudad = (List<CiudadEN>)ViewData["listaCiudad"];
 
+
+    CiudadCEN ccen = new CiudadCEN();
+    List<CiudadEN> listaCiudad = (List<CiudadEN>)ccen.ReadAll(0, -1); 
     List<SelectListItem> listItems = new List<SelectListItem>();
-    foreach (CiudadEN e in listaCiudad)
+    try
     {
+        foreach (CiudadEN e in listaCiudad)
         {
-            String txt = e.Nombre;
-            listItems.Add(new SelectListItem
             {
-                Text = txt,
-                Value = e.Nombre
-            });
+                String txt = e.Nombre;
+                listItems.Add(new SelectListItem
+                {
+                    Text = txt,
+                    Value = e.Nombre
+                });
+            }
         }
     }
+    catch
+    {
+
+    }
+
 }
 
 <h2>Create</h2>

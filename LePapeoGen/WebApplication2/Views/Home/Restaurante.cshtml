@@ -1,0 +1,25 @@
+@using LePapeoGenNHibernate.CEN.LePapeo;
+@{
+    ViewBag.Title = "Restaurante";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    RestauranteCEN resCen = new RestauranteCEN();
+    UsuarioCEN usu = new UsuarioCEN();
+    int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+}
+
+<br />
+<br />
+<h3 class="w3-center w3-margin-top">Bienvenido @resCen.ReadOID(idd).Nombre</h3>
+<hr />
+<div class="w3-center">
+    <a style="width: 20%;" class="btn btn-default w3-crimson w3-hover-shadow w3-padding-16 w3-fontOpenSans" href="~/Reserva/Create">Crear reserva</a>
+    <a style="width: 20%;" class="btn btn-default w3-crimson w3-hover-shadow w3-padding-16 w3-fontOpenSans" href="~/Reserva/ReservasNoFinalizadas">Reservas no finalizadas</a>
+    <a style="width: 20%;" class="btn btn-default w3-crimson w3-hover-shadow w3-padding-16 w3-fontOpenSans" href="~/Reserva/ReservasFinalizadas">Reservas finalizadas</a>
+    <hr />
+    <a style="width: 40%; display:block; margin: auto;" class="btn btn-default w3-crimson w3-hover-shadow w3-fontOpenSans" href="~/Restaurante/EditarDatos">Mis datos</a>
+
+</div>
+
+
+

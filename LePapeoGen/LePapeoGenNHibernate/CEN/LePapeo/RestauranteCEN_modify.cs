@@ -29,7 +29,8 @@ public void Modify (int p_Restaurante_OID, string p_email, String p_pass, Nullab
         restauranteEN = new RestauranteEN ();
         restauranteEN.Id = p_Restaurante_OID;
         restauranteEN.Email = p_email;
-        restauranteEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        //restauranteEN.Pass = Utils.Util.GetEncondeMD5 (p_pass);
+        restauranteEN.Pass = p_pass;
         restauranteEN.Fecha_inscripcion = p_fecha_inscripcion;
         restauranteEN.Nombre = p_nombre;
         restauranteEN.Fecha_apertura = p_fecha_apertura;

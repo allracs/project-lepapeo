@@ -35,11 +35,6 @@ namespace WEBLEPAPEO.Controllers
         public ActionResult Create() 
         {
             HorarioDiaViewModel dia = new HorarioDiaViewModel();
-
-            HorarioSemanaCEN horarioSemanaCEN = new HorarioSemanaCEN();
-            IList<HorarioSemanaEN> listaHorarioSemana = horarioSemanaCEN.ReadAll(0, -1);
-            ViewData["listaHorarioSemana"] = listaHorarioSemana;
-
             return View(dia);
         }
 
@@ -131,5 +126,34 @@ namespace WEBLEPAPEO.Controllers
                 return View();
             }
         }
+
+
+        // GET: Registrado/Create2/5
+        public ActionResult Create2(int id)
+        {
+            HorarioDiaViewModel dia = new HorarioDiaViewModel();
+            ViewData["IdSemana"] = id;
+            return View(dia);
+        }
+
+        // POST: Registrado/Create2
+        [HttpPost]
+        public ActionResult Create2(HorarioDiaViewModel dia, int id)
+        {
+            try
+            {
+                // TODO: Add insert logic here
+
+                HorarioDiaCEN cen = new HorarioDiaCEN();
+                cen.New_(dia.Hora_ini_am, dia.Hora_fin_am, dia.Hora_ini_pm, dia.Hora_fin_pm, dia.Dia, dia.HorarioSemana);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
     }
 }

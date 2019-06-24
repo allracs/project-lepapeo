@@ -277,6 +277,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\WebApplication2.dll" />
+    <Content Include="bin\WebApplication2.pdb" />
     <Content Include="Content\w3.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -403,6 +405,7 @@
     <Content Include="Views\Ciudad\Details.cshtml" />
     <Content Include="Views\Reserva\Details.cshtml" />
     <Content Include="Views\Home\Admin.cshtml" />
+    <Content Include="Views\HorarioDia\Create2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -39,7 +39,7 @@ public IDireccionCAD get_IDireccionCAD ()
         return this._IDireccionCAD;
 }
 
-public int New_ (string p_cod_pos, string p_calle, int p_numero, int p_pos_x, int p_pos_y, string p_ciudad)
+public int New_ (string p_cod_pos, string p_calle, int p_numero, float p_pos_x, float p_pos_y, string p_ciudad)
 {
         DireccionEN direccionEN = null;
         int oid;
@@ -70,7 +70,7 @@ public int New_ (string p_cod_pos, string p_calle, int p_numero, int p_pos_x, in
         return oid;
 }
 
-public void Modify (int p_Direccion_OID, string p_cod_pos, string p_calle, int p_numero, int p_pos_x, int p_pos_y)
+public void Modify (int p_Direccion_OID, string p_cod_pos, string p_calle, int p_numero, float p_pos_x, float p_pos_y)
 {
         DireccionEN direccionEN = null;
 

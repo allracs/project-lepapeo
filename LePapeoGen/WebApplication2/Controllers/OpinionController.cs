@@ -16,9 +16,39 @@ namespace WEBLEPAPEO.Controllers
         public ActionResult Index()
         {
             OpinionCEN opi = new OpinionCEN();
-            IList<OpinionEN> listopiEN = opi.ReadAll(0, -1);
-            IEnumerable<OpinionViewModel> listopi = new AssemblerOpinion().ConvertListENToModel(listopiEN);
-            return View(listopi);
+
+            IList<OpinionEN> listopiEN;
+
+            UsuarioCEN usu = new UsuarioCEN();
+            int idd = usu.DgetOIDfromEmail(User.Identity.Name);
+            
+            UsuarioEN usuen = usu.ReadOID(idd);
+            if (usuen != null)
+            {
+                //Console.Write("\n"+idd+"\n");
+                String[] tipo = usuen.GetType().ToString().Split('.');
+                if (tipo[tipo.Length - 1].Equals("RestauranteEN"))
+                {
+                    listopiEN = opi.GetOpinionsFromRestaurante(idd);
+                    IEnumerable<OpinionViewModel> listopi = new AssemblerOpinion().ConvertListENToModel(listopiEN);
+                    return View(listopi);
+                }
+                else if (tipo[tipo.Length - 1].Equals("RegistradoEN"))
+                {
+                    listopiEN = opi.GetOpinionsFromRegistrado(idd);
+                    IEnumerable<OpinionViewModel> listopi = new AssemblerOpinion().ConvertListENToModel(listopiEN);
+                    return View(listopi);
+                }
+                else if (tipo[tipo.Length - 1].Equals("AdminEN"))
+                {
+                    listopiEN = opi.ReadAll(0, -1);
+                    IEnumerable<OpinionViewModel> listopi = new AssemblerOpinion().ConvertListENToModel(listopiEN);
+                    return View(listopi);
+                }  
+            }
+
+            return View();
+
         }
 
         // GET: Opinion/Details/5
@@ -62,8 +92,8 @@ namespace WEBLEPAPEO.Controllers
 
                 //crear el registrado y el restaurante y buscar por oid
 
-                //cen.New_(opi.Valoracion, opi.Titulo, opi.Comentario, opi.Registrado, opi.Restaurante, opi.Fecha); //32768 32770
-                cen.New_(opi.Valoracion, opi.Titulo, opi.Comentario, 32768, 32770, opi.Fecha);
+                cen.New_(opi.Valoracion, opi.Titulo, opi.Comentario, opi.Registrado, opi.Restaurante, opi.Fecha); //32768 32770
+                //cen.New_(opi.Valoracion, opi.Titulo, opi.Comentario, 32768, 32770, opi.Fecha);
 
                 return RedirectToAction("Index");
             }

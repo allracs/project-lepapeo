@@ -1,0 +1,70 @@
+﻿@using LePapeoGenNHibernate.EN.LePapeo;
+@{
+    ViewBag.Title = "MiPerfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    RegistradoEN regEN = (RegistradoEN)ViewData["regEN"];
+}
+
+<nav class="navbar navbar-inverse" style="margin-top:3em;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="MiPerfil">Mi perfil</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="MisNotificaciones">Mis notificaciones</a></li>
+            <li><a href="ReservasProximas">Reservas próximas</a></li>
+            <li><a href="ReservasAnteriores">Reservas anteriores</a></li>
+            <li><a href="MisOpiniones">Mis opiniones</a></li>
+            <li><a href="MisDatos">Mis datos</a></li>
+            <li><a href="CambioPass">Cambiar contraseña</a></li>
+            <li><a href="EliminarCuenta">Eliminar cuenta</a></li>
+        </ul>
+    </div>
+</nav>
+
+<h2></h2>
+
+@*<div>
+    <h3><b>Nombre:</b> @regEN.Nombre</h3>
+    <h3><b>Apellidos:</b> @regEN.Apellidos</h3>
+    <h3><b>Email:</b> @regEN.Email</h3>
+    <h3><b>Fecha inscripción:</b> @regEN.Fecha_inscripcion</h3>
+</div>*@
+
+<dl class="dl-horizontal">
+    <dt>
+        Nombre:
+    </dt>
+    <dd>
+        @regEN.Nombre
+    </dd>
+
+    <dt>
+        Apellidos:
+    </dt>
+    <dd>
+        @regEN.Apellidos
+    </dd>
+
+    <dt>
+        Email:
+    </dt>
+    <dd>
+        @regEN.Email
+    </dd>
+
+    <dt>
+        Fecha nacimiento:
+    </dt>
+    <dd>
+        @regEN.Fecha_nac
+    </dd>
+
+    <dt>
+        Fecha inscripción:
+    </dt>
+    <dd>
+        @regEN.Fecha_inscripcion
+    </dd>
+</dl>

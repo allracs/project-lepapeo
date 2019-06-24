@@ -21,10 +21,10 @@
 					<property name="Numero" type="integer"> 
 						<column name="numero"  not-null="true"/>
 					</property>
-					<property name="Pos_x" type="integer"> 
+					<property name="Pos_x" type="float"> 
 						<column name="pos_x"  not-null="true"/>
 					</property>
-					<property name="Pos_y" type="integer"> 
+					<property name="Pos_y" type="float"> 
 						<column name="pos_y"  not-null="true"/>
 					</property>
 			

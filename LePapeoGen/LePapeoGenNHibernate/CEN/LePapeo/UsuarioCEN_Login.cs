@@ -26,8 +26,8 @@ public string Login (int p_Usuario_OID, string p_pass)
         UsuarioEN en = _IUsuarioCAD.ReadOIDDefault (p_Usuario_OID);
 
         if (en.Pass.Equals (Utils.Util.GetEncondeMD5 (p_pass)))
-                result = en.GetType().Name;
-                
+                result = en.GetType ().Name;
+
 
 
         //FALTA CREAR SESION
